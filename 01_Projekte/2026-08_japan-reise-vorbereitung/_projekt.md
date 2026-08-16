@@ -30,9 +30,10 @@ Am 25.10.2026 ist alles gebucht und griffbereit: Zugtickets bzw. Bahnpass für a
 **Bahn — Westhälfte, über den JR-WEST All Area Pass (7 Tage)**
 
 - [x] Angebot geprüft: Klook 70766, deckt Sanyo-Shinkansen bis Hakata, Thunderbird und die Miyajima-Fähre ab
-- [ ] Preis prüfen — wird auf der Seite erst nach Auswahl eines Reisedatums angezeigt; gegen die Summe der Einzelfahrten rechnen
+- [x] Preis: 142 € pro Person, Sitzplatzreservierungen kostenlos
 - [ ] Pass kaufen, Einlösedatum 30.10. (gültig dann bis 05.11.)
-- [ ] Sitzplatzreservierungen für die Shinkansen-Abschnitte, insbesondere 02.11. früh ab Fukuyama — läuft separat über grüne Automaten oder Schalter
+- [ ] Sitzplätze für **alle** Shinkansen-Abschnitte reservieren — kostenlos, also kein Grund für nicht reservierte Wagen; läuft über grüne Automaten oder Schalter
+- [ ] Prüfen, ob die Koffer auf dem Sanyo-Shinkansen als Übergepäck gelten (Gesamtmaß über 160 cm). Der Stellplatz ist vorab kostenlos reservierbar, ohne Reservierung fällt eine Gebühr an — betrifft vor allem den 02.11. mit Gepäck
 - [ ] Bei der Einreise am 29.10. in Fukuoka den Stempel „Temporary Visitor" holen, **nicht die automatischen Gates benutzen** — ohne Stempel ist der Pass ungültig
 
 **Bahn — ab Kanazawa, nicht im Pass**
@@ -71,7 +72,7 @@ Am 25.10.2026 ist alles gebucht und griffbereit: Zugtickets bzw. Bahnpass für a
 
 **Sonstiges**
 
-- [ ] Budget anlegen, Bargeld- und Kartenfrage klären — Einkauf mit ca. 130–150 € einplanen
+- [ ] Budget anlegen, Bargeld- und Kartenfrage klären — bekannte Posten: JR-Pass 142 €/Person, Gunpla-Einkauf ca. 130–150 €
 - [ ] Unterlagen offline sichern (Buchungen, Route, Tickets)
 
 **Aus dem Bereichsstandard Reisen**
@@ -91,7 +92,7 @@ Entschieden am 16.08.2026:
 - Der 03.11. bleibt als Ōsaka-Tag. Bunka no Hi ändert an den Öffnungszeiten der Geschäfte nichts, und Alternativen gibt es im Ablauf ohnehin nicht.
 - Übernachtung am 01.11. in Fukuyama statt Onomichi ist Absicht, wegen des Shinkansen-Anschlusses nach Himeji am Folgetag.
 - Der Unterkunftswechsel in Takayama am 07.11. ist Absicht: der Ryokan-Abend im Asunaro ist das Programm des Tages.
-- Für die Strecke bis Kanazawa wird ein JR-West-Pass genommen. Welcher Zuschnitt das leistet, ist noch zu bestätigen.
+- Für die Strecke bis Kanazawa wird der JR-WEST All Area Pass genommen, 7 Tage, 142 € pro Person. Offen ist nur noch die Abdeckung Tsuruga–Kanazawa.
 
 ## Notizen
 
@@ -110,3 +111,4 @@ Zugeordnet zum Bereich Reisen. Der Bereich hält den dauerhaften Standard (Päss
 | 2026-08-16 | Fukuyama und Ryokan-Wechsel als Absicht bestätigt, JR-West-Pass gesetzt |
 | 2026-08-16 | Klook-Angebot JR-WEST All Area Pass geprüft, passt bis auf Tsuruga–Kanazawa |
 | 2026-08-16 | Gunpla- und Werkzeugeinkauf in Ōsaka vorbereitet, Schritte und Gepäckregeln ergänzt |
+| 2026-08-16 | Passpreis 142 €/Person erfasst, Reservierungen kostenlos |
