@@ -11,7 +11,7 @@ bereich: reisen
 
 Bereich: [Reisen](../../02_Bereiche/reisen/_bereich.md)
 Reiseplan und Analyse liegen in `03_Ressourcen/japan/`:
-[Route](../../03_Ressourcen/japan/reise-2026-route.md) · [Analyse](../../03_Ressourcen/japan/reise-2026-analyse.md)
+[Route](../../03_Ressourcen/japan/reise-2026-route.md) · [Analyse](../../03_Ressourcen/japan/reise-2026-analyse.md) · [Gunpla-Einkauf Ōsaka](../../03_Ressourcen/japan/gunpla-einkauf-osaka.md)
 
 ## Ergebnis
 
@@ -23,15 +23,17 @@ Am 25.10.2026 ist alles gebucht und griffbereit: Zugtickets bzw. Bahnpass für a
 
 ## Nächster Schritt
 
-- [ ] JR-West-Pass bestätigen: welcher Zuschnitt deckt Hakata bis Kanazawa in einem Produkt ab, reicht die Gültigkeitsdauer für 30.10.–04.11. (sechs Tage), ist die Miyajima-Fähre enthalten, und rechnet er sich gegen Einzelfahrten? — Termin: 2026-08-23
+- [ ] Abdeckung Tsuruga–Kanazawa an der offiziellen JR-West-Gebietskarte verifizieren, dann den Pass kaufen — Termin: 2026-08-23
 
 ## Weitere Schritte
 
-**Bahn — Westhälfte, über den JR-West-Pass**
+**Bahn — Westhälfte, über den JR-WEST All Area Pass (7 Tage)**
 
-- [ ] Pass kaufen, sobald der Zuschnitt bestätigt ist
-- [ ] Aktivierungstag festlegen: 30.10., damit die Gültigkeit bis 04.11. reicht
-- [ ] Sitzplatzreservierungen für die Shinkansen-Abschnitte, insbesondere 02.11. früh ab Fukuyama
+- [x] Angebot geprüft: Klook 70766, deckt Sanyo-Shinkansen bis Hakata, Thunderbird und die Miyajima-Fähre ab
+- [ ] Preis prüfen — wird auf der Seite erst nach Auswahl eines Reisedatums angezeigt; gegen die Summe der Einzelfahrten rechnen
+- [ ] Pass kaufen, Einlösedatum 30.10. (gültig dann bis 05.11.)
+- [ ] Sitzplatzreservierungen für die Shinkansen-Abschnitte, insbesondere 02.11. früh ab Fukuyama — läuft separat über grüne Automaten oder Schalter
+- [ ] Bei der Einreise am 29.10. in Fukuoka den Stempel „Temporary Visitor" holen, **nicht die automatischen Gates benutzen** — ohne Stempel ist der Pass ungültig
 
 **Bahn — ab Kanazawa, nicht im Pass**
 
@@ -47,7 +49,7 @@ Am 25.10.2026 ist alles gebucht und griffbereit: Zugtickets bzw. Bahnpass für a
 
 **Programmlücken füllen**
 
-- [ ] Kanazawa 05.11. — ganzer Tag offen, die größte Lücke im Plan
+- [ ] Kanazawa 05.11. — ganzer Tag offen, die größte Lücke im Plan. Der JR-West-Pass gilt an diesem Tag noch, Tagesausflüge im Gebiet wären damit kostenlos
 - [ ] Takayama 07.11. — Tagesprogramm bis zum Ryokan-Check-in, Altstadt und Morgenmarkt liegen nahe
 - [ ] Fukuoka 29.10. — Abend in Hakata, falls die Ankunftszeit es hergibt
 
@@ -58,9 +60,18 @@ Am 25.10.2026 ist alles gebucht und griffbereit: Zugtickets bzw. Bahnpass für a
 - [ ] Flüge und Züge in Lambus nachtragen
 - [ ] Ruhetage und Öffnungszeiten der geplanten Museen gegen die Tage prüfen
 
+**Einkauf Gunpla und Modellbauwerkzeug** — [Vorbereitung](../../03_Ressourcen/japan/gunpla-einkauf-osaka.md)
+
+- [ ] Entscheiden: ein MGEX Strike Freedom (~14.000 JPY) oder zwei kleinere Kits — vor der Reise, nicht im Laden
+- [ ] Tax-Free-Umstellung zum 01.11.2026 prüfen (Erstattung bei Ausreise statt steuerfrei an der Kasse) — betrifft den Kauf am 02./03.11. direkt
+- [ ] Zeitfenster Den Den Town am 02.11. verlängern oder den Einkauf auf den 03.11. legen
+- [ ] Verfügbarkeit MGEX vorab online prüfen (Joshin, Yodobashi), Plan B ist der RG Hi-ν
+- [ ] Koffer: Platz für Bausatz und Werkzeug einplanen; **kein Kleber, keine Lösungsmittel, keine Sprühdosen** kaufen — Gefahrgut, darf nicht ins Flugzeug
+- [ ] Werkzeug ins aufgegebene Gepäck, nicht ins Handgepäck
+
 **Sonstiges**
 
-- [ ] Budget anlegen, Bargeld- und Kartenfrage klären
+- [ ] Budget anlegen, Bargeld- und Kartenfrage klären — Einkauf mit ca. 130–150 € einplanen
 - [ ] Unterlagen offline sichern (Buchungen, Route, Tickets)
 
 **Aus dem Bereichsstandard Reisen**
@@ -71,7 +82,8 @@ Am 25.10.2026 ist alles gebucht und griffbereit: Zugtickets bzw. Bahnpass für a
 
 ## Offene Fragen / Blocker
 
-Keine offenen Fragen.
+- Ein großer Bausatz oder zwei kleine? Empfehlung MGEX, Sicherheit 70 % — siehe [Gunpla-Einkauf](../../03_Ressourcen/japan/gunpla-einkauf-osaka.md).
+- Gilt die neue japanische Tax-Free-Regelung ab 01.11.2026 schon für diese Reise?
 
 Entschieden am 16.08.2026:
 
@@ -96,3 +108,5 @@ Zugeordnet zum Bereich Reisen. Der Bereich hält den dauerhaften Standard (Päss
 | 2026-08-16 | Kyoto und der Ōsaka-Termin am 03.11. entschieden |
 | 2026-08-16 | Bereich Reisen angelegt, Projekt dort eingeordnet |
 | 2026-08-16 | Fukuyama und Ryokan-Wechsel als Absicht bestätigt, JR-West-Pass gesetzt |
+| 2026-08-16 | Klook-Angebot JR-WEST All Area Pass geprüft, passt bis auf Tsuruga–Kanazawa |
+| 2026-08-16 | Gunpla- und Werkzeugeinkauf in Ōsaka vorbereitet, Schritte und Gepäckregeln ergänzt |

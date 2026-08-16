@@ -108,7 +108,8 @@ Wolf Scouts und Exodites nach `projekte-bemalen.md` unter „Geplant" — nicht 
 
 1. ~~Exakten Namen des Starter Sets klären~~ — erledigt, **Armageddon Box**.
 2. **Modelle zählen** und `sammlung.md` befüllen — erst dann ist die Lage messbar.
-3. **Mattlack und Basing-Material** beschaffen. Grundierung ist vorhanden.
+3. **Mattlack und Basing-Material** beschaffen — **in Deutschland**, nicht auf die Japan-Reise warten. Beides ist Chemie bzw. Spray und darf nicht ins Flugzeug. Grundierung ist vorhanden.
+3a. **Werkzeug dagegen zurückstellen.** Seitenschneider, Schleifschwämme, Handbohrer und Maskierband werden im November in Ōsaka gekauft, dort kosten sie etwa die Hälfte — siehe [Gunpla-Einkauf Ōsaka](../03_Ressourcen/japan/gunpla-einkauf-osaka.md). Blockiert den ersten Batch nicht, solange irgendein brauchbarer Seitenschneider da ist; das ist noch zu prüfen (Punkt 2).
 4. **Ersten Bemal-Batch festlegen.** `projekte-bemalen.md` erlaubt genau **einen** aktiven Batch. Es liegen vier Baustellen bereit — die Entscheidung ist der eigentliche Inhalt dieses Punktes.
 5. Kollision mit der eigenen Regel prüfen: Die Wunschliste enthält die Selbstverpflichtung „kein Neukauf, solange mehr als 20 Modelle ungeöffnet oder gebaut sind". Nach diesem Zugang dürfte die Schwelle bereits überschritten sein. Das ist keine Kritik am Einstiegskauf — nur der Hinweis, dass die Regel ab jetzt greift und in `wunschliste.md` dokumentiert gehört.
 6. **Doppelte Farbpalette auflösen** — siehe unten. Vor allem anderen, sonst arbeiten Rezepte gegen eine veraltete Liste.

@@ -39,7 +39,7 @@ Durchgangsstopp bei der Einreise aus Seoul. Der Flug ist kurz, den Tag kostet vo
 **Die Bahnabschnitte sind nicht gebucht.**
 Die drei Flüge stehen (Hannover–Kopenhagen–Seoul, Seoul–Fukuoka, Tokio–Kopenhagen–Hannover). Die sieben Zugabschnitte in Japan sind identifiziert, aber offen — und damit auch die Frage Pass oder Einzeltickets. Im Lambus-Journal ist keiner der Transporte hinterlegt; für die Reise vor Ort wäre das Nachtragen nützlich.
 
-**Keine Kosten erfasst.** Im Journal stehen keine Ausgaben oder Budgetposten.
+**Keine Kosten erfasst.** Im Journal stehen keine Ausgaben oder Budgetposten. Der Gunpla- und Werkzeugeinkauf in Ōsaka ist der erste bezifferte Posten neben Bahn und Unterkunft: rund 14.000 JPY für den Bausatz plus 8.000–10.000 JPY Werkzeug, zusammen ca. 130–150 €. Gehört ins Budget, sobald es angelegt wird.
 
 ## Widersprüche und Prüfpunkte
 
@@ -62,6 +62,8 @@ Die drei Flüge stehen (Hannover–Kopenhagen–Seoul, Seoul–Fukuoka, Tokio–
 - Shirakawa-go Anfang November (Laubsaison, Busse ab Kanazawa/Takayama oft ausgebucht)
 - Ryokan Asunaro mit Abendessen
 
+**Den Den Town am 02.11. ist mit 90 Minuten zu knapp.** 15:00–16:30 steht im Journal für Nipponbashi. Für den geplanten Gunpla- und Werkzeugeinkauf sind vier bis fünf Läden relevant (Joshin Super Kids Land, Yellow Submarine, Jungle, Volks, Surugaya) — das ist in anderthalb Stunden nicht zu schaffen, schon gar nicht am härtesten Tag der Reise mit Start in Himeji um 09:00. Entweder das Fenster verlängern oder den Einkauf bewusst auf den 03.11. legen; die Unterkunft in Namba liegt am Rand von Den Den Town. Details in [gunpla-einkauf-osaka.md](gunpla-einkauf-osaka.md).
+
 **Ruhetage prüfen.** Mehrere japanische Museen schließen montags. Betroffen wäre der 09.11. in Tokio — im aktuellen Programm stehen dort keine Museen, das passt. Beim Auffüllen der Lücken in Kanazawa (05.11., Donnerstag) und Takayama (07.11., Samstag) fällt das nicht ins Gewicht.
 
 ## Strukturelle Beobachtungen
@@ -82,14 +84,36 @@ Die drei Flüge stehen (Hannover–Kopenhagen–Seoul, Seoul–Fukuoka, Tokio–
 | Kanazawa → Takayama | 06.11. | **nein** |
 | Takayama → Tokio | 08.11. | **nein** |
 
-Die Prüfung muss vier Punkte klären:
+### Prüfung am 16.08.2026: JR-WEST All Area Pass, 7 Tage
 
-1. **Welcher JR-West-Pass** die Spanne Hakata bis Kanazawa tatsächlich in einem Produkt abdeckt. JR West verkauft mehrere Zuschnitte, und die verbreiteten decken entweder den Westen bis Hakata **oder** Hokuriku bis Kanazawa ab — nicht selbstverständlich beides. Der weiteste Zuschnitt kommt am ehesten infrage. **Dass ein einzelner Pass beides abdeckt: 60 %.**
-2. **Gültigkeitsdauer.** Gebraucht werden 30.10. bis 04.11., also sechs Kalendertage — ein Sieben-Tage-Pass passt, ein Fünf-Tage-Pass nicht.
-3. **Ist die JR-West-Miyajima-Fähre am 31.10. enthalten?** Das ist ein eigenständiges Argument für den Pass.
-4. **Rechnet sich der Pass** gegen die Summe der Einzelfahrten für genau diese fünf Abschnitte?
+Geprüftes Angebot: Klook-Produkt 70766, „JR-WEST All Area Pass", 7 aufeinanderfolgende Tage, 4,7/5 aus 165 Bewertungen.
 
-Getrennt davon bleiben die beiden Bergabschnitte. Kanazawa → Takayama läuft üblicherweise über den Bus, nicht über die Bahn; Takayama → Tokio führt über Nagoya und liegt außerhalb des JR-West-Gebiets. Beide sind separat zu buchen und terminlich die unsichersten der Reise.
+**Bestätigt:**
+
+- **Sanyo-Shinkansen Shin-Ōsaka ↔ Hakata** ist enthalten, reservierte und nicht reservierte Plätze. Damit sind die Abschnitte am 30.10., 01.11. und 02.11. inklusive Himeji abgedeckt.
+- **Limited Express Thunderbird** ist namentlich enthalten — der Zug Richtung Kanazawa am 04.11.
+- **JR-West-Miyajima-Fähre ist ausdrücklich enthalten.** Die Überfahrt am 31.10. läuft über den Pass.
+- **Sieben aufeinanderfolgende Tage** reichen: Aktivierung am 30.10. ergibt Gültigkeit bis einschließlich 05.11., gebraucht werden 30.10. bis 04.11.
+- Der Pass deckt Hakata **und** Hokuriku in einem Produkt ab. Die Sorge, dass dafür zwei Pässe nötig wären, hat sich nicht bestätigt.
+
+**Ein offener Punkt — Ōsaka → Kanazawa am 04.11.:**
+Die Produktbeschreibung nennt den Hokuriku-Shinkansen nur „zwischen Kanazawa und Joetsu-Myoko", also den östlichen Ast. Der Abschnitt Tsuruga–Kanazawa taucht nicht auf. Seit der Verlängerung des Hokuriku-Shinkansen nach Tsuruga fährt der Thunderbird nicht mehr durchgehend nach Kanazawa, sondern endet in Tsuruga mit Umstieg. Die Klook-Beschreibung stammt dem Wortlaut nach aus der Zeit davor. Der All Area Pass deckt als weitester JR-West-Zuschnitt das ganze Gebiet ab, Tsuruga–Kanazawa eingeschlossen — **Abdeckung gegeben: 85 %**, gegen die offizielle JR-West-Gebietskarte zu verifizieren, nicht gegen den Klook-Text.
+
+**Preis:** 142 € pro Person, Stand 16.08.2026. Sitzplatzreservierungen sind kostenlos.
+
+Der Pass rechnet sich mit hoher Wahrscheinlichkeit. Allein die beiden längsten Einzelfahrten — Hakata → Hiroshima am 30.10. und Ōsaka → Kanazawa am 04.11. — kosten einzeln zusammen bereits einen erheblichen Teil des Passpreises; dazu kommen Fukuyama, Himeji und die Miyajima-Fähre. **Der Pass ist günstiger als Einzelfahrten: 85 %.** Da die Entscheidung für den Pass ohnehin gefallen ist, ist die exakte Gegenrechnung nicht mehr entscheidungsrelevant.
+
+Dass die Reservierungen nichts kosten, ändert die Strategie: Es gibt keinen Grund, auf nicht reservierte Wagen auszuweichen. Für alle Shinkansen-Abschnitte reservieren, besonders am 02.11. mit Gepäck und in der Laubsaison.
+
+**Fallstrick bei der Einreise:** Der Pass gilt nur mit dem Stempel „Temporary Visitor" im Reisepass. Wer bei der Einreise die automatischen Gates benutzt, bekommt keinen Stempel und damit keinen gültigen Pass. Betrifft die Einreise am 29.10. in Fukuoka.
+
+**Weiteres:** Sitzplatzreservierungen laufen separat über die grünen Automaten oder den Schalter. Der Tokaido-Shinkansen Shin-Ōsaka ↔ Tokio ist nicht enthalten, was hier nicht stört — die Rückreise nach Tokio läuft ohnehin über Nagoya.
+
+**Nebeneffekt:** Der Pass gilt am 05.11. in Kanazawa noch. Für die offene Programmlücke an diesem Tag sind Tagesausflüge im JR-West-Gebiet damit kostenlos.
+
+### Die beiden Abschnitte ab Kanazawa
+
+Kanazawa → Takayama läuft üblicherweise über den Bus, nicht über die Bahn; Takayama → Tokio führt über Nagoya und liegt außerhalb des JR-West-Gebiets. Beide sind separat zu buchen und terminlich die unsichersten der Reise.
 
 **Herbstlaub arbeitet für den Plan.** Anfang November ist in Takayama und Shirakawa-go die beste Zeit, Tokio färbt sich später. Die Reihenfolge der Route passt dazu. Kehrseite ist die Hochsaison: Unterkünfte und Busse in den Bergen sind früh voll.
 

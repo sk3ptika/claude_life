@@ -9,6 +9,7 @@ angelegt: 2026-08-16
 
 Ausgelesen aus dem Lambus-Journal: <https://journal.lambus.com/MPBJCA> (Stand 16.08.2026).
 Diese Datei ist die Abschrift des Plans. Bewertung und offene Punkte stehen in [reise-2026-analyse.md](reise-2026-analyse.md).
+Der geplante Gunpla- und Werkzeugeinkauf ist in [gunpla-einkauf-osaka.md](gunpla-einkauf-osaka.md) vorbereitet.
 
 ## Eckdaten
 
@@ -26,17 +27,22 @@ Diese Datei ist die Abschrift des Plans. Bewertung und offene Punkte stehen in [
 |---|---|---|---|
 | Hannover → Kopenhagen → Seoul | 25./26.10. | Flug, ein Umstieg | gebucht |
 | Seoul → Fukuoka | 29.10. | Flug | gebucht |
-| Fukuoka → Hiroshima | 30.10. | Zug, JR-West-Pass | Pass gesetzt, Zuschnitt offen |
-| Hiroshima → Fukuyama | 01.11. | Zug, JR-West-Pass | Pass gesetzt, Zuschnitt offen |
-| Fukuyama → Himeji → Ōsaka | 02.11. | Zug, JR-West-Pass | Pass gesetzt, Zuschnitt offen |
-| Ōsaka → Kanazawa | 04.11. | Zug, JR-West-Pass, ab Shin-Ōsaka 10:00 | Pass gesetzt, Zuschnitt offen |
+| Fukuoka → Hiroshima | 30.10. | Sanyo-Shinkansen, Pass | Pass geprüft, Kauf offen |
+| Miyajima-Fähre | 31.10. | JR-West-Fähre, Pass | Pass geprüft, Kauf offen |
+| Hiroshima → Fukuyama | 01.11. | Sanyo-Shinkansen, Pass | Pass geprüft, Kauf offen |
+| Fukuyama → Himeji → Ōsaka | 02.11. | Sanyo-Shinkansen, Pass | Pass geprüft, Kauf offen |
+| Ōsaka → Kanazawa | 04.11. | Thunderbird, Umstieg Tsuruga, Pass | Abdeckung zu verifizieren |
 | Kanazawa → Takayama | 06.11. | vermutlich Bus | separat, offen |
 | Takayama → Tokio | 08.11. | Zug über Nagoya | separat, offen |
 | Tokio → Kopenhagen → Hannover | 13.11. | Flug, ein Umstieg | gebucht |
 
-Alle drei Flüge sind gebucht. Für die westliche Hälfte bis Kanazawa ist ein JR-West-Pass gesetzt; welcher Zuschnitt die Strecke Hakata–Kanazawa abdeckt, ist noch zu bestätigen. Die beiden Abschnitte ab Kanazawa liegen außerhalb des JR-West-Gebiets und werden separat gebucht.
+Alle drei Flüge sind gebucht.
 
-Die JR-West-Miyajima-Fähre am 31.10. ist voraussichtlich ebenfalls im Pass enthalten.
+**Bahnpass:** JR-WEST All Area Pass, 7 aufeinanderfolgende Tage, 142 € pro Person (Stand 16.08.2026, Klook). Aktivierung am 30.10., damit gültig bis 05.11. Deckt den Sanyo-Shinkansen bis Hakata, den Thunderbird Richtung Kanazawa und die Miyajima-Fähre ab. Sitzplatzreservierungen sind kostenlos — für alle Shinkansen-Abschnitte nutzen. Zu verifizieren bleibt der Abschnitt Tsuruga–Kanazawa; Details in der [Analyse](reise-2026-analyse.md).
+
+**Wichtig für die Einreise am 29.10.:** Der Pass gilt nur mit dem Stempel „Temporary Visitor" im Reisepass. Bei der Einreise nicht die automatischen Gates benutzen — dort gibt es keinen Stempel.
+
+Die beiden Abschnitte ab Kanazawa liegen außerhalb des JR-West-Gebiets und werden separat gebucht.
 
 ## Stationen im Überblick
 
@@ -84,6 +90,8 @@ Flug Seoul → Fukuoka.
 
 Check-in Tokyu Stay Hakata.
 
+Die Statue steht bei LaLaport Fukuoka, dort gibt es auch einen Gundam-Laden — reiner Programmpunkt, gekauft wird in Ōsaka ([gunpla-einkauf-osaka.md](gunpla-einkauf-osaka.md)).
+
 ### Fr, 30.10. — Fukuoka → Hiroshima
 1. 11:30 Hiroshima Station (4.0)
 2. 13:00–13:30 Mitaki-dera (4.5)
@@ -113,7 +121,7 @@ Check-in Daiwa Roynet Hotel Fukuyama Ekimae.
 
 ### Mo, 02.11. — Fukuyama → Himeji → Ōsaka
 1. 09:00–13:00 Burg Himeji (4.6)
-2. 15:00–16:30 Nipponbashi Denden Town (4.1)
+2. 15:00–16:30 Nipponbashi Denden Town (4.1) — Gunpla und Werkzeug, Ladenliste in [gunpla-einkauf-osaka.md](gunpla-einkauf-osaka.md)
 3. 17:00–19:00 Shin Sekai (4.1)
 4. 18:00–18:30 Sennariya Coffee (4.0)
 5. 19:00–19:30 天ぷら かめや / Tempura Kameya (4.6)
@@ -122,6 +130,8 @@ Check-in Daiwa Roynet Hotel Fukuyama Ekimae.
 Check-in Fraser Residence Nankai.
 
 ### Di, 03.11. — Ōsaka
+Reservetag für Den Den Town, falls das Fenster am 02.11. nicht gereicht hat — Namba liegt fußläufig.
+
 1. 10:00–10:30 Namba Yasaka-Schrein (4.4)
 2. 11:00–13:00 Shinsaibashi PARCO (4.1)
 3. 13:30–14:00 wad (4.5)

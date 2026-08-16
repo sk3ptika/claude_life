@@ -31,4 +31,6 @@ Noch nicht erfasst. Beim ersten Weekly Review ausfüllen.
 
 ## Referenzen
 
-- 
+- [Sammlung](../../03_Ressourcen/warhammer/sammlung.md) · [Bemal-Batches](../../03_Ressourcen/warhammer/projekte-bemalen.md) · [Wunschliste](../../03_Ressourcen/warhammer/wunschliste.md)
+- [Gunpla- und Werkzeugeinkauf Ōsaka](../../03_Ressourcen/japan/gunpla-einkauf-osaka.md) — Werkzeug für die Japan-Reise 11/2026, gilt auch für Warhammer
+
