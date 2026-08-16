@@ -1,0 +1,41 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon?
+._*
+
+# Google Drive / iCloud Sync-Artefakte
+*.gdoc
+*.gsheet
+*.gslides
+.tmp.drivedownload
+.tmp.driveupload
+*.icloud
+*(1).md
+*(2).md
+* conflicted copy*
+*Konflikt*
+
+# Editor
+.obsidian/workspace.json
+.obsidian/cache
+.vscode/
+*.swp
+*~
+
+# Große Medien gehören nicht ins Repo
+*.raf
+*.raw
+*.cr2
+*.nef
+*.dng
+*.psd
+*.tif
+*.tiff
+*.mov
+*.mp4
+
+# Ausnahme: kleine Referenzbilder sind erlaubt
+!**/_anhaenge/*.jpg
+!**/_anhaenge/*.png
