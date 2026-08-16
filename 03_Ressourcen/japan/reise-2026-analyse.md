@@ -56,8 +56,6 @@ Die drei Flüge stehen (Hannover–Kopenhagen–Seoul, Seoul–Fukuoka, Tokio–
 
 **Der 02.11. beginnt sehr früh.** Burg Himeji ab 09:00 bedeutet Abfahrt in Fukuyama am frühen Morgen, mit Gepäck, und danach noch ein voller Ōsaka-Abend bis 22:00. Der härteste Tag der Reise.
 
-**Der 03.11. ist Bunka no Hi**, japanischer Kulturtag und nationaler Feiertag. Er fällt 2026 auf den Dienstag — also genau auf den Ōsaka-Shoppingtag. Läden haben offen, aber Shinsaibashi und Dōtonbori sind deutlich voller als sonst; manche Museen haben freien Eintritt oder abweichende Zeiten.
-
 **Reservierungspflichtige Punkte** — vor Abreise prüfen, hier ist nichts hinterlegt:
 - Changdeokgung, Geheimer Garten Huwon (Zeitfenster-Tickets, begrenzt)
 - teamLab Planets (Zeitfenster)
@@ -68,7 +66,9 @@ Die drei Flüge stehen (Hannover–Kopenhagen–Seoul, Seoul–Fukuoka, Tokio–
 
 ## Strukturelle Beobachtungen
 
-**Kyoto fehlt vollständig.** Bei zwei Nächten in Ōsaka und einer Route, die ohnehin durch Kansai führt, ist das ungewöhnlich. Wahrscheinlich bewusst (Überlaufziel, Herbstsaison extrem voll) — aber es ist der Punkt, den man später am ehesten bereut. **Bewusste Entscheidung: 70 %.**
+**Kyoto ist bewusst nicht dabei** — auf einer früheren Reise bereits gesehen. Kein offener Punkt.
+
+**Der 03.11. ist Bunka no Hi**, japanischer Kulturtag. Geschäfte haben in Japan an Feiertagen normal geöffnet, der Ōsaka-Shoppingtag funktioniert also. Zu erwarten ist nur mehr Andrang in Shinsaibashi und Dōtonbori, und bei einzelnen Museen freier Eintritt oder abweichende Zeiten. Kein Grund, den Tag zu verschieben.
 
 **Der Bahnpass ist ungeklärt.** Die Route enthält Fukuoka → Hiroshima → Fukuyama → Himeji → Ōsaka → Kanazawa → Takayama → Tokio, also fast durchgehend Langstrecke. Ob ein landesweiter Pass oder eine Kombination aus Regionalpässen günstiger ist, muss mit den aktuellen Preisen gegen die Summe der Einzelfahrten gerechnet werden. Die beiden Abschnitte über die Berge — Ōsaka → Kanazawa am 04.11. und Kanazawa → Takayama am 06.11. — sind dabei die, bei denen ein Pass am wenigsten hilft und die Verbindung selbst am ehesten zum Zeitfresser wird.
 
