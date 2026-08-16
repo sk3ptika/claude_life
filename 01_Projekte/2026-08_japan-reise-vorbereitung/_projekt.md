@@ -23,15 +23,20 @@ Am 25.10.2026 ist alles gebucht und griffbereit: Zugtickets bzw. Bahnpass für a
 
 ## Nächster Schritt
 
-- [ ] Bahnpass durchrechnen: Einzelpreise der sieben Abschnitte gegen die Passvarianten stellen — Termin: 2026-08-23
+- [ ] JR-West-Pass bestätigen: welcher Zuschnitt deckt Hakata bis Kanazawa in einem Produkt ab, reicht die Gültigkeitsdauer für 30.10.–04.11. (sechs Tage), ist die Miyajima-Fähre enthalten, und rechnet er sich gegen Einzelfahrten? — Termin: 2026-08-23
 
 ## Weitere Schritte
 
-**Bahn**
+**Bahn — Westhälfte, über den JR-West-Pass**
 
-- [ ] Zugverbindungen Ōsaka → Kanazawa (04.11.) und Kanazawa → Takayama (06.11.) konkret festlegen — die beiden Bergabschnitte sind die unsichersten
-- [ ] Takayama → Tokio (08.11.) festlegen, Ankunftszeit bestimmt den Programmstart um 14:30
-- [ ] Pass oder Einzeltickets kaufen, Sitzplatzreservierungen wo nötig
+- [ ] Pass kaufen, sobald der Zuschnitt bestätigt ist
+- [ ] Aktivierungstag festlegen: 30.10., damit die Gültigkeit bis 04.11. reicht
+- [ ] Sitzplatzreservierungen für die Shinkansen-Abschnitte, insbesondere 02.11. früh ab Fukuyama
+
+**Bahn — ab Kanazawa, nicht im Pass**
+
+- [ ] Kanazawa → Takayama (06.11.) klären: vermutlich Nohi-Bus, in der Laubsaison früh ausgebucht — mit dem Shirakawa-go-Stopp zusammen planen
+- [ ] Takayama → Tokio (08.11.) über Nagoya festlegen und buchen; die Ankunftszeit bestimmt, ob der Programmstart um 14:30 in Tokio hält
 
 **Reservierungen mit begrenzter Kapazität**
 
@@ -42,8 +47,8 @@ Am 25.10.2026 ist alles gebucht und griffbereit: Zugtickets bzw. Bahnpass für a
 
 **Programmlücken füllen**
 
-- [ ] Kanazawa 05.11. — ganzer Tag offen
-- [ ] Takayama 07.11. — ganzer Tag offen, dazu Unterkunftswechsel
+- [ ] Kanazawa 05.11. — ganzer Tag offen, die größte Lücke im Plan
+- [ ] Takayama 07.11. — Tagesprogramm bis zum Ryokan-Check-in, Altstadt und Morgenmarkt liegen nahe
 - [ ] Fukuoka 29.10. — Abend in Hakata, falls die Ankunftszeit es hergibt
 
 **Journal aufräumen**
@@ -66,13 +71,15 @@ Am 25.10.2026 ist alles gebucht und griffbereit: Zugtickets bzw. Bahnpass für a
 
 ## Offene Fragen / Blocker
 
-- Unterkunft am 01.11. liegt in Fukuyama, das Programm in Onomichi. Absicht wegen des Anschlusses nach Himeji am Folgetag, oder Fehlgriff?
-- Zwei Unterkünfte in Takayama für zwei Nächte — ist der Ryokan-Abend als Erlebnis gewollt?
+Keine offenen Fragen.
 
 Entschieden am 16.08.2026:
 
 - Kyoto kommt nicht in die Route, auf einer früheren Reise bereits gesehen.
 - Der 03.11. bleibt als Ōsaka-Tag. Bunka no Hi ändert an den Öffnungszeiten der Geschäfte nichts, und Alternativen gibt es im Ablauf ohnehin nicht.
+- Übernachtung am 01.11. in Fukuyama statt Onomichi ist Absicht, wegen des Shinkansen-Anschlusses nach Himeji am Folgetag.
+- Der Unterkunftswechsel in Takayama am 07.11. ist Absicht: der Ryokan-Abend im Asunaro ist das Programm des Tages.
+- Für die Strecke bis Kanazawa wird ein JR-West-Pass genommen. Welcher Zuschnitt das leistet, ist noch zu bestätigen.
 
 ## Notizen
 
@@ -88,3 +95,4 @@ Zugeordnet zum Bereich Reisen. Der Bereich hält den dauerhaften Standard (Päss
 | 2026-08-16 | Flüge als gebucht bestätigt, Züge identifiziert aber offen |
 | 2026-08-16 | Kyoto und der Ōsaka-Termin am 03.11. entschieden |
 | 2026-08-16 | Bereich Reisen angelegt, Projekt dort eingeordnet |
+| 2026-08-16 | Fukuyama und Ryokan-Wechsel als Absicht bestätigt, JR-West-Pass gesetzt |

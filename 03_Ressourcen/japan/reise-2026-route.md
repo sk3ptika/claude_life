@@ -26,15 +26,17 @@ Diese Datei ist die Abschrift des Plans. Bewertung und offene Punkte stehen in [
 |---|---|---|---|
 | Hannover → Kopenhagen → Seoul | 25./26.10. | Flug, ein Umstieg | gebucht |
 | Seoul → Fukuoka | 29.10. | Flug | gebucht |
-| Fukuoka → Hiroshima | 30.10. | Zug | identifiziert, offen |
-| Hiroshima → Fukuyama/Onomichi | 01.11. | Zug | identifiziert, offen |
-| Fukuyama → Himeji → Ōsaka | 02.11. | Zug | identifiziert, offen |
-| Ōsaka → Kanazawa | 04.11. | Zug, ab Shin-Ōsaka 10:00 | identifiziert, offen |
-| Kanazawa → Takayama | 06.11. | Zug | identifiziert, offen |
-| Takayama → Tokio | 08.11. | Zug | identifiziert, offen |
+| Fukuoka → Hiroshima | 30.10. | Zug, JR-West-Pass | Pass gesetzt, Zuschnitt offen |
+| Hiroshima → Fukuyama | 01.11. | Zug, JR-West-Pass | Pass gesetzt, Zuschnitt offen |
+| Fukuyama → Himeji → Ōsaka | 02.11. | Zug, JR-West-Pass | Pass gesetzt, Zuschnitt offen |
+| Ōsaka → Kanazawa | 04.11. | Zug, JR-West-Pass, ab Shin-Ōsaka 10:00 | Pass gesetzt, Zuschnitt offen |
+| Kanazawa → Takayama | 06.11. | vermutlich Bus | separat, offen |
+| Takayama → Tokio | 08.11. | Zug über Nagoya | separat, offen |
 | Tokio → Kopenhagen → Hannover | 13.11. | Flug, ein Umstieg | gebucht |
 
-Alle drei Flüge sind gebucht. Die Bahnabschnitte in Japan stehen fest, sind aber noch nicht gebucht — offen ist damit auch, ob Pass oder Einzeltickets.
+Alle drei Flüge sind gebucht. Für die westliche Hälfte bis Kanazawa ist ein JR-West-Pass gesetzt; welcher Zuschnitt die Strecke Hakata–Kanazawa abdeckt, ist noch zu bestätigen. Die beiden Abschnitte ab Kanazawa liegen außerhalb des JR-West-Gebiets und werden separat gebucht.
+
+Die JR-West-Miyajima-Fähre am 31.10. ist voraussichtlich ebenfalls im Pass enthalten.
 
 ## Stationen im Überblick
 
