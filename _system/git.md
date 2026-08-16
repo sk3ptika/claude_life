@@ -2,11 +2,20 @@
 titel: Git-Setup
 typ: notiz
 angelegt: 2026-08-16
+aktualisiert: 2026-08-16
 ---
 
 # Git-Setup
 
 Repo liegt in `~/Meine Ablage/Claude_Life` — einem Google-Drive-synchronisierten Ordner.
+
+| Feld | Wert |
+|---|---|
+| Remote | `origin` |
+| URL | `https://github.com/sk3ptika/claude_life.git` (HTTPS) |
+| Branch | `main`, trackt `origin/main` |
+| Sichtbarkeit | privat |
+| Authentifizierung | Personal Access Token, im macOS-Schlüsselbund (`osxkeychain`) |
 
 ## Warum ein Remote
 
@@ -14,58 +23,31 @@ Google Drive Desktop schreibt in `.git`, während Git dort arbeitet. Daraus kön
 
 Regel: **nach jedem Weekly Review pushen.** Ohne Push ist das Remote wertlos.
 
-## Einmalig einrichten
-
-### 1. Erster Commit
-
-```bash
-cd ~/"Meine Ablage/Claude_Life"
-git add -A
-git commit -m "PARA-Grundstruktur"
-```
-
-### 2. Privates GitHub-Repo anlegen
-
-Mit GitHub CLI, falls installiert (`gh --version` prüfen):
-
-```bash
-gh repo create claude-life --private --source=. --remote=origin --push
-```
-
-Ohne CLI: auf github.com ein leeres privates Repo `claude-life` anlegen, **ohne** README, .gitignore oder Lizenz. Dann:
-
-```bash
-git remote add origin git@github.com:<dein-user>/claude-life.git
-git branch -M main
-git push -u origin main
-```
-
-Falls SSH nicht eingerichtet ist, HTTPS verwenden:
-
-```bash
-git remote add origin https://github.com/<dein-user>/claude-life.git
-```
-
-### 3. Prüfen
-
-```bash
-git remote -v
-git log --oneline
-git status --short
-```
-
-`git status --short` muss leer sein. Ist es das nicht, greift `.gitignore` nicht richtig.
-
 ## Laufender Betrieb
 
-Script `_system/commit.sh` ausführbar machen und nutzen:
+Script `_system/commit.sh` einmalig ausführbar machen:
 
 ```bash
 chmod +x ~/"Meine Ablage/Claude_Life/_system/commit.sh"
+```
+
+Danach nach jedem Review:
+
+```bash
 ~/"Meine Ablage/Claude_Life/_system/commit.sh" "Weekly Review W33"
 ```
 
-Ohne Argument setzt das Script eine Standard-Nachricht mit Datum.
+Ohne Argument setzt das Script eine Standard-Nachricht mit Datum. Es bricht ab, wenn es Google-Drive-Konfliktkopien findet — dann erst prüfen, dann erneut ausführen.
+
+Prüfen, ob alles draußen ist:
+
+```bash
+cd ~/"Meine Ablage/Claude_Life"
+git status --short
+git log --oneline origin/main..main
+```
+
+Beide Ausgaben müssen leer sein. Ist die erste nicht leer, greift `.gitignore` nicht richtig. Ist die zweite nicht leer, fehlt ein Push.
 
 ## Was tun, wenn Drive das Repo zerlegt
 
@@ -76,10 +58,12 @@ Vorgehen:
 ```bash
 cd ~
 mv "Meine Ablage/Claude_Life" "Meine Ablage/Claude_Life_kaputt"
-git clone git@github.com:<dein-user>/claude-life.git "Meine Ablage/Claude_Life"
+git clone https://github.com/sk3ptika/claude_life.git "Meine Ablage/Claude_Life"
 ```
 
 Danach aus `Claude_Life_kaputt` alles übertragen, was seit dem letzten Push entstanden ist. Genau deshalb: nach jedem Review pushen.
+
+Der alte Ordner wird **nicht** gelöscht, bevor der Abgleich fertig ist.
 
 ## Was NICHT ins Repo gehört
 
@@ -87,6 +71,23 @@ Siehe `.gitignore`. Kurz: RAW-Dateien, PSD, Video, macOS-Metadaten, Drive-Konfli
 
 Wenn das Repo über ein paar hundert Megabyte wächst, liegt Bildmaterial darin, das dort nicht hingehört.
 
-## Einschränkung
+## Arbeitsteilung mit Claude
 
-Claude kann auf diesem Rechner keine Shell-Befehle im Projektordner ausführen — der Mount schlägt fehl. Dateien lesen und schreiben funktioniert, Git-Befehle nicht. Alle Git-Schritte machst du selbst.
+Claude kann in diesem Ordner Shell- und Git-Befehle ausführen: Status prüfen, Dateien ändern, stagen, committen, Remotes konfigurieren.
+
+Was Claude **nicht** macht: sich bei GitHub authentifizieren. Tokens und Passwörter gibt Claude nicht ein. Der erste Push nach einer neuen Token-Einrichtung ist deshalb immer dein Schritt. Liegt ein gültiges Token im Schlüsselbund, laufen spätere Pushes ohne Rückfrage durch und Claude kann sie mit auslösen.
+
+## Einrichtungsprotokoll
+
+Einmalig erledigt am 2026-08-16, hier nur als Nachweis — nicht erneut ausführen:
+
+1. Erster Commit `6b5552f` — PARA-Grundstruktur, 30 Dateien.
+2. Privates Repo `claude_life` auf github.com angelegt, ohne README, `.gitignore` oder Lizenz.
+3. `git remote add origin https://github.com/sk3ptika/claude_life.git`
+4. `git push -u origin main` — Authentifizierung per Personal Access Token.
+
+GitHub CLI (`gh`) und Homebrew sind auf diesem Rechner nicht installiert, SSH-Keys für GitHub existieren nicht. Deshalb HTTPS mit Token statt SSH. Falls SSH später eingerichtet wird, ändert sich nur die Remote-URL:
+
+```bash
+git remote set-url origin git@github.com:sk3ptika/claude_life.git
+```
