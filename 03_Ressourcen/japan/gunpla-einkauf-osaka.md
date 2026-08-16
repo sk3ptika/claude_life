@@ -19,16 +19,21 @@ Umrechnung durchgehend mit ca. **165 JPY/EUR**. Vor der Reise gegen den Tageskur
 - **Umgekehrt gilt das nicht:** Games Workshop und andere europäische Marken sind in Japan teurer. In Japan **kein** Warhammer kaufen.
 - Werkzeug japanischer Hersteller (GodHand, Tamiya) ist ebenfalls deutlich günstiger als der deutsche Fachhandel.
 
-## Zeitfenster in der Route
+## Zeitfenster — entschieden am 16.08.2026
+
+**Der Einkauf findet am 02.11. statt, ab 15:00, und läuft bis die Läden schließen.** Der 03.11. ist keine Option. Nach Den Den Town stehen am 02.11. keine festen Termine mehr — Shin Sekai, Sennariya, Kameya und Dōtonbori sind Vorschläge, keine Buchungen und weichen dem Einkauf.
+
+Damit sind aus 90 Minuten realistisch vier bis fünf Stunden geworden. Für drei Läden ist das reichlich.
 
 | Datum | Gelegenheit | Bewertung |
 |---|---|---|
 | 29.10. | Life-Size RX-93ff ν Gundam Statue, Fukuoka | Programmpunkt, kein Einkauf — Statue steht bei LaLaport, Läden gibt es dort aber |
-| 02.11., 15:00–16:30 | Nipponbashi Den Den Town, Ōsaka | Das eigentliche Fenster. **90 Minuten sind für vier Läden zu knapp** |
-| 03.11. | Ōsaka-Tag, Shinsaibashi/Namba | Reserve. Den Den Town liegt fußläufig an Namba, ließe sich einschieben |
-| 08.–13.11. | Tokio (Nakano Broadway 09.11., Yamashiroya 12.11.) | Rückfalloption, falls in Ōsaka nichts zu bekommen war |
+| **02.11., ab 15:00** | **Nipponbashi Den Den Town, Ōsaka** | **Der Einkauf. Einzige Gelegenheit in Ōsaka** |
+| 08.–13.11. | Tokio (Nakano Broadway 09.11., Yamashiroya 12.11.) | Einzige verbleibende Rückfalloption, falls in Ōsaka nichts zu bekommen war |
 
-Die Unterkunft in Ōsaka (Fraser Residence Nankai) liegt in Namba, also direkt am Rand von Den Den Town. Ein Einkauf lässt sich am 02.11. abends oder am 03.11. ohne Anreisekosten nachholen.
+Die Unterkunft (Fraser Residence Nankai) liegt in Namba am Nordrand von Den Den Town. Gekaufte Ware lässt sich zwischendurch ins Zimmer bringen, statt sie den Abend über zu tragen.
+
+**Der eine Punkt, der den Tag kippen kann:** Der 02.11.2026 ist ein **Montag**. Einzelne Fachgeschäfte in Nipponbashi haben einen festen Ruhetag unter der Woche. Solange der 03.11. als Reserve dastand, war das egal — jetzt nicht mehr. **Öffnungszeiten aller drei Läden für Montag vorab prüfen** (Google Maps oder Ladenwebsite), und zwar bevor die Reihenfolge festgelegt wird. Auch das Schließen ist relevant: in Den Den Town üblicherweise zwischen 19:00 und 20:00, nicht 22:00.
 
 ## Modellauswahl, Budget bis 100 EUR
 
@@ -40,26 +45,30 @@ Die Unterkunft in Ōsaka (Fraser Residence Nankai) liegt in Namba, also direkt a
 
 Der MGEX schöpft das Budget allein aus. RG Hi-ν und MG Sazabi zusammen lägen bei ~82 € und wären zwei Modelle statt einem.
 
-## Verfügbarkeitsrisiko im November
+## Die drei Läden — entschieden am 16.08.2026
 
-November ist in Japan Reise-Hochsaison. Top-Modelle wie der MGEX sind bei den großen Häusern regelmäßig vergriffen.
+Es sind genau diese drei. Keine Großhändler, keine Ergänzungen.
 
-**Große Häuser (erste Anlaufstelle, aber Ausverkaufsrisiko):**
-- Yodobashi Umeda
-- Joshin Super Kids Land (Den Den Town)
+| Laden | Stärke | Rolle an diesem Tag |
+|---|---|---|
+| **Yellow Submarine Nanba Honten** | Bausätze, Einzelteile (Bitz), Spezialwerkzeug | Werkzeug — beste Chance auf GodHand und Tamiya im Regal |
+| **Jungle Fantastic Machinery Museum** | Roboter und Mechas, Second-Hand-Raritäten | Der Kit, wenn Neuware ausverkauft ist. Auch der Laden mit dem höchsten Schaufensterwert |
+| **Volks Ōsaka Showroom** | Neuware, Werkzeug, Spezialfarben, Präsentation | Der Kit als Neuware. Hier fällt die Entscheidung |
 
-**Fachgeschäfte in Den Den Town / Nipponbashi:**
+**Laufweg:** Alle drei liegen entlang der Sakaisuji durch Nipponbashi, Namba am Nordende. Ein durchgehender Fußweg von Nord nach Süd verbindet sie ohne Umweg — und endet am Südrand von Den Den Town, also praktisch vor Shin Sekai. Der Abend im Journal schließt damit ohne Extraweg an. Die genaue Reihenfolge trotzdem einmal auf der Karte prüfen, bevor du losläufst.
 
-| Laden | Stärke |
-|---|---|
-| Yellow Submarine Nanba Honten | Einzelteile (Bitz), Spezialwerkzeug |
-| Jungle Fantastic Machinery Museum | Roboter und Mechas, Second-Hand-Raritäten |
-| Volks Ōsaka Showroom | Präsentation, Werkzeug, Spezialfarben |
-| Surugaya, Mandarake | Second Hand — hier stehen ungebaute Kits, wenn Neuware ausverkauft ist |
+Second Hand ist bei Gunpla unproblematisch, solange die Listung „ungebaut" (未組立) lautet — die Tüten sind ab Werk versiegelt.
 
-Second Hand ist bei Gunpla unproblematisch, solange die Listung „ungebaut" (未組立) lautet — die Tüten sind versiegelt.
+### Was der Verzicht auf die Großhändler kostet
 
-**Plan B, falls der MGEX nirgends steht:** RG Hi-ν nehmen. Der ist in kleinerer Auflage seltener ausverkauft, und das Budget bleibt für Werkzeug frei.
+Joshin Super Kids Land und Yodobashi Umeda waren die Läden mit der größten Neuware-Menge und dem verlässlichsten Listenpreis. Ohne sie sinkt die Chance, den **MGEX Strike Freedom neu und zum Listenpreis** zu bekommen, spürbar — Volks führt Bandai-Neuware, aber in kleinerer Tiefe, und November ist Hochsaison. Bei Jungle ist der Kit eher gebraucht und dann möglicherweise **über** Listenpreis zu finden.
+
+Das ist kein Argument gegen die Entscheidung, nur die Konsequenz daraus: **Der MGEX ist jetzt der unsichere Teil des Plans, nicht das Werkzeug.** Realistische Chance, ihn an diesem Nachmittag zu bekommen: 50 %.
+
+**Deshalb umso wichtiger:** Verfügbarkeit vorab online prüfen (Volks-Onlineshop, Jungle-Onlinebestand). Wenn der MGEX schon im August nirgends gelistet ist, ist die Entscheidung faktisch vor der Reise gefallen und du sparst dir die Suche vor Ort.
+
+**Plan B, falls der MGEX nicht dasteht:** RG Hi-ν nehmen — kleinere Auflage, aber breiter verfügbar, und das Budget bleibt für Werkzeug frei.
+**Plan C:** gar keinen Kit in Ōsaka kaufen, Werkzeug mitnehmen, und in Tokio bei Yamashiroya (12.11.) oder Nakano Broadway (09.11.) nachsehen. Kostet nichts außer dem Verzicht auf den Kauf am selben Tag.
 
 ## Werkzeug — der eigentliche Dauerwert
 
@@ -74,6 +83,8 @@ Diese Positionen sind **nicht** Gunpla-spezifisch. Sie gehen genauso in den Warh
 
 Zusammen grob 8.000–10.000 JPY (~50–60 €). Das läuft **neben** dem Modellbudget, nicht darin.
 
+**Werkzeug möglichst in einem Laden kaufen, nicht auf drei verteilen.** Die Steuerbefreiung greift erst ab 5.000 JPY je Geschäft und Tag. Auf drei Läden verteilt fällt der Einkauf leicht unter die Schwelle und die Befreiung entfällt komplett. Yellow Submarine oder Volks sind die beiden Kandidaten, die das Sortiment am ehesten vollständig führen.
+
 ## Transport und Rückreise
 
 **Zwingend ins aufgegebene Gepäck:** Werkzeug (Seitenschneider, Handbohrer, Skalpelle) und Pinsel. Nichts davon kommt durch die Handgepäckkontrolle.
@@ -84,9 +95,21 @@ Zusammen grob 8.000–10.000 JPY (~50–60 €). Das läuft **neben** dem Modell
 
 ## Tax Free — vor der Reise klären
 
-Ab 5.000 JPY Einkaufswert je Geschäft und Tag ist der Kauf für Touristen von der Verbrauchsteuer befreit; Reisepass gehört an die Kasse. Der MGEX allein liegt darüber, Werkzeug muss ggf. im selben Beleg zusammengefasst werden.
+Ab 5.000 JPY Einkaufswert je Geschäft und Tag ist der Kauf für Touristen von der Verbrauchsteuer befreit; Reisepass gehört an die Kasse. Der MGEX allein liegt darüber. Beim Werkzeug entscheidet die Bündelung — siehe oben.
 
-**Offener Punkt:** Japan stellt das Tax-Free-System von „steuerfrei an der Kasse" auf „Erstattung bei der Ausreise" um, geplant zum **01.11.2026** — also mitten in dieser Reise. Ob das den Kauf am 02./03.11. betrifft und was dann am Flughafen Haneda/Narita am 13.11. zu tun ist, ist **vor Abflug zu prüfen** (Sicherheit der Aussage: ~70 %, das Datum ist die unsichere Größe). Praktisch heißt das: Belege und Verpackung bis zur Ausreise aufheben.
+**Zweiter Grund, alles an einem Tag zu kaufen:** Die 5.000-JPY-Schwelle gilt je Geschäft **und Tag**. Da der 03.11. entfällt, ist das ohnehin keine Frage mehr.
+
+**Offener Punkt:** Japan stellt das Tax-Free-System von „steuerfrei an der Kasse" auf „Erstattung bei der Ausreise" um, geplant zum **01.11.2026** — also einen Tag vor dem Einkauf. Ob es diese Reise schon betrifft und was dann bei der Ausreise am 13.11. zu tun ist, ist **vor Abflug zu prüfen** (Sicherheit der Aussage: ~70 %, das Datum ist die unsichere Größe). Praktisch heißt das: Belege und Verpackung bis zur Ausreise aufheben.
+
+Ausreise am 13.11. ist ein Flug ab Tokio — eine eventuelle Erstattung läuft also dort, nicht in Ōsaka.
+
+## Ablauf am 02.11.
+
+1. Vorab von zu Hause: Montags-Öffnungszeiten der drei Läden prüfen, MGEX-Verfügbarkeit online prüfen.
+2. Ab ca. 15:00 Den Den Town, Fußweg von Namba nach Süden.
+3. Bausatz zuerst — das ist die knappe Ware. Wo er steht, wird er gekauft; nicht auf den nächsten Laden hoffen.
+4. Werkzeug gebündelt in **einem** Laden, wegen der Tax-Free-Schwelle.
+5. Ware ins Zimmer bringen (Fraser Residence Nankai liegt am Weg), dann Abend in Shin Sekai und Dōtonbori wie im Journal.
 
 ## Entscheidung, offen
 

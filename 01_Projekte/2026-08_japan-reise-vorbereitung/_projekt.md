@@ -63,10 +63,13 @@ Am 25.10.2026 ist alles gebucht und griffbereit: Zugtickets bzw. Bahnpass für a
 
 **Einkauf Gunpla und Modellbauwerkzeug** — [Vorbereitung](../../03_Ressourcen/japan/gunpla-einkauf-osaka.md)
 
-- [ ] Entscheiden: ein MGEX Strike Freedom (~14.000 JPY) oder zwei kleinere Kits — vor der Reise, nicht im Laden
-- [ ] Tax-Free-Umstellung zum 01.11.2026 prüfen (Erstattung bei Ausreise statt steuerfrei an der Kasse) — betrifft den Kauf am 02./03.11. direkt
-- [ ] Zeitfenster Den Den Town am 02.11. verlängern oder den Einkauf auf den 03.11. legen
-- [ ] Verfügbarkeit MGEX vorab online prüfen (Joshin, Yodobashi), Plan B ist der RG Hi-ν
+- [x] Läden festgelegt: Yellow Submarine Nanba Honten, Jungle Fantastic Machinery Museum, Volks Ōsaka Showroom
+- [x] Termin festgelegt: 02.11. ab 15:00, offenes Ende. Der 03.11. ist keine Option
+- [ ] **Montags-Öffnungszeiten aller drei Läden prüfen** — der 02.11.2026 ist ein Montag, und es gibt keinen Reservetag mehr. Ein Ruhetag würde den Einkauf ersatzlos kosten
+- [ ] Verfügbarkeit MGEX vorab online prüfen (Volks, Jungle). Ohne die Großhändler liegt die Chance bei ~50 % — Plan B ist der RG Hi-ν, Plan C Tokio (Yamashiroya 12.11.)
+- [ ] Entscheiden: ein MGEX (~14.000 JPY) oder zwei kleinere Kits — vor der Reise, nicht im Laden
+- [ ] Tax-Free-Umstellung zum 01.11.2026 prüfen (Erstattung bei Ausreise statt steuerfrei an der Kasse) — der Kauf liegt einen Tag danach; Erstattung liefe bei der Ausreise in Tokio am 13.11.
+- [ ] Werkzeug in **einem** Laden bündeln — die Steuerbefreiung greift erst ab 5.000 JPY je Geschäft und Tag
 - [ ] Koffer: Platz für Bausatz und Werkzeug einplanen; **kein Kleber, keine Lösungsmittel, keine Sprühdosen** kaufen — Gefahrgut, darf nicht ins Flugzeug
 - [ ] Werkzeug ins aufgegebene Gepäck, nicht ins Handgepäck
 
@@ -93,6 +96,7 @@ Entschieden am 16.08.2026:
 - Übernachtung am 01.11. in Fukuyama statt Onomichi ist Absicht, wegen des Shinkansen-Anschlusses nach Himeji am Folgetag.
 - Der Unterkunftswechsel in Takayama am 07.11. ist Absicht: der Ryokan-Abend im Asunaro ist das Programm des Tages.
 - Für die Strecke bis Kanazawa wird der JR-WEST All Area Pass genommen, 7 Tage, 142 € pro Person. Offen ist nur noch die Abdeckung Tsuruga–Kanazawa.
+- Der Gunpla-Einkauf findet am 02.11. ab 15:00 statt, mit offenem Ende. Drei Läden, fix: Yellow Submarine Nanba Honten, Jungle Fantastic Machinery Museum, Volks Ōsaka Showroom. Keine Großhändler. Der 03.11. ist keine Reserve.
 
 ## Notizen
 
@@ -112,3 +116,4 @@ Zugeordnet zum Bereich Reisen. Der Bereich hält den dauerhaften Standard (Päss
 | 2026-08-16 | Klook-Angebot JR-WEST All Area Pass geprüft, passt bis auf Tsuruga–Kanazawa |
 | 2026-08-16 | Gunpla- und Werkzeugeinkauf in Ōsaka vorbereitet, Schritte und Gepäckregeln ergänzt |
 | 2026-08-16 | Passpreis 142 €/Person erfasst, Reservierungen kostenlos |
+| 2026-08-16 | Einkauf entschieden: drei Läden, 02.11. ab 15:00, kein Reservetag |

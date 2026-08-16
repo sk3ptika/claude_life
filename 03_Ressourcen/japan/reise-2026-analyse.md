@@ -62,7 +62,9 @@ Die drei Flüge stehen (Hannover–Kopenhagen–Seoul, Seoul–Fukuoka, Tokio–
 - Shirakawa-go Anfang November (Laubsaison, Busse ab Kanazawa/Takayama oft ausgebucht)
 - Ryokan Asunaro mit Abendessen
 
-**Den Den Town am 02.11. ist mit 90 Minuten zu knapp.** 15:00–16:30 steht im Journal für Nipponbashi. Für den geplanten Gunpla- und Werkzeugeinkauf sind vier bis fünf Läden relevant (Joshin Super Kids Land, Yellow Submarine, Jungle, Volks, Surugaya) — das ist in anderthalb Stunden nicht zu schaffen, schon gar nicht am härtesten Tag der Reise mit Start in Himeji um 09:00. Entweder das Fenster verlängern oder den Einkauf bewusst auf den 03.11. legen; die Unterkunft in Namba liegt am Rand von Den Den Town. Details in [gunpla-einkauf-osaka.md](gunpla-einkauf-osaka.md).
+**Den Den Town am 02.11., ab 15:00 mit offenem Ende — entschieden.** Der Einkauf umfasst drei Läden (Yellow Submarine, Jungle, Volks), der 03.11. ist keine Reserve, und nach Nipponbashi stehen am 02.11. keine festen Termine mehr. Damit ist der Zeitdruck weg. Was bleibt, ist ein anderes Risiko: Der 02.11. ist ein **Montag**, und Fachgeschäfte in Nipponbashi haben teils einen festen Ruhetag unter der Woche. Ohne Reservetag würde ein geschlossener Laden den Einkauf ersatzlos kosten — **Montags-Öffnungszeiten vorab prüfen**. Details in [gunpla-einkauf-osaka.md](gunpla-einkauf-osaka.md).
+
+**Der 02.11. ist damit noch voller geworden.** Himeji ab 09:00 mit Gepäck, dann ein Einkaufsnachmittag mit offenem Ende, dann Shin Sekai und Dōtonbori. Die vier Abendpunkte sind keine Buchungen — beim Sortieren der Zeitkonflikte an diesem Tag (siehe oben) also ruhig streichen statt quetschen.
 
 **Ruhetage prüfen.** Mehrere japanische Museen schließen montags. Betroffen wäre der 09.11. in Tokio — im aktuellen Programm stehen dort keine Museen, das passt. Beim Auffüllen der Lücken in Kanazawa (05.11., Donnerstag) und Takayama (07.11., Samstag) fällt das nicht ins Gewicht.
 

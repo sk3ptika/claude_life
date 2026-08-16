@@ -121,7 +121,7 @@ Check-in Daiwa Roynet Hotel Fukuyama Ekimae.
 
 ### Mo, 02.11. — Fukuyama → Himeji → Ōsaka
 1. 09:00–13:00 Burg Himeji (4.6)
-2. 15:00–16:30 Nipponbashi Denden Town (4.1) — Gunpla und Werkzeug, Ladenliste in [gunpla-einkauf-osaka.md](gunpla-einkauf-osaka.md)
+2. **ab 15:00 Nipponbashi Denden Town (4.1) — offenes Ende.** Gunpla und Werkzeug in drei Läden: Yellow Submarine Nanba Honten, Jungle Fantastic Machinery Museum, Volks Ōsaka Showroom. Details in [gunpla-einkauf-osaka.md](gunpla-einkauf-osaka.md)
 3. 17:00–19:00 Shin Sekai (4.1)
 4. 18:00–18:30 Sennariya Coffee (4.0)
 5. 19:00–19:30 天ぷら かめや / Tempura Kameya (4.6)
@@ -129,9 +129,9 @@ Check-in Daiwa Roynet Hotel Fukuyama Ekimae.
 
 Check-in Fraser Residence Nankai.
 
-### Di, 03.11. — Ōsaka
-Reservetag für Den Den Town, falls das Fenster am 02.11. nicht gereicht hat — Namba liegt fußläufig.
+Die Punkte 3 bis 6 sind Vorschläge ohne feste Zeiten und weichen dem Einkauf. Den Den Town endet am Südrand praktisch vor Shin Sekai, der Anschluss stimmt also auch bei späterem Aufbruch.
 
+### Di, 03.11. — Ōsaka
 1. 10:00–10:30 Namba Yasaka-Schrein (4.4)
 2. 11:00–13:00 Shinsaibashi PARCO (4.1)
 3. 13:30–14:00 wad (4.5)
