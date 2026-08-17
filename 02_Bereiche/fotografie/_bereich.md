@@ -31,4 +31,5 @@ Noch nicht erfasst. Beim ersten Weekly Review ausfüllen.
 
 ## Referenzen
 
-- 
+- [X100V — Handbuch als Nachschlagewerk](../../03_Ressourcen/fotografie/x100v-handbuch.md) — vollständige Bedienungsanleitung, durchsuchbar
+- [X100V — meine Belegung](../../03_Ressourcen/fotografie/kamera-x100v.md) — wie die Kamera tatsächlich eingestellt ist

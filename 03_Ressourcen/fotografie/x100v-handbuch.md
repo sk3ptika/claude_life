@@ -9,7 +9,7 @@ angelegt: 2026-08-17
 
 Vollständig strukturierte Fassung der offiziellen Bedienungsanleitung (BL00005048-406 DE, Stand Januar 2022, 344 Seiten) zum Durchsuchen und Nachschlagen. Menüpunkte stehen in `Codeschrift` und wortgleich zur Kamera — also über die Suche direkt auffindbar.
 
-**Quelle:** `00_Inbox/x100v_omw_de_s_f.pdf` · FUJIFILM Corporation
+**Quelle:** [x100v_omw_de_s_f.pdf](_anhaenge/x100v_omw_de_s_f.pdf) · FUJIFILM Corporation — bei Detailfragen dort nachschlagen
 **Verwandt:** [Meine tatsächliche Belegung](kamera-x100v.md) · [Rezepte](rezepte/)
 
 > Firmware-Updates können Funktionen ändern, die hier nicht beschrieben sind. Aktuelle Fassung: `fujifilm-x.com/support/download/firmware/`
