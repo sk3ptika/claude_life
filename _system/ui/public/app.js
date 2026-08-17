@@ -634,6 +634,30 @@ async function ansichtDoc(pfad) {
   checkboxenVerdrahten(doku, doc);
   inhalt.append(doku);
 
+  // Bereichsnotiz mit gleichnamigem Ressourcenordner: Struktur spiegeln.
+  // Feldrolle, keine Themenerkennung — greift für jeden 02_Bereiche/<slug>/,
+  // zu dem ein 03_Ressourcen/<slug>/ mit Inhalt existiert.
+  if (kopf.typ === 'bereich' && pfad.startsWith('02_Bereiche/')) {
+    const slug = pfad.split('/').slice(-2, -1)[0];
+    const ressourcenOrdner = '03_Ressourcen/' + slug;
+    if (S.index.ordner.includes(ressourcenOrdner)) {
+      const unter = unterordnerDirekt(ressourcenOrdner);
+      const direkt = S.index.dateien.filter((d) =>
+        d.pfad.split('/').slice(0, -1).join('/') === ressourcenOrdner);
+      if (unter.length || direkt.length) {
+        inhalt.append(h('h2', { class: 'abschnitt' }, 'Ressourcen-Struktur'),
+          h('div', { class: 'pfadzeile', style: 'margin:calc(-1 * var(--s-2)) 0 var(--s-3)' },
+            h('a', { href: routeOrdner(ressourcenOrdner) }, ressourcenOrdner)));
+        if (direkt.length) {
+          const chips = h('div', { class: 'chipreihe', style: 'margin-bottom:var(--s-3)' });
+          for (const d of direkt) chips.append(h('a', { class: 'chip', href: routeDoc(d.pfad) }, titelVon(d)));
+          inhalt.append(chips);
+        }
+        if (unter.length) inhalt.append(strukturRasterZeichnen(unter));
+      }
+    }
+  }
+
   // Rechte Spalte: Inhaltsverzeichnis, Rückwärtslinks, Anhänge
   const rechts = el('rechts');
   rechts.textContent = '';
