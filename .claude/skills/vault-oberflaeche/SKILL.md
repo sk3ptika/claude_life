@@ -7,6 +7,8 @@ description: Die lokale Vault-Oberfläche unter _system/ui/ starten, ändern und
 
 Lokaler Python-Server plus statischer Client, der den Vault sichtbar macht und die Regeln aus `CLAUDE.md` in Bedienelemente übersetzt. Kein Build-Schritt, keine Paketdatei, keine Abhängigkeit außer einer vendorten Markdown-Bibliothek.
 
+Das **Warum** hinter jeder Entscheidung — Laufzeitwahl, Textarea statt contenteditable, Vendoring von `marked`, die Risikoliste — steht in `_system/ui-entwurf.md`. Vor größeren Umbauten dort nachlesen: mehrere Entscheidungen sehen willkürlich aus, bis man den Grund kennt.
+
 ## Starten und stoppen
 
 Doppelklick auf `_system/ui/start.command`, oder:
