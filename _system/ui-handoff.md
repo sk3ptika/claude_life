@@ -108,7 +108,7 @@ Nach Nutzen sortiert, mit Einschätzung. Unsicherheitsangaben beziehen sich dara
 
 ## Inhaltlicher Befund, noch offen
 
-In `03_Ressourcen/warhammer/wunschliste.md` sind die Zeilen 17–18 (Mattlack, Basing-Material) Tabellenzeilen, die durch den Absatz darüber von ihrer Tabelle getrennt wurden. Sie rendern deshalb als Fließtext mit `|`-Zeichen. Der Renderer ist korrekt, die Notiz hat den Defekt. Gehört in `vault-struktur-pruefen` mit Freigabe des Nutzers, nicht in einen stillen Fix durch die UI.
+In `03_Ressourcen/warhammer/bauen/wunschliste.md` waren die Zeilen 17–18 (Mattlack, Basing-Material) Tabellenzeilen, die durch den Absatz darüber von ihrer Tabelle getrennt wurden (am 17.08. behoben).
 
 ## Für den nächsten Chat
 

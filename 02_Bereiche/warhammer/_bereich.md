@@ -31,6 +31,8 @@ Noch nicht erfasst. Beim ersten Weekly Review ausfüllen.
 
 ## Referenzen
 
-- [Sammlung](../../03_Ressourcen/warhammer/sammlung.md) · [Bemal-Batches](../../03_Ressourcen/warhammer/projekte-bemalen.md) · [Wunschliste](../../03_Ressourcen/warhammer/wunschliste.md)
+- **Bauen:** [Sammlung](../../03_Ressourcen/warhammer/bauen/sammlung.md) · [Wunschliste](../../03_Ressourcen/warhammer/bauen/wunschliste.md)
+- **Malen:** [Bemal-Batches](../../03_Ressourcen/warhammer/malen/projekte-bemalen.md) · [Rezepte-Handoff](../../03_Ressourcen/warhammer/malen/rezepte/handoff.md)
+- **Spielen:** [40k Grundregeln](../../03_Ressourcen/warhammer/spielen/40k/40k-grundregeln-companion.md)
 - [Gunpla- und Werkzeugeinkauf Ōsaka](../../03_Ressourcen/japan/gunpla-einkauf-osaka.md) — Werkzeug für die Japan-Reise 11/2026, gilt auch für Warhammer
 

@@ -37,7 +37,7 @@ Nur `versiegelt` zählt als fertig.
 | Handbohrer | fehlt | Tamiya Pin Vice, Japan 11/2026 |
 | Maskierband | fehlt | Tamiya Präzisionsband, Japan 11/2026 |
 
-Die vier mit „Japan 11/2026" markierten Positionen werden auf der Japan-Reise gekauft, weil sie dort deutlich günstiger sind — Details in [Gunpla-Einkauf Ōsaka](../japan/gunpla-einkauf-osaka.md). Bis dahin nichts davon in Deutschland nachkaufen. Kleber, Lösungsmittel und Sprays kommen **nicht** aus Japan mit (Gefahrgut im Flug).
+Die vier mit „Japan 11/2026" markierten Positionen werden auf der Japan-Reise gekauft, weil sie dort deutlich günstiger sind — Details in [Gunpla-Einkauf Ōsaka](../../japan/gunpla-einkauf-osaka.md). Bis dahin nichts davon in Deutschland nachkaufen. Kleber, Lösungsmittel und Sprays kommen **nicht** aus Japan mit (Gefahrgut im Flug).
 
 ## Kennzahlen
 

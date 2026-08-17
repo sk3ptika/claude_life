@@ -113,4 +113,4 @@ Ausreise am 13.11. ist ein Flug ab Tokio — eine eventuelle Erstattung läuft a
 
 ## Entscheidung, offen
 
-Ein MGEX oder zwei kleinere Bausätze. Empfehlung: **MGEX**, wenn er verfügbar ist — er ist der Kauf, der sich in Deutschland preislich nie wieder so darstellt, und die Bauweise verzeiht Anfängerfehler. Sicherheit: 70 %. Gegenargument ist der Warhammer-Berg: Ein weiteres großes ungebautes Modell zusätzlich zu vier ungeöffneten Warhammer-Boxen ist genau das Muster, gegen das die Selbstverpflichtung in [wunschliste.md](../warhammer/wunschliste.md) geschrieben wurde.
+Ein MGEX oder zwei kleinere Bausätze. Empfehlung: **MGEX**, wenn er verfügbar ist — er ist der Kauf, der sich in Deutschland preislich nie wieder so darstellt, und die Bauweise verzeiht Anfängerfehler. Sicherheit: 70 %. Gegenargument ist der Warhammer-Berg: Ein weiteres großes ungebautes Modell zusätzlich zu vier ungeöffneten Warhammer-Boxen ist genau das Muster, gegen das die Selbstverpflichtung in [wunschliste.md](../warhammer/bauen/wunschliste.md) geschrieben wurde.

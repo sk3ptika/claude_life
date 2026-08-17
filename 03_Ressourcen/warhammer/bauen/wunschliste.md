@@ -12,10 +12,10 @@ aktualisiert: 2026-08-16
 | GodHand Kamiyasu Schleifschwämme | wenige hundert JPY je Stück | Schleifen auf gewölbten Flächen, Gussgrate an Rundungen | — (Werkzeug) | 02.11.2026, Ōsaka |
 | Tamiya Pin Vice + Bohrersatz | ~2.000 JPY (~12 €) | Läufe aufbohren, Magnete setzen, Pinning | — (Werkzeug) | 02.11.2026, Ōsaka |
 | Tamiya Präzisions-Maskierband | ~500–1.000 JPY je Rolle | Saubere Kanten beim Spray und später beim Airbrush | — (Werkzeug) | 02.11.2026, Ōsaka |
-
-Das Werkzeug wird am 02.11.2026 in Den Den Town gekauft, in **einem** der drei Läden (Yellow Submarine oder Volks) — die japanische Steuerbefreiung greift erst ab 5.000 JPY je Geschäft und Tag, verteilt auf mehrere Läden entfällt sie.
 | Mattlack zum Versiegeln | offen | Ohne Mattlack zählt kein Modell als `versiegelt`, also als fertig | — (Verbrauchsmaterial) | sofort, **in Deutschland** |
 | Basing-Material | offen | Fehlt für den Status `basiert` | — (Verbrauchsmaterial) | sofort, **in Deutschland** |
+
+Das Werkzeug wird am 02.11.2026 in Den Den Town gekauft, in **einem** der drei Läden (Yellow Submarine oder Volks) — die japanische Steuerbefreiung greift erst ab 5.000 JPY je Geschäft und Tag, verteilt auf mehrere Läden entfällt sie.
 
 **Nicht in Japan kaufen:** Games Workshop ist dort teurer als in Europa. Japan lohnt sich für Bandai-Bausätze und japanisches Werkzeug, nicht für Warhammer.
 
@@ -23,7 +23,7 @@ Das Werkzeug wird am 02.11.2026 in Den Den Town gekauft, in **einem** der drei L
 
 **Werkzeugkauf zurückstellen:** Bis November keinen Seitenschneider in Deutschland kaufen — der GodHand kostet hier ungefähr das Doppelte. Für die Zeit bis dahin reicht der vorhandene Bestand; falls gar keiner da ist, ein billiges Übergangsmodell nehmen.
 
-Hintergrund und Ladenliste: [Gunpla-Einkauf Ōsaka](../japan/gunpla-einkauf-osaka.md).
+Hintergrund und Ladenliste: [Gunpla-Einkauf Ōsaka](../../japan/gunpla-einkauf-osaka.md).
 
 ## Selbstverpflichtung
 
