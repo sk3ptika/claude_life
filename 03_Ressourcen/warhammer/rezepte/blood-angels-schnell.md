@@ -14,6 +14,15 @@ Methode: Schwarz grundieren, Rot von oben, dann **deckender Layer**. Kein Contra
 
 Der Ton ist bewusst auf das klassische Rezept abgestimmt — siehe Abschnitt „Tonabgleich".
 
+## Pinsel je Technik
+
+| Technik | Pinsel | Wofür |
+|---|---|---|
+| Basecoating / Layering | Base-Pinsel, Größe M/L | Wazdakka Red flächig auf belichtete Bereiche |
+| Edge Highlighting | Detail-/Layer-Pinsel, Größe 0/1, scharfe Spitze | Evil Sunz Scarlet, nur obere Kanten |
+| Recess Shading / Washing | Detailpinsel, Größe S/0 | Carroburg Crimson, Nuln Oil, Agrax Earthshade — gezielt, nicht flächig |
+| Drybrushing | Trockenbürstpinsel, Größe M, mit festen, leicht ausgefransten Borsten | Grau-/Weiß-Vorarbeit und Rot-Aufbau bei den Contrast-Alternativen unten |
+
 ## Farben
 
 | Zweck | Farbe |
@@ -32,20 +41,20 @@ Der Ton ist bewusst auf das klassische Rezept abgestimmt — siehe Abschnitt „
 
 Im Batch arbeiten: jeden Schritt an **allen** Modellen machen, bevor der nächste beginnt.
 
-| # | Schritt | Farbe | Hinweis |
-|---|---|---|---|
-| 1 | Grundieren schwarz | Chaos Black | Dünn, aus 20–30 cm |
-| 2 | Grundieren rot | Mephiston Red Spray | Aus etwa 45° von schräg oben. Unterseiten und tiefe Ritzen bleiben schwarz — das ist der Schatten |
-| 3 | Rüstung | Wazdakka Red | **Zwei dünne Schichten**, nur auf die belichteten Flächen. Nicht in die Vertiefungen malen |
-| 4 | Schwarz | Abaddon Black | Bolter-Gehäuse, Handschuhe, Dichtungen, Waffengriffe |
-| 5 | Metall | Leadbelcher | Bolter-Lauf, Klingen, Kabel, Schrauben |
-| 6 | Gold | Retributor Armour | Ornamente, Reliquien, Adler. Zwei dünne Schichten |
-| 7 | Shade Metall | Nuln Oil | Nur auf Leadbelcher, gezielt |
-| 8 | Shade Gold | Agrax Earthshade | Nur auf Retributor Armour, gezielt |
-| 9 | Kantenhighlight | Evil Sunz Scarlet | Ein Durchgang, nur obere Kanten |
-| 10 | Basis | Armageddon Dust | Auftragen, trocknen lassen |
-| 11 | Basisrand | Rhinox Hide | Saubere Kante ringsum |
-| 12 | Versiegeln | Mattlack | **Fehlt noch im Bestand** |
+| # | Schritt | Farbe | Technik | Hinweis |
+|---|---|---|---|---|
+| 1 | Grundieren schwarz | Chaos Black | Priming | Dünn, aus 20–30 cm |
+| 2 | Grundieren rot | Mephiston Red Spray | Zenithal Highlighting per Spray | Aus etwa 45° von schräg oben. Unterseiten und tiefe Ritzen bleiben schwarz — das ist der Schatten |
+| 3 | Rüstung | Wazdakka Red | Layering | **Zwei dünne Schichten**, nur auf die belichteten Flächen. Nicht in die Vertiefungen malen |
+| 4 | Schwarz | Abaddon Black | Basecoating | Bolter-Gehäuse, Handschuhe, Dichtungen, Waffengriffe |
+| 5 | Metall | Leadbelcher | Basecoating | Bolter-Lauf, Klingen, Kabel, Schrauben |
+| 6 | Gold | Retributor Armour | Layering | Ornamente, Reliquien, Adler. Zwei dünne Schichten |
+| 7 | Shade Metall | Nuln Oil | Washing | Nur auf Leadbelcher, gezielt |
+| 8 | Shade Gold | Agrax Earthshade | Washing | Nur auf Retributor Armour, gezielt |
+| 9 | Kantenhighlight | Evil Sunz Scarlet | Edge Highlighting | Ein Durchgang, nur obere Kanten |
+| 10 | Basis | Armageddon Dust | Texturing | Auftragen, trocknen lassen |
+| 11 | Basisrand | Rhinox Hide | — | Saubere Kante ringsum |
+| 12 | Versiegeln | Mattlack | — | **Fehlt noch im Bestand** |
 
 ## Der entscheidende Schritt
 
@@ -93,9 +102,43 @@ Im klassischen Rezept deshalb keine großen Flächen in reinem Mephiston Red ste
 
 Grund: Contrast-Farben sind lasierend und brauchen einen hellen Untergrund, durch den Licht zurückreflektiert wird. Über Schwarz deckt Contrast so gut wie nicht, und wo es auf dem roten Spray liegt, ergibt sich ein anderer Farbton als beim klassischen Aufbau. Das Ergebnis ist fleckig und passt nicht zum Rest.
 
-**Blood Angels Red ist trotzdem eine gute Farbe** — nur auf dem richtigen Untergrund. Es gehört über **Wraithbone**-Grundierung, die vorhanden ist. Das ergibt ein helleres, leicht orangestichiges Rot.
+**Blood Angels Red (Contrast) über Wraithbone-Grundierung.** Zweiter Versuch, ebenfalls fleckig — diesmal auf den großen flächigen Rüstungsteilen (Rückenplatte, Oberschenkel), nicht in den Vertiefungen.
 
-Diese Variante ist ein **eigenes Schema**, kein Ersatzschritt in diesem Rezept. Wer sie fahren will, malt eine ganze Armee so — nicht einzelne Trupps, sonst entsteht genau der Tonbruch von oben.
+Grund ist diesmal nicht der Untergrund (Wraithbone ist der richtige, helle Untergrund für Contrast), sondern die Auftragstechnik: Contrast lebt von Kapillarwirkung in Vertiefungen. Auf großen glatten Flächen ohne Struktur zeigt jede Unregelmäßigkeit im Pinselstrich sofort als Fleck — verstärkt, wenn man über bereits angetrocknete Stellen nochmal drübergeht (reißt Pigment mit).
+
+Diese Variante ist trotzdem ein **eigenes Schema**, kein Ersatzschritt in diesem Rezept. Wer sie fahren will, malt eine ganze Armee so — nicht einzelne Trupps, sonst entsteht genau der Tonbruch von oben.
+
+## Alternativen für die Rüstungsfläche — noch nicht getestet
+
+Zwei Wege, das Contrast-Fleckenproblem zu umgehen. Beide ungetestet, vor dem nächsten Batch an einem Einzelmodell prüfen.
+
+### A: Vertiefung und Fläche trennen (Wraithbone-Pfad)
+
+Idee: Contrast nur noch das übernehmen lassen, was es gut kann — Fläche macht Drybrush.
+
+1. Wraithbone-Primer
+2. Blood Angels Red nur locker in die Vertiefungen fließen lassen — muss nicht gleichmäßig sein, das ist der Punkt
+3. **Drybrush** Wazdakka Red kräftig über die erhabenen Flächen — bringt die Fläche zurück auf Rot, ohne die Nass-in-Nass-Kontrolle, die bei Contrast auf Fläche fehlschlägt
+4. Leichter Drybrush Evil Sunz Scarlet nur auf die obersten Kanten als Highlight
+
+Alternative, falls Schritt 3–4 auch nicht überzeugt: Contrast-Technik statt Methode korrigieren — großer, weich geladener Pinsel, ein durchgehender Strich pro Fläche, nicht stippeln, nicht nachkorrigieren.
+
+### B: Slapchop — Grau/Weiß-Drybrush unter Contrast (Schwarz-Pfad)
+
+Andere Grundidee als A: Statt Wraithbone als hellen Untergrund zu nehmen, wird der Hell-Dunkel-Verlauf direkt auf Schwarz per Drybrush aufgebaut, bevor Contrast überhaupt aufgetragen wird.
+
+1. Chaos Black grundieren, flächendeckend — kein Zenithal-Spray diesmal
+2. Trockenbürstpinsel (M) in **helles Grau** tunken, auf Küchentuch fast vollständig austreichen, zügig über die ganze Miniatur bürsten — nur erhabene Kanten nehmen Farbe an
+3. Zweiter, sparsamerer Drybrush-Durchgang in **Weiß**, nur auf die obersten Kanten
+4. **Baal Red** oder **Blood Angels Red** (Contrast) zügig und deckend mit großem Pinsel (Citadel Shade Brush M) auftragen — soll in die Tiefen fließen (bleiben dunkler) und über den grau/weiß vorgehellten Kanten heller durchscheinen
+
+Pinsel: Trockenbürstpinsel M für Schritt 2–3, großer Contrast-/Shade-Pinsel für Schritt 4.
+
+Unsicherheit bei diesem Weg (~40%, nicht 70% wie bei A): Beide bisherigen Fehlschläge hatten keinen echten Grauverlauf unter dem Contrast, nur Flach-Schwarz bzw. Flach-Wraithbone. Ob der Drybrush-Verlauf reicht, um die auf Fläche fehlende Kapillarwirkung auszugleichen, ist unklar — laut Herstellerbeschreibung ist Contrast für einen hellen, gleichmäßigen Untergrund wie Wraithbone oder Grey Seer ausgelegt, nicht für einen grau/weiß gedrybrushten schwarzen. Baal Red als Produkt existiert real in der Contrast-Reihe (separat von Blood Angels Red, beide passende Rottöne).
+
+Nach Testmodell hier eintragen, welcher Weg trägt.
+
+Quelle zur Baal-Red-Bestätigung: [spraygunner.com](https://spraygunner.com/products/citadel-colour-contrast-baal-red-18-ml)
 
 ## Abbruchkriterium
 

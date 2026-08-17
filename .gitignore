@@ -39,3 +39,11 @@ Icon?
 # Ausnahme: kleine Referenzbilder sind erlaubt
 !**/_anhaenge/*.jpg
 !**/_anhaenge/*.png
+
+# PDFs bleiben lokal und in Drive, Ausnahme Anhänge
+*.pdf
+!**/_anhaenge/*.pdf
+
+# Lokale UI-Konfiguration und temporäre Schreibdateien
+_system/ui/config.json
+*.tmp-*
