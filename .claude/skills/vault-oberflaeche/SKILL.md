@@ -11,23 +11,56 @@ Das **Warum** hinter jeder Entscheidung — Laufzeitwahl, Textarea statt content
 
 ## Starten und stoppen
 
-Doppelklick auf `_system/ui/start.command`, oder:
+Der Server läuft dauerhaft als LaunchAgent und startet beim Anmelden von selbst. Er muss also normalerweise **nicht** von Hand gestartet werden.
+
+```bash
+launchctl print gui/$(id -u)/local.claude-life.vault-ui | grep -E "state|pid|runs"
+```
+
+Vorübergehend anhalten und wieder anwerfen:
+
+```bash
+launchctl bootout  gui/$(id -u)/local.claude-life.vault-ui
+launchctl bootstrap gui/$(id -u) ~/Library/LaunchAgents/local.claude-life.vault-ui.plist
+```
+
+`KeepAlive` ist gesetzt: ein abgestürzter oder abgeschossener Prozess kommt nach maximal 30 Sekunden zurück. Ein einfaches `kill` beendet ihn also **nicht** dauerhaft — dafür `bootout`. Die versionierte Vorlage liegt in `_system/ui/launchagent.plist`, aktiv ist immer nur die Kopie unter `~/Library/LaunchAgents/`; nach Änderungen an der Vorlage neu kopieren und neu laden (der Kopfkommentar der Datei nennt die Befehle).
+
+Das Log liegt in `~/Library/Logs/vault-ui.log` — bewusst außerhalb des Vaults, weil die Startmeldung das Token enthält, das damit nicht nach Google Drive und nicht ins Repo wandert.
+
+Für einen Testlauf im Vordergrund gibt es weiterhin `_system/ui/start.command` (Doppelklick) beziehungsweise:
 
 ```bash
 /usr/bin/python3 -u ~/"Meine Ablage/Claude_Life/_system/ui/server.py"
 ```
 
-Beim ersten Start entsteht `config.json` mit Port, Bind-Adresse und einem 16-Byte-Token; die Datei ist gitignored. Die Konsole zeigt zwei Adressen. Der Erstaufruf muss `?t=<token>` enthalten — das setzt ein `HttpOnly`-Cookie für 90 Tage und leitet auf `/` um, damit das Token nicht in Adressleiste und Safari-History stehen bleibt. Danach genügt das Lesezeichen `http://<rechner>.local:4173`.
-
-Stoppen mit Ctrl+C oder:
+Dann aber vorher den LaunchAgent stoppen, sonst scheitert der Start an `Address already in use`. Und: `pkill -f "_system/ui/server.py"` trifft nur Prozesse, die mit vollem Pfad gestartet wurden. Zuverlässig ist immer
 
 ```bash
-pkill -f "_system/ui/server.py"
+kill $(lsof -ti TCP:4173 -sTCP:LISTEN)
 ```
 
-**Nur im eigenen WLAN starten.** Es ist HTTP ohne TLS, das Token geht im Klartext über das Netz. Kein Self-Signed-TLS, weil iOS dafür eine Profilinstallation verlangt.
+`config.json` entsteht beim ersten Start mit Port, Bind-Adresse und einem 16-Byte-Token; die Datei ist gitignored. Der Erstaufruf muss `?t=<token>` enthalten — das setzt ein `HttpOnly`-Cookie für 90 Tage und leitet auf `/` um, damit das Token nicht in Adressleiste und Safari-History stehen bleibt. Danach genügt das Lesezeichen `http://<rechner>.local:4173`.
 
-Läuft der Server nicht, in dieser Reihenfolge prüfen: Ist der Port belegt (`lsof -nP -iTCP:4173 -sTCP:LISTEN`)? Antwortet er lokal (`curl -s -o /dev/null -w "%{http_code}" http://127.0.0.1:4173/`)? Kommt 401, fehlt das Cookie — einmal mit `?t=` aufrufen. Kommt 403, ist die anfragende Adresse nicht privat.
+Ein Detail beim Testen: der eigene `.local`-Name löst **auf dem Mac selbst** zu `127.0.0.1` auf, von anderen Geräten dagegen zur LAN-Adresse. Wer die Sicht des iPhones prüfen will, muss die LAN-Adresse nehmen (`ipconfig getifaddr en0`), nicht `<rechner>.local`.
+
+## Heimnetz-Schutz
+
+Es ist HTTP ohne TLS — das Token geht im Klartext über das Netz. Kein Self-Signed-TLS, weil iOS dafür eine Profilinstallation verlangt. Solange der Server von Hand gestartet wurde, war die Regel »in fremden Netzen nie starten« ausreichend; mit dem LaunchAgent läuft er überall, also erzwingt der Server es selbst:
+
+**Andere Geräte werden nur bedient, wenn der Standard-Gateway derselbe Router ist wie zu Hause.** Erkannt wird er über seine MAC-Adresse (`heimnetz_gateway_mac` in `config.json`), nicht über die IP — `192.168.178.1` steht in Millionen Wohnungen. Das Ergebnis wird 30 Sekunden zwischengespeichert. Zugriffe von `localhost` sind nie betroffen, der Mac selbst funktioniert also immer.
+
+Im fremden Netz antwortet der Server anderen Geräten mit 403 und einer Erklärung; die Startmeldung im Log sagt, welcher Zustand erkannt wurde.
+
+Bei neuem Router oder Umzug die MAC neu hinterlegen:
+
+```bash
+arp -n "$(route -n get default | awk '/gateway:/ {print $2}')"
+```
+
+Abschalten mit `"heimnetz_pruefen": false` in `config.json`. Fehlt `heimnetz_gateway_mac`, ist die Prüfung wirkungslos — eine frisch erzeugte `config.json` sperrt also niemanden versehentlich aus.
+
+Läuft die Oberfläche nicht, in dieser Reihenfolge prüfen: Hört überhaupt etwas auf dem Port (`lsof -nP -iTCP:4173 -sTCP:LISTEN`)? Läuft der Agent (`launchctl print …`)? Was sagt `~/Library/Logs/vault-ui.log`? Antwortet er lokal (`curl -s -o /dev/null -w "%{http_code}" http://127.0.0.1:4173/`)? Kommt 401, fehlt das Cookie — einmal mit `?t=` aufrufen. Kommt 403 nur von anderen Geräten, greift der Heimnetz-Schutz. Kommt 403 auch lokal, ist die anfragende Adresse nicht privat.
 
 ## Modulkarte
 
@@ -36,7 +69,8 @@ Läuft der Server nicht, in dieser Reihenfolge prüfen: Ist der Port belegt (`ls
 | `server.py` | Routing, Token- und Netzprüfung, statische Auslieferung, Fehler → Statuscodes |
 | `vault.py` | Pfadsicherheit, Index-Scan, Frontmatter parsen/serialisieren, atomares Schreiben, Anlegen aus Template, Archivieren, Suche |
 | `gitwrap.py` | `commit.sh` aufrufen, Exit-Codes mappen, Konfliktkopien und Repo-Status melden |
-| `start.command` | Doppelklick-Starter, gibt LAN-Adresse und Token aus |
+| `start.command` | Doppelklick-Starter für Testläufe im Vordergrund |
+| `launchagent.plist` | Vorlage für den Autostart beim Anmelden; aktiv als Kopie in `~/Library/LaunchAgents/` |
 | `public/index.html` | App-Shell plus SVG-`<symbol>`-Sprite |
 | `public/app.js` | Hash-Router, Index-State, Ansichten, Editor, Suche |
 | `public/md.js` | Vendored `marked` — Version, Herkunft und Lizenz im Kopfkommentar |

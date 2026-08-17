@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<!--
+  Startet die Vault-Oberfläche beim Anmelden.
+
+  Dies ist die versionierte Vorlage. Aktiv wird sie erst als Kopie unter
+  ~/Library/LaunchAgents/local.claude-life.vault-ui.plist — launchd liest
+  nur von dort. Nach einer Änderung hier erneut kopieren und neu laden:
+
+      cp _system/ui/launchagent.plist \
+         ~/Library/LaunchAgents/local.claude-life.vault-ui.plist
+      launchctl bootout  gui/$(id -u)/local.claude-life.vault-ui
+      launchctl bootstrap gui/$(id -u) \
+         ~/Library/LaunchAgents/local.claude-life.vault-ui.plist
+
+  Das Log liegt bewusst in ~/Library/Logs und nicht im Vault: die
+  Startmeldung enthält das Token, das damit nicht nach Google Drive
+  und nicht ins Repo wandert.
+-->
+<plist version="1.0">
+<dict>
+	<key>Label</key>
+	<string>local.claude-life.vault-ui</string>
+
+	<key>ProgramArguments</key>
+	<array>
+		<string>/usr/bin/python3</string>
+		<string>-u</string>
+		<string>/Users/philipp/Meine Ablage/Claude_Life/_system/ui/server.py</string>
+	</array>
+
+	<key>WorkingDirectory</key>
+	<string>/Users/philipp/Meine Ablage/Claude_Life/_system/ui</string>
+
+	<key>RunAtLoad</key>
+	<true/>
+
+	<!-- Neu starten, wenn der Prozess endet: etwa weil Google Drive beim
+	     Anmelden noch nicht bereitstand und config.json fehlte. -->
+	<key>KeepAlive</key>
+	<true/>
+	<key>ThrottleInterval</key>
+	<integer>30</integer>
+
+	<key>StandardOutPath</key>
+	<string>/Users/philipp/Library/Logs/vault-ui.log</string>
+	<key>StandardErrorPath</key>
+	<string>/Users/philipp/Library/Logs/vault-ui.log</string>
+</dict>
+</plist>

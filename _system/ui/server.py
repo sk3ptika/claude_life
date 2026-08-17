@@ -49,6 +49,70 @@ def config_laden():
 
 CONFIG = config_laden()
 
+# ------------------------------------------------------------- Heimnetz
+# Seit der Server beim Anmelden automatisch startet, läuft er auch in
+# fremden Netzen. Der Entwurf verlangt dort Zurückhaltung: HTTP ohne TLS.
+# Deshalb werden Zugriffe von anderen Geräten nur bedient, wenn der
+# Standard-Gateway derselbe Router ist wie zu Hause. Erkannt wird er über
+# seine MAC-Adresse, nicht über die IP — 192.168.178.1 steht in Millionen
+# Wohnungen. Auf dem Mac selbst (localhost) gilt die Prüfung nicht.
+# Abschalten mit "heimnetz_pruefen": false in config.json.
+
+_heimnetz_cache = [0.0, None]  # [geprueft_um, ergebnis]
+_heimnetz_lock = threading.Lock()
+
+
+def _mac_normalisieren(mac):
+    try:
+        return ':'.join('%02x' % int(t, 16) for t in mac.strip().split(':'))
+    except ValueError:
+        return ''
+
+
+def gateway_mac():
+    """MAC-Adresse des Standard-Gateways, oder '' wenn nicht ermittelbar."""
+    try:
+        r = subprocess.run(['route', '-n', 'get', 'default'],
+                           capture_output=True, text=True, timeout=5)
+        gw = ''
+        for zeile in r.stdout.splitlines():
+            if 'gateway:' in zeile:
+                gw = zeile.split(':', 1)[1].strip()
+                break
+        if not gw:
+            return ''
+        r = subprocess.run(['arp', '-n', gw], capture_output=True, text=True, timeout=5)
+        for stueck in r.stdout.split():
+            if stueck.count(':') == 5:
+                return _mac_normalisieren(stueck)
+    except (OSError, subprocess.SubprocessError):
+        pass
+    return ''
+
+
+def im_heimnetz():
+    """True, wenn der Router dem in config.json hinterlegten entspricht.
+
+    Ohne hinterlegte MAC ist die Prüfung wirkungslos (True), damit eine
+    frische config.json nicht versehentlich alles aussperrt.
+    """
+    erwartet = _mac_normalisieren(CONFIG.get('heimnetz_gateway_mac') or '')
+    if not erwartet or not CONFIG.get('heimnetz_pruefen', True):
+        return True
+    with _heimnetz_lock:
+        if time.time() - _heimnetz_cache[0] < 30 and _heimnetz_cache[1] is not None:
+            return _heimnetz_cache[1]
+        ergebnis = (gateway_mac() == erwartet)
+        _heimnetz_cache[0] = time.time()
+        _heimnetz_cache[1] = ergebnis
+        return ergebnis
+
+
+def ist_localhost(ip):
+    if ip.startswith('::ffff:'):
+        ip = ip[7:]
+    return ip in ('::1', '127.0.0.1') or ip.startswith('127.')
+
 
 def ip_ist_privat(ip):
     if ip.startswith('::ffff:'):
@@ -161,6 +225,10 @@ class Handler(BaseHTTPRequestHandler):
         """
         if not ip_ist_privat(self._ip()):
             self._fehler(403, 'Nur aus privaten Netzen erreichbar')
+            return False
+        if not ist_localhost(self._ip()) and not im_heimnetz():
+            self._fehler(403, 'Fremdes Netz erkannt — andere Geräte werden hier nicht bedient. '
+                              'Auf diesem Mac funktioniert http://localhost:%d weiter.' % CONFIG['port'])
             return False
         if not api or self._autorisiert():
             return True
@@ -292,6 +360,11 @@ def main():
     print('  Lokal:    http://localhost:%d/?t=%s' % (CONFIG['port'], CONFIG['token']))
     print('  Im WLAN:  http://%s:%d/?t=%s' % (rechner, CONFIG['port'], CONFIG['token']))
     print('Der Link mit ?t= setzt das Cookie einmalig; danach reicht die nackte Adresse.')
+    if CONFIG.get('heimnetz_gateway_mac') and CONFIG.get('heimnetz_pruefen', True):
+        print('  Heimnetz: %s — %s' % (
+            CONFIG['heimnetz_gateway_mac'],
+            'erkannt, andere Geräte werden bedient' if im_heimnetz()
+            else 'NICHT erkannt, nur dieser Mac wird bedient'))
     print('Beenden mit Ctrl+C.')
     try:
         server.serve_forever()
