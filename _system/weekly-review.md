@@ -4,7 +4,7 @@ Dauer: 30-45 Minuten. Fester Wochentermin. Ohne festen Termin verfällt das Syst
 
 ## 1. Sammeln (5 min)
 
-- [ ] `00_Inbox/` öffnen, jedes Item nach der Zuordnungs-Entscheidung aus SKILL.md verarbeiten
+- [ ] `00_Inbox/` öffnen, jedes Item nach dem Entscheidungsbaum aus `.claude/skills/vault-arbeiten/SKILL.md` verarbeiten
 - [ ] Lose Notizen aus Kopf, Handy, Zettel nachtragen
 - [ ] Downloads-Ordner und Kamera-Karte kurz prüfen: liegt dort etwas, das ins System gehört?
 
@@ -67,3 +67,8 @@ Die letzte Zeile ist die wichtigste. Nach vier Reviews Muster aus diesen Beobach
 
 - [ ] Bereichsliste prüfen: fehlt ein Bereich, ist einer überflüssig?
 - [ ] Jahresziele gegen tatsächliche Projekte halten. Abweichung benennen, nicht wegdiskutieren.
+- [ ] Struktur prüfen (`.claude/skills/vault-struktur-pruefen/SKILL.md`): tote Links, fehlendes Frontmatter, Dateinamen
+
+## Hilfsmittel
+
+Die lokale Oberfläche unter `_system/ui/` (Doppelklick auf `start.command`) zeigt Inbox-Zähler, aktive Projekte mit Fristen, Konfliktkopien und Dateien ohne Frontmatter auf einem Blick — als Einstieg in Schritt 1 und 2 schneller als der Finder. Bedienung und Grenzen in `.claude/skills/vault-oberflaeche/SKILL.md`.

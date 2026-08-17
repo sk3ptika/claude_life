@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<title>Claude_Life</title>
+<link rel="stylesheet" href="/style.css">
+</head>
+<body>
+<svg xmlns="http://www.w3.org/2000/svg" style="display:none" aria-hidden="true">
+  <symbol id="i-home" viewBox="0 0 24 24"><path d="M3 11.5 12 4l9 7.5M5.5 10v9.5h13V10" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+  <symbol id="i-ordner" viewBox="0 0 24 24"><path d="M3.5 6.5h6l2 2.5h9v9.5h-17z" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/></symbol>
+  <symbol id="i-doc" viewBox="0 0 24 24"><path d="M6 3.5h8l4 4v13H6zM14 3.5v4h4M9 12h6M9 15.5h6" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+  <symbol id="i-suche" viewBox="0 0 24 24"><circle cx="10.5" cy="10.5" r="6" fill="none" stroke="currentColor" stroke-width="1.7"/><path d="m15 15 5 5" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></symbol>
+  <symbol id="i-plus" viewBox="0 0 24 24"><path d="M12 5v14M5 12h14" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></symbol>
+  <symbol id="i-archiv" viewBox="0 0 24 24"><path d="M4 4.5h16v4H4zM5.5 8.5v11h13v-11M10 12h4" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+  <symbol id="i-git" viewBox="0 0 24 24"><circle cx="6" cy="6" r="2.3" fill="none" stroke="currentColor" stroke-width="1.7"/><circle cx="6" cy="18" r="2.3" fill="none" stroke="currentColor" stroke-width="1.7"/><circle cx="18" cy="9" r="2.3" fill="none" stroke="currentColor" stroke-width="1.7"/><path d="M6 8.3v7.4M8 7l7.7 1.6" fill="none" stroke="currentColor" stroke-width="1.7"/></symbol>
+  <symbol id="i-warn" viewBox="0 0 24 24"><path d="M12 4 2.5 20h19zM12 10v4.5M12 17.2v.3" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+  <symbol id="i-stift" viewBox="0 0 24 24"><path d="m14.5 5 4.5 4.5L8.5 20H4v-4.5zM12.8 6.7l4.5 4.5" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/></symbol>
+</svg>
+
+<div id="app">
+  <header id="kopfleiste">
+    <button id="menue-knopf" class="symbolknopf" aria-label="Menü"><svg><use href="#i-ordner"/></svg></button>
+    <a href="#/" id="marke">Claude_Life</a>
+    <span id="kopf-status" class="leise"></span>
+    <button id="suche-knopf" class="symbolknopf" aria-label="Suchen (⌘K)"><svg><use href="#i-suche"/></svg></button>
+    <button id="neu-knopf" class="symbolknopf" aria-label="Neu anlegen"><svg><use href="#i-plus"/></svg></button>
+  </header>
+  <nav id="seitenleiste" aria-label="Navigation"></nav>
+  <main id="inhalt"></main>
+  <aside id="rechts" hidden></aside>
+  <nav id="tableiste" aria-label="Untere Navigation">
+    <a href="#/" data-tab="dashboard"><svg><use href="#i-home"/></svg><span>Start</span></a>
+    <button id="tab-suche"><svg><use href="#i-suche"/></svg><span>Suchen</span></button>
+    <button id="tab-neu"><svg><use href="#i-plus"/></svg><span>Neu</span></button>
+    <button id="tab-mehr"><svg><use href="#i-ordner"/></svg><span>Ordner</span></button>
+  </nav>
+</div>
+
+<div id="schleier" hidden></div>
+<div id="overlay" hidden></div>
+<div id="toast" hidden></div>
+
+<script src="/md.js"></script>
+<script src="/app.js"></script>
+</body>
+</html>
