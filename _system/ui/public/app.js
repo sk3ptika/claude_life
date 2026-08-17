@@ -463,36 +463,93 @@ function listeZeichnen(dateien, spalten) {
   return tabelle;
 }
 
+/** Brotkrumen für einen Ordnerpfad — jedes Segment außer dem letzten
+ *  verlinkt auf den jeweiligen Vorfahren, damit tiefe Strukturen
+ *  (z. B. 03_Ressourcen/warhammer/malen/rezepte) navigierbar bleiben. */
+function brotkrumenZeichnen(ordner) {
+  const teile = ordner.split('/');
+  const zeile = h('span', { class: 'pfadzeile' });
+  let pfad = '';
+  teile.forEach((teil, i) => {
+    pfad = pfad ? pfad + '/' + teil : teil;
+    if (i > 0) zeile.append(' / ');
+    zeile.append(i === teile.length - 1 ? teil : h('a', { href: routeOrdner(pfad) }, teil));
+  });
+  return zeile;
+}
+
+/** Direkte Unterordner eines Ordners, ohne `_anhaenge` — das ist laut
+ *  CLAUDE.md eine Systemkonvention für Anhänge, keine Themenstruktur, und
+ *  die enthaltenen Dateien erscheinen ohnehin schon in der Dateien-Sektion. */
+function unterordnerDirekt(ordner) {
+  return S.index.ordner.filter((o) =>
+    o.startsWith(ordner + '/') && o.slice(ordner.length + 1).indexOf('/') === -1
+    && o.split('/').pop() !== '_anhaenge');
+}
+
+/** Übersichtskacheln für die direkten Unterordner eines Ordners: rekursive
+ *  Notizzahl, die eigenen Unterordner als Chips (zweite Ebene ohne Klick
+ *  sichtbar), Vorschau der zuletzt geänderten Notizen. Bildet mehrstufige
+ *  Themenstrukturen wie bauen/malen/rezepte oder spielen/40k ab, ohne dass
+ *  ein Name davon im Code steht — entsteht rein aus S.index.ordner. */
+function strukturRasterZeichnen(unterordner) {
+  const raster = h('div', { class: 'raster' });
+  for (const o of unterordner) {
+    const rekursiv = S.index.dateien.filter((d) => d.pfad.startsWith(o + '/'));
+    const enkel = unterordnerDirekt(o);
+
+    const kachel = h('div', { class: 'kachel' },
+      h('h3', {}, symbol('ordner'), o.split('/').pop(),
+        h('span', { style: 'margin-left:auto;font-weight:400;text-transform:none;letter-spacing:0' },
+          String(rekursiv.length))));
+
+    if (enkel.length) {
+      const chips = h('div', { class: 'chipreihe', style: 'margin-bottom:var(--s-2)' });
+      for (const e of enkel) {
+        const n = S.index.dateien.filter((d) => d.pfad.startsWith(e + '/')).length;
+        chips.append(h('a', { class: 'chip', href: routeOrdner(e) }, e.split('/').pop(), h('b', {}, String(n))));
+      }
+      kachel.append(chips);
+    }
+
+    const vorschau = rekursiv.slice().sort((a, b) => b.mtime - a.mtime).slice(0, 4);
+    if (!vorschau.length) kachel.append(h('div', { class: 'leise' }, 'Noch leer.'));
+    for (const d of vorschau) {
+      kachel.append(h('div', { class: 'kachelzeile' },
+        h('a', { class: 'haupt', href: routeDoc(d.pfad) }, titelVon(d)),
+        h('span', { class: 'neben' }, relativeZeit(d.mtime))));
+    }
+    kachel.append(h('a', { class: 'knopf', style: 'margin-top:var(--s-2)', href: routeOrdner(o) }, 'Öffnen'));
+    raster.append(kachel);
+  }
+  return raster;
+}
+
 function ansichtOrdner(ordner) {
   const inhalt = el('inhalt');
   inhalt.textContent = '';
   el('app').classList.remove('mit-rechts');
   el('rechts').hidden = true;
 
-  const dateien = S.index.dateien.filter((d) => d.pfad.startsWith(ordner + '/'))
+  const unterordner = unterordnerDirekt(ordner);
+  const dateien = S.index.dateien.filter((d) => d.pfad.split('/').slice(0, -1).join('/') === ordner)
     .sort((a, b) => a.pfad.localeCompare(b.pfad, 'de'));
-  const unterordner = S.index.ordner.filter((o) =>
-    o.startsWith(ordner + '/') && o.slice(ordner.length + 1).indexOf('/') === -1);
   const andere = S.index.andere.filter((f) => f.pfad.startsWith(ordner + '/'));
 
   inhalt.append(h('div', { class: 'seitenkopf' },
     h('h1', {}, ordner.split('/').pop().replace(/^\d+_/, '')),
-    h('span', { class: 'pfadzeile' }, ordner),
+    brotkrumenZeichnen(ordner),
     h('div', { class: 'werkzeuge' },
       h('button', { class: 'knopf', onclick: () => neuOverlay(ordner) }, symbol('plus'), 'Neu hier')),
   ));
 
   if (unterordner.length) {
-    inhalt.append(h('h2', { class: 'abschnitt' }, 'Unterordner'));
-    const reihe = h('div', { class: 'chipreihe' });
-    for (const o of unterordner) {
-      const anzahl = S.index.dateien.filter((d) => d.pfad.startsWith(o + '/')).length;
-      reihe.append(h('a', { class: 'chip', href: routeOrdner(o) }, o.split('/').pop(), h('b', {}, String(anzahl))));
-    }
-    inhalt.append(reihe);
+    inhalt.append(h('h2', { class: 'abschnitt' }, 'Struktur (' + unterordner.length + ')'));
+    inhalt.append(strukturRasterZeichnen(unterordner));
   }
 
-  inhalt.append(h('h2', { class: 'abschnitt' }, 'Notizen (' + dateien.length + ')'));
+  inhalt.append(h('h2', { class: 'abschnitt' },
+    (unterordner.length ? 'Notizen direkt hier' : 'Notizen') + ' (' + dateien.length + ')'));
   inhalt.append(listeZeichnen(dateien, spaltenBerechnen(dateien)));
 
   if (andere.length) {
