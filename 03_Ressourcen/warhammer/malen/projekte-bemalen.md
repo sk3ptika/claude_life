@@ -6,7 +6,7 @@ aktualisiert: 2026-08-16
 
 # Bemal-Batches
 
-Genau **ein** Batch ist gleichzeitig aktiv. Alles andere steht unter "Geplant".
+Genau **ein** Batch ist gleichzeitig aktiv. Alles andere steht unter "Geplant". Farbbestand: [Farbpalette](farbpalette.md).
 
 ## Aktiver Batch
 

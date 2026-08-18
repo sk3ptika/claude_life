@@ -298,6 +298,11 @@ class Handler(BaseHTTPRequestHandler):
                 self._json(200, vault.archivieren(daten.get('pfad')))
             elif url.path == '/api/commit':
                 self._json(200, gitwrap.commit(daten.get('nachricht')))
+            elif url.path == '/api/sheet-sync':
+                self._json(200, vault.sheet_sync(
+                    daten.get('pfad'),
+                    aktion=daten.get('aktion', 'pull'),
+                    daten=daten.get('daten')))
             else:
                 self._fehler(404, 'Unbekannter Pfad')
         except vault.ApiFehler as e:

@@ -633,9 +633,164 @@ textarea#roh {
   color: var(--text);
 }
 
+/* ------------------------------------------- Interaktive Tabellen */
+
+.tabelle-interaktiv-container {
+  margin-bottom: var(--s-4);
+}
+
+.tabelle-interaktiv-kopf {
+  display: flex;
+  flex-direction: column;
+  gap: var(--s-2);
+  margin-bottom: var(--s-3);
+  padding: var(--s-2) var(--s-3);
+  background: var(--flaeche-1);
+  border: 1px solid var(--linie);
+  border-radius: var(--r-1);
+}
+
+.tabelle-toolbar {
+  display: flex;
+  align-items: center;
+  gap: var(--s-2);
+  flex-wrap: wrap;
+}
+
+.tabelle-suche {
+  flex: 1 1 220px;
+  min-width: 160px;
+  height: 32px;
+  padding: 0 var(--s-3);
+  font: 14px var(--schrift);
+  color: var(--text);
+  background: var(--flaeche-0);
+  border: 1px solid var(--linie);
+  border-radius: var(--r-1);
+  outline: none;
+  transition: border-color 120ms, box-shadow 120ms;
+}
+.tabelle-suche:focus {
+  border-color: var(--akzent);
+  box-shadow: 0 0 0 2px var(--akzent-flaeche);
+}
+
+.tabelle-zaehler {
+  font-size: 12px;
+  color: var(--text-leise);
+  white-space: nowrap;
+  margin-left: auto;
+}
+
+.tabelle-aktionen {
+  display: flex;
+  align-items: center;
+  gap: var(--s-2);
+  flex-wrap: wrap;
+}
+
+.tabelle-filter-chips {
+  display: flex;
+  gap: var(--s-1);
+  flex-wrap: wrap;
+  align-items: center;
+  padding-top: var(--s-1);
+  border-top: 1px solid var(--linie);
+}
+
+.tabelle-filter-chips .chip {
+  cursor: pointer;
+  user-select: none;
+  transition: background-color 120ms, border-color 120ms, color 120ms;
+}
+
+.tabelle-filter-chips .chip.aktiv {
+  background: var(--akzent);
+  color: var(--flaeche-1);
+  border-color: var(--akzent);
+}
+.tabelle-filter-chips .chip.aktiv b {
+  color: var(--flaeche-1);
+  opacity: 0.9;
+}
+
+.sortierbar-th {
+  cursor: pointer;
+  user-select: none;
+  transition: background-color 120ms;
+}
+.sortierbar-th:hover {
+  background: var(--flaeche-1);
+}
+.sort-indikator {
+  display: inline-block;
+  margin-left: 4px;
+  font-size: 10px;
+  opacity: 0.6;
+}
+
+.farb-punkt {
+  display: inline-block;
+  width: 13px;
+  height: 13px;
+  border-radius: 50%;
+  margin-right: 6px;
+  vertical-align: -2px;
+  border: 1px solid rgba(0, 0, 0, 0.25);
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.15);
+  flex-shrink: 0;
+}
+
+.farb-hex-pill {
+  display: inline-flex;
+  align-items: center;
+  font-family: var(--schrift-mono);
+  font-size: 11.5px;
+  padding: 1px 6px;
+  border-radius: var(--r-1);
+  background: var(--flaeche-2);
+  border: 1px solid var(--linie);
+  gap: 5px;
+}
+
+.feld-gruppe {
+  display: flex;
+  flex-direction: column;
+  gap: var(--s-1);
+  margin-bottom: var(--s-3);
+}
+.feld-gruppe label {
+  font-size: 12px;
+  font-weight: 500;
+  color: var(--text-leise);
+}
+.feld-gruppe input,
+.feld-gruppe select,
+.feld-gruppe textarea {
+  min-height: 34px;
+  padding: var(--s-1) var(--s-2);
+  font: 14px var(--schrift);
+  color: var(--text);
+  background: var(--flaeche-0);
+  border: 1px solid var(--linie);
+  border-radius: var(--r-1);
+}
+.feld-gruppe input:focus,
+.feld-gruppe select:focus,
+.feld-gruppe textarea:focus {
+  border-color: var(--akzent);
+  outline: none;
+}
+
 /* ----------------------------------------------------------- Schmal */
 
 @media (max-width: 899px) {
+  .tabelle-suche,
+  .feld-gruppe input,
+  .feld-gruppe select,
+  .feld-gruppe textarea {
+    font-size: 16px; /* iOS Auto-Zoom Guard */
+  }
   #app,
   #app.mit-rechts {
     grid-template-columns: minmax(0, 1fr);

@@ -5,6 +5,7 @@ status: aktiv
 angelegt: 2026-08-16
 deadline: 2026-10-25
 bereich: reisen
+aktualisiert: 2026-08-18
 ---
 
 # Japan-Reise Vorbereitung
@@ -15,11 +16,11 @@ Reiseplan und Analyse liegen in `03_Ressourcen/japan/`:
 
 ## Ergebnis
 
-Am 25.10.2026 ist alles gebucht und griffbereit: Zugtickets bzw. Bahnpass für alle sieben Japan-Abschnitte, die vier reservierungspflichtigen Programmpunkte bestätigt, Kanazawa 05.11. und Takayama 07.11. mit Programm belegt, Zeitkonflikte im Journal aufgelöst, Unterlagen offline verfügbar.
+Am 25.10.2026 ist alles gebucht und griffbereit: Zugtickets bzw. Bahnpass für alle sieben Japan-Abschnitte, die reservierungspflichtigen Programmpunkte bestätigt (inkl. Highway-Bus ab Kanazawa), Takayama 07.11. mit Programm belegt (Kanazawa ist fertig), Zeitkonflikte im Journal aufgelöst, Unterlagen offline verfügbar.
 
 ## Warum
 
-20 Tage, 10 Stationen, ~89 Programmpunkte. Die Flüge stehen, aber die Verbindungen dazwischen und die Tickets für die Punkte mit begrenzter Kapazität nicht. Was bis zum Abflug nicht gebucht ist, ist vor Ort entweder ausverkauft oder teuer.
+20 Tage, 10 Stationen, ~103 Programmpunkte. Die Flüge stehen, aber die Verbindungen dazwischen und die Tickets für die Punkte mit begrenzter Kapazität nicht. Was bis zum Abflug nicht gebucht ist, ist vor Ort entweder ausverkauft oder teuer.
 
 ## Nächster Schritt
 
@@ -36,27 +37,28 @@ Am 25.10.2026 ist alles gebucht und griffbereit: Zugtickets bzw. Bahnpass für a
 - [ ] Prüfen, ob die Koffer auf dem Sanyo-Shinkansen als Übergepäck gelten (Gesamtmaß über 160 cm). Der Stellplatz ist vorab kostenlos reservierbar, ohne Reservierung fällt eine Gebühr an — betrifft vor allem den 02.11. mit Gepäck
 - [ ] Bei der Einreise am 29.10. in Fukuoka den Stempel „Temporary Visitor" holen, **nicht die automatischen Gates benutzen** — ohne Stempel ist der Pass ungültig
 
-**Bahn — ab Kanazawa, nicht im Pass**
+**Bahn / Bus — ab Kanazawa, nicht im Pass**
 
-- [ ] Kanazawa → Takayama (06.11.) klären: vermutlich Nohi-Bus, in der Laubsaison früh ausgebucht — mit dem Shirakawa-go-Stopp zusammen planen
+- [ ] Kanazawa → Shirakawa-go → Takayama (06.11.): Highway-Bus ab Kanazawa West Exit (13:50) buchen — in der Laubsaison früh ausgebucht
 - [ ] Takayama → Tokio (08.11.) über Nagoya festlegen und buchen; die Ankunftszeit bestimmt, ob der Programmstart um 14:30 in Tokio hält
 
 **Reservierungen mit begrenzter Kapazität**
 
 - [ ] Changdeokgung, Geheimer Garten Huwon — Zeitfenster für 27.10.
 - [ ] teamLab Planets — Zeitfenster für 11.11., 18:30
-- [ ] Shirakawa-go 06.11. — Bus ab Kanazawa oder Takayama, Laubsaison
+- [ ] Shirakawa-go / Takayama-Bus 06.11. (13:50 ab Kanazawa West Exit)
+- [ ] Yakiniku Daishogun Kanazawa 04.11. (19:00) Tisch reservieren
 - [ ] Ryokan Asunaro 07.11. — Abendessen bestätigen
 
 **Programmlücken füllen**
 
-- [ ] Kanazawa 05.11. — ganzer Tag offen, die größte Lücke im Plan. Der JR-West-Pass gilt an diesem Tag noch, Tagesausflüge im Gebiet wären damit kostenlos
+- [x] Kanazawa (04.–06.11.) — im Journal vollständig mit 16 Punkten belegt (Stand 17.08.2026)
 - [ ] Takayama 07.11. — Tagesprogramm bis zum Ryokan-Check-in, Altstadt und Morgenmarkt liegen nahe
 - [ ] Fukuoka 29.10. — Abend in Hakata, falls die Ankunftszeit es hergibt
 
 **Journal aufräumen**
 
-- [ ] Zeitkonflikte auflösen: 02.11., 03.11., 10.11., 12.11.
+- [ ] Zeitkonflikte auflösen: 02.11., 03.11., 05.11. (Nap vs. Ashigaru-Museum), 10.11., 12.11.
 - [ ] Tageslisten nach Uhrzeit sortieren: 02.11., 03.11., 09.11., 10.11., 11.11.
 - [ ] Flüge und Züge in Lambus nachtragen
 - [ ] Ruhetage und Öffnungszeiten der geplanten Museen gegen die Tage prüfen
@@ -73,6 +75,12 @@ Am 25.10.2026 ist alles gebucht und griffbereit: Zugtickets bzw. Bahnpass für a
 - [ ] Koffer: Platz für Bausatz und Werkzeug einplanen; **kein Kleber, keine Lösungsmittel, keine Sprühdosen** kaufen — Gefahrgut, darf nicht ins Flugzeug
 - [ ] Werkzeug ins aufgegebene Gepäck, nicht ins Handgepäck
 
+**Kamera und Bilder** — Konfiguration und Übung laufen als eigenes Projekt: [X100V Japan-ready](../2026-08_x100v-japan-ready/_projekt.md)
+
+- [ ] **Datensicherung unterwegs entscheiden.** Auf der Reise wird `FINE+RAW` fotografiert, rund 50 MB pro Auslösung — bei ~2.000 Bildern also etwa 100 GB. Solange nur die Karte existiert, ist das eine einzige Kopie und widerspricht dem 3-2-1-Standard aus den [Konventionen](../../_system/konventionen.md). Zu klären: mehrere kleinere Karten statt einer großen (ein Defekt kostet dann nicht die ganze Reise) und ein zweites Medium für die abendliche Sicherung
+- [ ] Akkus und Karten beschaffen. Die X100V hat eine kurze Akkulaufzeit — mindestens zwei Ersatzakkus plus Powerbank mit USB-C. Laden geht über die Kamera bei ausgeschaltetem Gerät
+- [ ] Reisestecker Japan (Typ A, 100 V) und Südkorea (Typ C/F, 220 V) prüfen — die beiden Länder unterscheiden sich
+
 **Sonstiges**
 
 - [ ] Budget anlegen, Bargeld- und Kartenfrage klären — bekannte Posten: JR-Pass 142 €/Person, Gunpla-Einkauf ca. 130–150 €
@@ -80,7 +88,7 @@ Am 25.10.2026 ist alles gebucht und griffbereit: Zugtickets bzw. Bahnpass für a
 
 **Aus dem Bereichsstandard Reisen**
 
-- [ ] Passgültigkeit prüfen — muss die ganze Reise abdecken, Puffer einplanen
+- [x] Passgültigkeit prüfen — muss die ganze Reise abdecken, Puffer einplanen
 - [ ] Einreiseformalitäten Südkorea prüfen (K-ETA-Pflicht ändert sich regelmäßig) und Japan (Visit Japan Web)
 - [ ] Auslandskrankenversicherung prüfen, Geltung für Südkorea und Japan
 
@@ -117,3 +125,5 @@ Zugeordnet zum Bereich Reisen. Der Bereich hält den dauerhaften Standard (Päss
 | 2026-08-16 | Gunpla- und Werkzeugeinkauf in Ōsaka vorbereitet, Schritte und Gepäckregeln ergänzt |
 | 2026-08-16 | Passpreis 142 €/Person erfasst, Reservierungen kostenlos |
 | 2026-08-16 | Einkauf entschieden: drei Läden, 02.11. ab 15:00, kein Reservetag |
+| 2026-08-17 | Lambus-Journal ausgelesen: Kanazawa 04.–06.11. mit 16 Punkten belegt, Bus 13:50 terminiert, Route und Analyse synchronisiert |
+| 2026-08-18 | Kamera-Vorbereitung als eigenes Projekt ausgelagert, Datensicherung und Stromversorgung als Punkte ergänzt |

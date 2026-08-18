@@ -1,7 +1,7 @@
 ---
 titel: Wunschliste
 typ: notiz
-aktualisiert: 2026-08-16
+aktualisiert: 2026-08-18
 ---
 
 # Wunschliste

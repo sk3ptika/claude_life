@@ -632,6 +632,7 @@ async function ansichtDoc(pfad) {
 
   const doku = markdownZeichnen(doc.body, pfad);
   checkboxenVerdrahten(doku, doc);
+  tabelleInteraktivVerdrahten(doku, doc);
   inhalt.append(doku);
 
   // Bereichsnotiz mit gleichnamigem Ressourcenordner: Struktur spiegeln.
@@ -727,6 +728,314 @@ function checkboxenVerdrahten(doku, doc) {
       }
     });
   });
+}
+
+/** Interaktive Tabellenwerkzeuge: Live-Suche, dynamische Filterchips, Sortierung,
+ *  Farbfeld-Visualisierung, Zeilen hinzufügen und Google-Sheet-Synchronisation.
+ *  Rein aus den Tabellendaten und dem Frontmatter abgeleitet — kein Thema im Code. */
+function tabelleInteraktivVerdrahten(doku, doc) {
+  const kopf = doc.frontmatter || {};
+  const istAktiviert = kopf.tabelle_interaktiv || kopf.gsheet_id || kopf.gsheet_url || kopf.typ === 'ressource';
+  const tabellen = [...doku.querySelectorAll('table')];
+  if (!tabellen.length || !istAktiviert) return;
+
+  tabellen.forEach((tabelle) => {
+    const thead = tabelle.querySelector('thead');
+    const tbody = tabelle.querySelector('tbody');
+    if (!thead || !tbody) return;
+
+    const thElemente = [...thead.querySelectorAll('th')];
+    const spalten = thElemente.map((th) => th.textContent.trim());
+    const zeilenTr = [...tbody.querySelectorAll('tr')];
+    if (!zeilenTr.length) return;
+
+    // Strukturierte Zeilendaten extrahieren und Farbfelder verfeinern
+    zeilenTr.forEach((tr, zeilenIdx) => {
+      tr._idx = zeilenIdx;
+      tr._daten = {};
+      const zellen = [...tr.querySelectorAll('td')];
+      zellen.forEach((td, ci) => {
+        const spaltenName = spalten[ci] || ('Spalte_' + ci);
+        const text = td.textContent.trim();
+        tr._daten[spaltenName] = text;
+
+        // Farbfeld-Erkennung: Hex-Farbcodes z. B. #960c07
+        if (/^#[0-9a-fA-F]{3,8}$/.test(text)) {
+          td.textContent = '';
+          td.append(h('span', { class: 'farb-hex-pill' },
+            h('span', { class: 'farb-punkt', style: 'background-color:' + text }),
+            text,
+          ));
+        }
+      });
+    });
+
+    // Kategorien-Erkennung: Spalten mit wenigen distinkten Werten (z. B. 2 bis 15 Werte)
+    let kategorieSpalte = null;
+    let kategorieWerte = new Map();
+    for (const s of spalten) {
+      const werte = new Set();
+      const zaehler = new Map();
+      for (const tr of zeilenTr) {
+        const v = tr._daten[s] || '';
+        if (v && !v.startsWith('#') && v.length < 30) {
+          werte.add(v);
+          zaehler.set(v, (zaehler.get(v) || 0) + 1);
+        }
+      }
+      if (werte.size >= 2 && werte.size <= 15 && (!kategorieSpalte || werte.size < kategorieWerte.size)) {
+        kategorieSpalte = s;
+        kategorieWerte = zaehler;
+      }
+    }
+
+    let aktiverFilter = '';
+    const sortierung = { spalte: null, aufsteigend: true };
+
+    // Toolbar aufbauen
+    const container = h('div', { class: 'tabelle-interaktiv-kopf' });
+    const zeileOben = h('div', { class: 'tabelle-toolbar' });
+
+    // Suchfeld
+    const suchFeld = h('input', {
+      type: 'search',
+      class: 'tabelle-suche',
+      placeholder: 'Tabelle durchsuchen...',
+      oninput: () => zeilenFiltern(),
+    });
+
+    // Zähler
+    const zaehlerBadge = h('span', { class: 'tabelle-zaehler' }, zeilenTr.length + ' Einträge');
+
+    // Aktionen
+    const aktionen = h('div', { class: 'tabelle-aktionen' });
+
+    // Button: Zeile hinzufügen
+    const addBtn = h('button', {
+      class: 'knopf',
+      title: 'Neuen Eintrag anlegen',
+      onclick: () => zeileHinzufuegenDialog(doc, spalten),
+    }, symbol('plus'), 'Hinzufügen');
+    aktionen.append(addBtn);
+
+    // Google Sheet Synchronisation
+    if (kopf.gsheet_url || kopf.gsheet_id) {
+      const syncBtn = h('button', {
+        class: 'knopf',
+        title: 'Aktuellen Stand aus Google Sheet abrufen',
+        onclick: async () => {
+          syncBtn.disabled = true;
+          const origInhalt = syncBtn.innerHTML;
+          syncBtn.textContent = 'Synchronisiere...';
+          try {
+            const res = await apiPost('/api/sheet-sync', { pfad: doc.pfad, aktion: 'pull' });
+            if (res.erfolg) {
+              toast(res.nachricht || 'Synchronisiert.');
+              await ansichtDoc(doc.pfad);
+            } else {
+              toast(res.nachricht || 'Kein Sync möglich.', true);
+              syncBtn.innerHTML = origInhalt;
+              syncBtn.disabled = false;
+            }
+          } catch (e) {
+            toast('Sync-Fehler: ' + e.message, true);
+            syncBtn.innerHTML = origInhalt;
+            syncBtn.disabled = false;
+          }
+        },
+      }, symbol('sync'), 'Sheet Sync');
+      aktionen.append(syncBtn);
+
+      const linkBtn = h('a', {
+        class: 'symbolknopf',
+        href: kopf.gsheet_url,
+        target: '_blank',
+        rel: 'noopener',
+        title: 'In Google Sheets öffnen',
+      }, symbol('link'));
+      aktionen.append(linkBtn);
+    }
+
+    zeileOben.append(suchFeld, zaehlerBadge, aktionen);
+    container.append(zeileOben);
+
+    // Filter Chips
+    if (kategorieSpalte && kategorieWerte.size > 1) {
+      const chipsLeiste = h('div', { class: 'tabelle-filter-chips' });
+      const alleChip = h('span', {
+        class: 'chip aktiv',
+        onclick: () => {
+          aktiverFilter = '';
+          chipsLeiste.querySelectorAll('.chip').forEach((c) => c.classList.remove('aktiv'));
+          alleChip.classList.add('aktiv');
+          zeilenFiltern();
+        },
+      }, 'Alle', h('b', {}, ' ' + zeilenTr.length));
+      chipsLeiste.append(alleChip);
+
+      for (const [kat, anzahl] of kategorieWerte.entries()) {
+        const chip = h('span', {
+          class: 'chip',
+          onclick: () => {
+            chipsLeiste.querySelectorAll('.chip').forEach((c) => c.classList.remove('aktiv'));
+            if (aktiverFilter === kat) {
+              aktiverFilter = '';
+              alleChip.classList.add('aktiv');
+            } else {
+              aktiverFilter = kat;
+              chip.classList.add('aktiv');
+            }
+            zeilenFiltern();
+          },
+        }, kat, h('b', {}, ' ' + anzahl));
+        chipsLeiste.append(chip);
+      }
+      container.append(chipsLeiste);
+    }
+
+    // Vor die Tabelle im DOM setzen
+    const wrapper = tabelle.closest('.tabelle-scroll') || tabelle;
+    wrapper.parentNode.insertBefore(container, wrapper);
+
+    // Filterlogik
+    function zeilenFiltern() {
+      const query = nfc(suchFeld.value.trim().toLowerCase());
+      const begriffe = query.split(/\s+/).filter(Boolean);
+      let sichtbar = 0;
+
+      zeilenTr.forEach((tr) => {
+        let matchKat = true;
+        if (aktiverFilter && kategorieSpalte) {
+          matchKat = (tr._daten[kategorieSpalte] === aktiverFilter);
+        }
+
+        let matchSuch = true;
+        if (begriffe.length) {
+          const gesamtText = Object.values(tr._daten).join(' ').toLowerCase();
+          matchSuch = begriffe.every((b) => gesamtText.includes(b));
+        }
+
+        const passt = matchKat && matchSuch;
+        tr.style.display = passt ? '' : 'none';
+        if (passt) sichtbar++;
+      });
+
+      if (query || aktiverFilter) {
+        zaehlerBadge.textContent = sichtbar + ' von ' + zeilenTr.length + ' gefiltert';
+      } else {
+        zaehlerBadge.textContent = zeilenTr.length + ' Einträge';
+      }
+    }
+
+    // Sortierung auf Spaltenköpfen
+    thElemente.forEach((th, ci) => {
+      th.classList.add('sortierbar-th');
+      th.title = 'Nach ' + spalten[ci] + ' sortieren';
+      const indikator = h('span', { class: 'sort-indikator' }, '');
+      th.append(indikator);
+
+      th.addEventListener('click', () => {
+        if (sortierung.spalte === ci) {
+          sortierung.aufsteigend = !sortierung.aufsteigend;
+        } else {
+          sortierung.spalte = ci;
+          sortierung.aufsteigend = true;
+        }
+
+        thElemente.forEach((t) => {
+          const ind = t.querySelector('.sort-indikator');
+          if (ind) ind.textContent = '';
+        });
+        indikator.textContent = sortierung.aufsteigend ? ' ▲' : ' ▼';
+
+        const spaltenName = spalten[ci];
+        const sortierteZeilen = zeilenTr.slice().sort((a, b) => {
+          const valA = a._daten[spaltenName] || '';
+          const valB = b._daten[spaltenName] || '';
+          const cmp = valA.localeCompare(valB, 'de', { numeric: true, sensitivity: 'base' });
+          return sortierung.aufsteigend ? cmp : -cmp;
+        });
+
+        tbody.textContent = '';
+        sortierteZeilen.forEach((tr) => tbody.append(tr));
+      });
+    });
+  });
+}
+
+/** Dialog zum Hinzufügen einer neuen Zeile in eine Markdown-Tabelle */
+function zeileHinzufuegenDialog(doc, spalten) {
+  const formFelder = {};
+  const formElemente = h('div', { style: 'display:grid;grid-template-columns:1fr 1fr;gap:var(--s-3)' });
+
+  spalten.forEach((s) => {
+    const isHex = /hex|farbcode|color/i.test(s);
+    const isFullWidth = isHex || /zweck|notiz|einsatz|beschreibung/i.test(s);
+
+    const input = h('input', {
+      type: 'text',
+      id: 'feld-' + s,
+      placeholder: s,
+    });
+    formFelder[s] = input;
+
+    const gruppe = h('div', {
+      class: 'feld-gruppe',
+      style: isFullWidth ? 'grid-column:1 / -1' : '',
+    }, h('label', { for: 'feld-' + s }, s), input);
+
+    if (isHex) {
+      const farbWaehler = h('input', {
+        type: 'color',
+        value: '#960c07',
+        style: 'height:34px;width:44px;padding:2px;cursor:pointer;flex-shrink:0',
+        oninput: (e) => { input.value = e.target.value; },
+      });
+      input.oninput = (e) => {
+        if (/^#[0-9a-fA-F]{6}$/.test(e.target.value)) farbWaehler.value = e.target.value;
+      };
+      const wrapper = h('div', { style: 'display:flex;gap:var(--s-2);align-items:center' }, input, farbWaehler);
+      gruppe.textContent = '';
+      gruppe.append(h('label', { for: 'feld-' + s }, s), wrapper);
+    }
+
+    formElemente.append(gruppe);
+  });
+
+  const speicherKnopf = h('button', {
+    class: 'knopf stark',
+    onclick: async () => {
+      speicherKnopf.disabled = true;
+      speicherKnopf.textContent = 'Speichere...';
+      const daten = {};
+      spalten.forEach((s) => {
+        daten[s] = (formFelder[s] && formFelder[s].value.trim()) || '';
+      });
+      try {
+        await apiPost('/api/sheet-sync', {
+          pfad: doc.pfad,
+          aktion: 'zeile_hinzufuegen',
+          daten: daten,
+        });
+        overlaySchliessen();
+        toast('Zeile hinzugefügt.');
+        await ansichtDoc(doc.pfad);
+      } catch (e) {
+        speicherKnopf.disabled = false;
+        speicherKnopf.textContent = 'Hinzufügen';
+        toast('Fehler: ' + e.message, true);
+      }
+    },
+  }, 'Hinzufügen');
+
+  overlayOeffnen(h('div', {},
+    h('h2', {}, 'Eintrag hinzufügen'),
+    formElemente,
+    h('div', { style: 'display:flex;justify-content:flex-end;gap:var(--s-2);margin-top:var(--s-4)' },
+      h('button', { class: 'knopf', onclick: overlaySchliessen }, 'Abbrechen'),
+      speicherKnopf,
+    ),
+  ));
 }
 
 // ---------------------------------------------------------------- Editor

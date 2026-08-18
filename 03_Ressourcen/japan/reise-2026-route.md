@@ -7,7 +7,7 @@ angelegt: 2026-08-16
 
 # Japan 26 — Route und Programm
 
-Ausgelesen aus dem Lambus-Journal: <https://journal.lambus.com/MPBJCA> (Stand 16.08.2026).
+Ausgelesen aus dem Lambus-Journal: <https://journal.lambus.com/MPBJCA> (Stand 17.08.2026).
 Diese Datei ist die Abschrift des Plans. Bewertung und offene Punkte stehen in [reise-2026-analyse.md](reise-2026-analyse.md).
 Der geplante Gunpla- und Werkzeugeinkauf ist in [gunpla-einkauf-osaka.md](gunpla-einkauf-osaka.md) vorbereitet.
 
@@ -19,7 +19,7 @@ Der geplante Gunpla- und Werkzeugeinkauf ist in [gunpla-einkauf-osaka.md](gunpla
 | Dauer | 20 Tage, 18 Nächte vor Ort |
 | Länder | Südkorea, Japan |
 | Stationen | 10 (inkl. Hin- und Rückpunkt Hannover) |
-| Programmpunkte | ~89 |
+| Programmpunkte | ~103 |
 
 ## Transport
 
@@ -32,7 +32,7 @@ Der geplante Gunpla- und Werkzeugeinkauf ist in [gunpla-einkauf-osaka.md](gunpla
 | Hiroshima → Fukuyama | 01.11. | Sanyo-Shinkansen, Pass | Pass geprüft, Kauf offen |
 | Fukuyama → Himeji → Ōsaka | 02.11. | Sanyo-Shinkansen, Pass | Pass geprüft, Kauf offen |
 | Ōsaka → Kanazawa | 04.11. | Thunderbird, Umstieg Tsuruga, Pass | Abdeckung zu verifizieren |
-| Kanazawa → Takayama | 06.11. | vermutlich Bus | separat, offen |
+| Kanazawa → Shirakawa-go → Takayama | 06.11. | Highway-Bus (13:50 ab Kanazawa West Exit) | separat, offen (Reservierung nötig) |
 | Takayama → Tokio | 08.11. | Zug über Nagoya | separat, offen |
 | Tokio → Kopenhagen → Hannover | 13.11. | Flug, ein Umstieg | gebucht |
 
@@ -144,16 +144,29 @@ Die Punkte 3 bis 6 sind Vorschläge ohne feste Zeiten und weichen dem Einkauf. D
 
 ### Mi, 04.11. — Ōsaka → Kanazawa
 1. 10:00 Shin-Ōsaka Station
+2. 13:00 Kanazawa Station
+3. 13:30–14:30 Ōmichō-Markt (4.0)
+4. 15:00–16:00 Nap (Pause / Hotel)
+5. 16:00–18:00 Kazuemachi Chaya District (4.2) — historisches Geisha-Viertel
+6. 16:30–17:00 Tsuchiya Cafe (4.7)
+7. 19:00–21:00 大将軍 金沢店 / Daishogun Kanazawa (4.7) — Yakiniku
 
 Check-in Tokyu Stay Kanazawa.
 
 ### Do, 05.11. — Kanazawa
-1. Frühstück im Hotel
-
-Sonst nichts geplant.
+1. 08:00–09:00 Iki-iki Tei (4.3) — Kaisen-don am Ōmichō-Markt
+2. 09:30–10:00 Oyama-Schrein (4.2) — bekannt für das Tor mit Buntglasfenstern
+3. 10:00–11:00 Burg Kanazawa (4.4)
+4. 11:00–12:00 Kenroku-en (4.4) — berühmter Landschaftsgarten (Yukizuri-Saison)
+5. 14:00–15:00 Nap (Pause / Hotel)
+6. 14:30–15:00 Kanazawa City Ashigaru Museum (4.0) — Fußsoldaten-Häuser im Samurai-Viertel Nagamachi
+7. 15:00–16:00 Nomura-ke Samurai Heritage Residence (4.3) — restauriertes Samurai-Haus mit Garten
 
 ### Fr, 06.11. — Kanazawa → Takayama
-1. Shirakawa-go (4.5)
+1. 10:00–12:00 Higashiyama Higashi Chaya District (4.1) — größtes Geisha-Viertel Kanazawas
+2. 11:30–12:00 bonne journee une (4.9) — Bäckerei / Café
+3. 13:50 Kanazawa Station West Exit (3.6) — Busabfahrt nach Shirakawa-go / Takayama
+4. Shirakawa-go (4.5) — historisches Gasshō-Zukuri-Dorf
 
 Check-in HOTEL WOOD Takayama.
 

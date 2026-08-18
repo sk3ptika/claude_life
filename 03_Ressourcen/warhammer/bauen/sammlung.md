@@ -1,7 +1,9 @@
 ---
 titel: Sammlung
 typ: notiz
-aktualisiert: 2026-08-16
+status: aktiv
+angelegt: 2026-08-16
+aktualisiert: 2026-08-17
 ---
 
 # Sammlung
@@ -13,13 +15,22 @@ Nur `versiegelt` zählt als fertig.
 
 | Fraktion | Einheit | Modelle | Status | Rezept | Gekauft | Notiz |
 |---|---|---|---|---|---|---|
-|  |  |  |  |  |  |  |
+| Blood Angels | Blood Angels (Armageddon Box) | noch erfassen | in Arbeit | [klassisch](../malen/rezepte/blood-angels-klassisch.md) / [schnell](../malen/rezepte/blood-angels-schnell.md) | 2026-08 | Aus Armageddon Starterbox |
+| Orks | Orks (Armageddon Box) | noch erfassen | in Arbeit | [klassisch](../malen/rezepte/orks-klassisch.md) | 2026-08 | Aus Armageddon Starterbox |
 
 ## Kill Team
 
 | Team | Modelle | Status | Rezept | Gekauft | Notiz |
 |---|---|---|---|---|---|
-|  |  |  |  |  |  |
+| Wolf Scouts | noch erfassen | ungeöffnet | — | 2026-08 | Space Wolves Kill Team Box |
+| Exodites | noch erfassen | ungeöffnet | — | 2026-08 | Aeldari, aus Kill Team Box |
+| Orks (NSKs) | noch erfassen | ungeöffnet | — | 2026-08 | Aus Kill Team Box Exodites |
+
+## Gelände
+
+| Set | Teile / Modelle | Status | Rezept | Gekauft | Notiz |
+|---|---|---|---|---|---|
+| Combat Patrol Terrain Set | noch erfassen | ungeöffnet | — | 2026-08 | Neue Version |
 
 ## Farben und Werkzeug
 
@@ -43,9 +54,9 @@ Die vier mit „Japan 11/2026" markierten Positionen werden auf der Japan-Reise 
 
 Beim Aktualisieren mitführen:
 
-- Modelle gesamt: 
-- Davon versiegelt: __ (__ %)
-- Zugänge letzte 90 Tage: 
-- Fertiggestellt letzte 90 Tage: 
+- Modelle gesamt: noch erfassen
+- Davon versiegelt: 0 (0 %)
+- Zugänge letzte 90 Tage: 4 Boxen / Sets (Armageddon, Wolf Scouts, Exodites, Combat Patrol Terrain)
+- Fertiggestellt letzte 90 Tage: 0
 
 Wenn Zugänge dauerhaft über Fertigstellungen liegen, liegt das Problem beim Einkauf, nicht beim Pinsel.
