@@ -5,7 +5,7 @@ status: aktiv
 angelegt: 2026-08-18
 deadline: 2026-10-18
 bereich: fotografie
-aktualisiert: 2026-08-18
+aktualisiert: 2026-08-19
 ---
 
 # X100V Japan-ready
@@ -26,25 +26,32 @@ Deadline ist bewusst der 18.10., eine Woche vor Abflug. Danach ist die Konfigura
 
 ## Nächster Schritt
 
-- [ ] Session 1: Ist-Zustand der Kamera auslesen und die Grundbelegung einrichten — Termin: 2026-08-23
+- [ ] Session 1: Kamera nach der Sollliste einrichten und die fünf Bänke anlegen — Termin: 2026-08-23
 
 ## Weitere Schritte
 
-**Session 1 — Ist-Zustand und Grundgerüst (23.08.)**
+**Session 1 — Einrichten (23.08.)**
 
-- [ ] Firmware-Stand prüfen und ggf. aktualisieren (`fujifilm-x.com/support/download/firmware/`) — **vor** allem anderen, ein Update kann Einstellungen zurücksetzen
-- [ ] Auslesen und in [kamera-x100v.md](../../03_Ressourcen/fotografie/kamera-x100v.md) eintragen: Was steht aktuell in C1–C7? Welche Fn-Belegung ist aktiv? Wie sind die drei Auto-ISO-Sets gesetzt?
-- [ ] **Offene Frage klären:** Speichert eine Bank die Auswahl `AUTOM. ISO-EINST.` mit? Test: AUTO1 in C1 speichern, auf AUTO3 wechseln, Bank neu aufrufen, prüfen. Ergebnis in der Belegung notieren — davon hängt ab, ob die Fn2-Belegung Pflicht oder Komfort ist
-- [ ] Grundeinstellungen setzen (Liste in [kamera-x100v.md](../../03_Ressourcen/fotografie/kamera-x100v.md), Abschnitt „Grundeinstellungen")
-- [ ] Fn-Tasten belegen — Kurzweg: DISP/BACK gedrückt halten
-- [ ] Drei Auto-ISO-Sets setzen
-- [ ] Rezept 1 (Stadt bei Tag) in C1 speichern und dabei den Weg `BEN.EINST. BEARBEITEN/SPEICHER` einmal komplett durchgehen
-- [ ] Belegungsdatei auf den tatsächlichen Stand bringen
+Ist-Zustand ist am 19.08. aus Menü-Screenshots erfasst, Firmware ist aktuell. Diese Session ist reine Umsetzung — nur die Punkte am Ende sind noch Erkundung.
+
+- [ ] `BILDGRÖSSE` von `L 16:9` auf `L 3:2` stellen
+- [ ] `BILDQUALITÄT` von `F` auf `FINE+RAW`
+- [ ] `AUSLÖSERTYP` von `M+E` auf `MECHANISCHER AUSLÖSER`
+- [ ] `SELBSTAUSLÖSER SPEICHERN` auf `AUS`, integrierten Blitz auf `AUS`
+- [ ] Restliche Grundeinstellungen aus [kamera-x100v.md](../../03_Ressourcen/fotografie/kamera-x100v.md) setzen
+- [ ] Fn1 von `ISO` auf `BEN.EINST. AUSW.` umlegen, Fn2 von Gesichtserkennung auf `AUTOM. ISO-EINST.` — Kurzweg: DISP/BACK gedrückt halten
+- [ ] Drei Auto-ISO-Sets auf die geplanten Werte setzen (aktiv ist derzeit AUTO2 mit Werkswerten)
+- [ ] Rezept 1 (Stadt bei Tag) in C1 speichern und dabei `BEN.EINST. BEARBEITEN/SPEICHER` einmal komplett durchgehen. Bank benennen
+- [ ] Die übrigen vier Rezepte in C2–C5 anlegen und benennen
+- [ ] **Offene Frage klären:** Speichert eine Bank die Auswahl `AUTOM. ISO-EINST.` mit? Test: AUTO1 in C1 speichern, auf AUTO3 wechseln, Bank neu aufrufen, prüfen
+- [ ] Nachsehen, was die Screenshots nicht zeigen: `FUNKTIONEN (Fn) 2/2` (hinteres Rad, Sucherauswahlhebel, Q-Taste), `AUFNAHME-EINSTELLUNG 3/3`, `FOKUSHEBEL-EINSTELLUNG`, `STEUERRING-EINST.`, `EVF/OVF-TOUCHS. BEREICH EINST.`, `AUFNEHMEN OHNE KARTE`
+- [ ] Spalte „Gesetzt" in der Belegung ausfüllen — danach ist die Datei wieder die Wahrheit
 
 **Session 2 — Street bei Tag (06.09.)**
 
 - [ ] C1 im Alltag fahren, mindestens 100 Auslösungen, A-Modus mit Blendenspiel
 - [ ] Prüfen: Reicht `SCHÄRFE +2` / `KLARHEIT +2`, oder ist es zu viel? Sitzt die Belichtungskorrektur im Reflex?
+- [ ] **Tonkurve vergleichen:** In der Kamera stand bisher `TON LICHTER +1`, im Rezept steht −1. Beide Varianten an hellen Fassaden und beleuchteten Schildern gegeneinander fotografieren und entscheiden
 - [ ] Bankwechsel über Fn1 üben, ohne die Kamera abzusetzen
 - [ ] Rezept 1 nachjustieren und die Änderung im Rezept **und** im Änderungsverlauf festhalten
 
@@ -100,3 +107,5 @@ Fotografiert seit fast 40 Jahren, analog begonnen, Schwarzweiß selbst entwickel
 | 2026-08-18 | Angelegt aus dem Inbox-Eintrag „Fuji Handling", Auftrag vorab abgestimmt |
 | 2026-08-18 | Entschieden: RAW+JPEG für die Reise, JPEG bleibt das Arbeitsergebnis |
 | 2026-08-18 | Bankplan, Fn-Belegung und fünf Rezepte am Handbuch entworfen |
+| 2026-08-19 | Ist-Zustand aus 14 Menü-Screenshots erfasst, Session 1 von Erkundung auf Umsetzung umgestellt |
+| 2026-08-19 | Entschieden: Fn1 = Bankwechsel, Fn2 = Auto-ISO. Aufnahmeformat `L 3:2` statt `L 16:9` |
