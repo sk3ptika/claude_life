@@ -2,36 +2,56 @@
 titel: X100V — meine Belegung
 typ: notiz
 status: aktiv
-aktualisiert: 2026-08-19
+aktualisiert: 2026-08-21
 ---
 
 # X100V — meine tatsächliche Belegung
 
 Hier steht, wie die Kamera **wirklich** eingestellt ist, nicht wie sie eingestellt sein sollte. Nach jeder Änderung aktualisieren.
 
-> **Stand 19.08.2026: Die Soll-Werte unten sind entworfen, aber noch nicht an der Kamera gesetzt.** Was tatsächlich in der Kamera steht, steht im Abschnitt [Ist-Zustand](#ist-zustand-am-19082026). Sie werden in Session 1 des Projekts [X100V Japan-ready](../../01_Projekte/2026-08_x100v-japan-ready/_projekt.md) eingerichtet. Bis dahin ist die Spalte „Gesetzt" leer. Was hier nicht als gesetzt markiert ist, steht so nicht in der Kamera.
+> **Stand 21.08.2026: eingerichtet.** Alle Grundeinstellungen sind gesetzt, die fünf Bänke sind belegt und benannt. Diese Datei beschreibt damit wieder den tatsächlichen Zustand der Kamera.
+>
+> **Ausnahme, und zwar eine wichtige:** Die Auto-ISO-Sets lassen sich **nicht** pro Bank speichern — siehe [Die zwei Griffe](#die-zwei-griffe).
 
 Nachschlagewerk: [Handbuch](x100v-handbuch.md) · Rezepte im Detail: [rezepte/](rezepte/) · Für unterwegs: [Japan-Spickzettel](japan-spickzettel.md)
 
-## Die Grundidee
+## Die zwei Griffe
 
-Ein Griff pro Situation. **Fn1 wählt die Bank, das Belichtungskorrekturrad macht den Rest.** Alles andere bleibt, wo es ist.
+**Fn1 wählt das Aussehen. Fn2 wählt das Lichtniveau. Das Korrekturrad macht den Rest.**
 
-Blenden- und Zeitautomatik sind auf der X100V keine Menüsache, sondern eine physische Geste: Zeitenrad auf `A` und Blende am Ring = Zeitautomatik (A), Blendenring auf `A` und Zeit am Rad = Blendenautomatik (S). Die Bänke fassen das nicht an. Sie regeln nur, **wie das Bild aussieht** und **wie die ISO-Automatik sich verhält**.
+Ursprünglich war ein einziger Griff geplant: Bank wählen, fertig. Das geht nicht. **Die X100V speichert die Auswahl des Auto-ISO-Sets nicht in der Bank** — sie bleibt beim zuletzt eingestellten Set stehen, egal welche Bank man aufruft (geprüft am 21.08.2026). Damit sind es zwei unabhängige Griffe.
+
+Das ist kein Verlust, sondern ehrlicher: Was ich fotografiere und wieviel Licht da ist, sind zwei verschiedene Fragen. Ein Tempel von innen bei Tag und derselbe Tempel bei Nacht brauchen dasselbe Aussehen, aber ein anderes ISO-Verhalten. Gekoppelt wäre das falsch gewesen.
+
+| Griff | Taste | Frage |
+|---|---|---|
+| Aussehen | **Fn1** → Bank | Was fotografiere ich? |
+| Lichtniveau | **Fn2** → Auto-ISO-Set | Wie hell ist es? |
+| Feinheit | Korrekturrad | Ist es zu hell oder zu dunkel geraten? |
+
+**Die Falle, die daraus folgt:** Das ISO-Set überlebt Bankwechsel *und* das Ausschalten. Wer abends auf `AUTO3` steht und am nächsten Morgen bei Sonne losfotografiert, fotografiert den ganzen Tag mit Standard ISO 640 und Mindestzeit ¹⁄₆₀ statt ¹⁄₁₂₅ — also mit unnötigem Rauschen und mit Bewegungsunschärfe bei Gehenden. Deshalb steht das Zurückstellen abends auf dem [Spickzettel](japan-spickzettel.md).
+
+Blenden- und Zeitautomatik sind auf der X100V ohnehin keine Menüsache, sondern eine physische Geste: Zeitenrad auf `A` und Blende am Ring = Zeitautomatik (A), Blendenring auf `A` und Zeit am Rad = Blendenautomatik (S). Die Bänke fassen das nicht an. Sie regeln nur, **wie das Bild aussieht**.
 
 Nützlich zu wissen: Das erste Feld im Q-Menü zeigt immer die aktive Bank (`BASE` = keine). Werte, die von der Bank abweichen, erscheinen **rot**, und Änderungen im Q-Menü werden **nicht** in die Bank zurückgeschrieben. Man kann also jederzeit gefahrlos abweichen — Bank neu wählen stellt den Ausgangszustand wieder her.
 
 ## Custom-Bänke
 
-| Bank | Zweck | Film-Sim | Auto-ISO | Rezeptdatei | Gesetzt | Zuletzt benutzt |
+| Bank | Name in der Kamera | Zweck | Film-Sim | ISO-Set dazu | Rezeptdatei | Zuletzt benutzt |
 |---|---|---|---|---|---|---|
-| C1 | Stadt und Street bei Tag | `CLASSIC CHROME` | AUTO1 | [stadt-tag.md](rezepte/stadt-tag.md) |  |  |
-| C2 | Stadt bei Nacht, Neon | `KLASSISCH Schwarz` (Classic Neg.) | AUTO3 | [stadt-nacht.md](rezepte/stadt-nacht.md) |  |  |
-| C3 | Landschaft und Herbstlaub | `Velvia/LEBENDIG` | AUTO1 | [landschaft-herbst.md](rezepte/landschaft-herbst.md) |  |  |
-| C4 | Innenräume, Tempel, Museum | `ETERNA/KINO` | AUTO2 | [innenraum.md](rezepte/innenraum.md) |  |  |
-| C5 | Kontrast, Architektur, Schwarzweiß | `ACROS+ROT-FILTER` | AUTO1 | [schwarzweiss-kontrast.md](rezepte/schwarzweiss-kontrast.md) |  |  |
+| C1 | **DAY** | Stadt und Street bei Tag | `CLASSIC CHROME` | AUTO1 | [stadt-tag.md](rezepte/stadt-tag.md) |
+| C2 | **NIGHT** | Stadt bei Nacht, Neon | `KLASSISCH Schwarz` (Classic Neg.) | AUTO3 | [stadt-nacht.md](rezepte/stadt-nacht.md) |
+| C3 | **OUT** | Landschaft und Herbstlaub | `Velvia/LEBENDIG` | AUTO1 | [landschaft-herbst.md](rezepte/landschaft-herbst.md) |
+| C4 | **IN** | Innenräume, Tempel, Museum | `ETERNA/KINO` | AUTO2 | [innenraum.md](rezepte/innenraum.md) |
+| C5 | **B/W** | Kontrast, Architektur, Schwarzweiß | `ACROS+ROT-FILTER` | AUTO1 | [schwarzweiss-kontrast.md](rezepte/schwarzweiss-kontrast.md) |
 | C6 | *frei* | — | — | — | — | — |
 | C7 | *frei* | — | — | — | — | — |
+
+Alle fünf am 21.08.2026 belegt und benannt.
+
+**Die Spalte „ISO-Set dazu" ist eine Empfehlung, keine Automatik.** Sie wird nicht mitgespeichert und muss über Fn2 separat gewählt werden.
+
+**Zu den Namen:** `DAY` und `OUT` trennen nach Motiv (Stadt gegen Natur), `NIGHT` und `IN` nach Licht. Das ist nicht ganz dieselbe Logik, und im Zweifel steht man draußen, tagsüber, in einer Stadt und hat zwei Kandidaten. Merkregel: **`DAY` ist die Stadt, `OUT` ist die Natur.** Falls das unterwegs stolpert, wäre `CITY` statt `DAY` der sauberere Name — Umbenennen dauert eine Minute.
 
 C6 und C7 bleiben absichtlich leer — als Platz für etwas, das sich vor Ort als nötig herausstellt. Fünf Bänke kann man sich merken, sieben nicht.
 
@@ -43,18 +63,18 @@ Anlegen und ändern: `BEN.EINST. BEARBEITEN/SPEICHER` → Bank wählen → `BEAR
 
 Schnellster Weg zum Belegen: **DISP/BACK gedrückt halten.**
 
-| Bedienelement | Belegung | Warum | Gesetzt |
-|---|---|---|---|
-| Fn1 (Oberseite, neben dem Auslöser) | `BEN.EINST. AUSW.` | Der wichtigste Griff überhaupt. Zeigefinger, ohne die Kamera abzusetzen. **Ersetzt `ISO`** |  |
-| Fn2 (vorn, unter dem Auslöser) | `AUTOM. ISO-EINST.` | Licht ändert sich, das Aussehen nicht — Set wechseln ohne Bankwechsel. **Ersetzt `GESICHTSERK. EIN/AUS`**, wird nie benutzt |  |
-| AEL/AFL | `AE/AF SPERRE` (Werk) | Bleibt. Sitzt seit Jahrzehnten |  |
-| Hinteres Rad drücken | `FOKUSKONTROLLE` (Werk) | Bleibt. Lupe zur Schärfekontrolle |  |
-| Sucherauswahlhebel (ziehen und halten) | `ND-FILTER` (Werk) | Bleibt. −4 LW für f/2 bei Sonne und für Wasser mit langer Zeit |  |
-| Q-Taste | `SCHNELLMENÜ` (Werk) | Bleibt. Der Weg für alles, was keine Bank hat |  |
-| Touch hoch (T-Fn1) | *aus* | Wischgesten sind ab Werk aus und bleiben es |  |
-| Touch rechts (T-Fn2) | *aus* | dito |  |
-| Touch runter (T-Fn3) | *aus* | dito |  |
-| Touch links (T-Fn4) | *aus* | dito |  |
+| Bedienelement | Belegung | Warum |
+|---|---|---|
+| Fn1 (Oberseite, neben dem Auslöser) | `BEN.EINST. AUSW.` | Der wichtigste Griff überhaupt. Zeigefinger, ohne die Kamera abzusetzen. **Ersetzt `ISO`** |
+| Fn2 (vorn, unter dem Auslöser) | `AUTOM. ISO-EINST.` | **Pflicht, nicht Komfort** — das ISO-Set liegt nicht in der Bank und muss separat gewählt werden. Ersetzt `GESICHTSERK. EIN/AUS`, wird nie benutzt |
+| AEL/AFL | `AE/AF SPERRE` (Werk) | Bleibt. Sitzt seit Jahrzehnten |
+| Hinteres Rad drücken | `FOKUSKONTROLLE` (Werk) | Bleibt. Lupe zur Schärfekontrolle |
+| Sucherauswahlhebel (ziehen und halten) | `ND-FILTER` (Werk) | Bleibt. −4 LW für f/2 bei Sonne und für Wasser mit langer Zeit |
+| Q-Taste | `SCHNELLMENÜ` (Werk) | Bleibt. Der Weg für alles, was keine Bank hat |
+| Touch hoch (T-Fn1) | *aus* | Wischgesten sind ab Werk aus und bleiben es |
+| Touch rechts (T-Fn2) | *aus* | dito |
+| Touch runter (T-Fn3) | *aus* | dito |
+| Touch links (T-Fn4) | *aus* | dito |
 
 **Warum die Wischgesten aus bleiben:** Beim Blick durch den Sucher liegt die Nase auf dem Display. Aktive Wischgesten lösen dann von selbst aus. Stattdessen wird das Display als Trackpad für das AF-Feld genutzt — siehe Grundeinstellungen.
 
@@ -64,11 +84,11 @@ Der Steuerring am Objektiv steht auf `AUS`. Er würde sonst beim Zugreifen verse
 
 `AUFNAHME-EINSTELLUNG > AUTOM. ISO-EINST.` Das ISO-Rad steht dafür auf `A`.
 
-| Set | Standard | Maximum | Mindest-Verschlusszeit | Wofür | Gesetzt |
+| Set | Standard | Maximum | Mindest-Verschlusszeit | Wofür |
 |---|---|---|---|---|---|
-| AUTO1 „TAG" | 320 | 1600 | ¹⁄₁₂₅ s | Draußen bei Tag. ¹⁄₁₂₅ friert Gehende ein |  |
-| AUTO2 „INNEN" | 640 | 6400 | ¹⁄₆₀ s | Tempel, Museum, Dämmerung |  |
-| AUTO3 „NACHT" | 640 | 12800 | ¹⁄₆₀ s | Stadt bei Nacht |  |
+| AUTO1 „TAG" | 320 | 1600 | ¹⁄₁₂₅ s | Draußen bei Tag. ¹⁄₁₂₅ friert Gehende ein |
+| AUTO2 „INNEN" | 640 | 6400 | ¹⁄₆₀ s | Tempel, Museum, Dämmerung |
+| AUTO3 „NACHT" | 640 | 12800 | ¹⁄₆₀ s | Stadt bei Nacht |
 
 **Warum Standard 320 statt 160:** `DYNAMIKBEREICH 200%` ist erst ab ISO 320 verfügbar, `400%` erst ab ISO 640. Steht der Standardwert auf 160, zieht die Kamera ihn ohnehin hoch, sobald DR200 im Rezept steht — dann lieber gleich sauber eintragen. Bei ISO 320 kostet das an der X100V praktisch nichts.
 
@@ -76,31 +96,33 @@ Der Steuerring am Objektiv steht auf `AUS`. Er würde sonst beim Zugreifen verse
 
 **Nur relevant in A und P.** Im S-Modus gibt die Zeit ohnehin die Hand vor.
 
+**Das Set gehört nicht zur Bank.** Es bleibt stehen, bis es über Fn2 geändert wird — über Bankwechsel und über das Ausschalten hinweg. Siehe [Die zwei Griffe](#die-zwei-griffe).
+
 Die Werte für AUTO2 und AUTO3 sind Startwerte. Die eigene Verwacklungsgrenze bei 23 mm wird in Session 3 ermittelt und hier eingetragen — die X100V hat keinen Bildstabilisator.
 
 ## Grundeinstellungen
 
 Einmal setzen, dann nie wieder anfassen. Diese Punkte liegen außerhalb der Bänke.
 
-| Einstellung | Wert | Warum | Gesetzt |
+| Einstellung | Wert | Warum |
 |---|---|---|---|
-| `BILDGRÖSSE` | `L 3:2` | Volle Sensorfläche. 16:9 in der Kamera wirft Pixel weg, die nie wiederkommen — das Kinoformat entsteht beim Zuschneiden danach |  |
-| `BILDQUALITÄT` | `FINE+RAW` | Nur für die Reise. JPEG ist das Ergebnis, RAW das Netz |  |
-| `D-BEREICHSPRIORITÄT` | `AUS` | **Pflicht.** Steht sie nicht auf `AUS`, setzt die Kamera Tonkurve und Dynamikbereich selbst — alle Rezepte wären wirkungslos |  |
-| `FOKUSHEBEL-EINSTELLUNG` | `AN` | Direkt kippen, kein Vorab-Druck. Schneller |  |
-| `EVF/OVF-TOUCHS. BEREICH EINST.` | rechte Hälfte | AF-Feld per Daumen verschieben, ohne dass die Nase mitredet |  |
-| `TOUCH-FUNKTION` | `AUS` | Wischgesten, siehe oben |  |
-| `STEUERRING-EINST.` | `AUS` | Gegen versehentliches Verstellen |  |
-| `PRE-AF` | `AUS` | Frisst Akku, und die X100V hat davon wenig |  |
-| `PRIO. AUSLÖSEN/FOKUS` | `AUSLÖSEN` | Auf der Straße ist ein leicht unscharfes Bild besser als keins |  |
-| `AF MODUS` | `EINZELPUNKT` | Kontrolle statt Kameraraten. Fokusmodus `S` |  |
-| `GES./AUGEN-ERKENN.-EINST.` | `AUS` | **Wichtig:** Ist sie an, misst die Kamera auf das Gesicht und `AE-MESSUNG` wird wirkungslos. Bei Bedarf über das Q-Menü zuschalten |  |
-| `AE-MESSUNG` | `MEHRFELD` | Standard. `SPOT` bei Gegenlicht über das Q-Menü |  |
-| `AUSLÖSERTYP` | `MECHANISCHER AUSLÖSER` | Der Zentralverschluss ist ohnehin fast lautlos. Der elektronische bringt Streifen unter Leuchtstofflicht, verzerrt Bewegung und lässt den Blitz nicht zünden |  |
-| `AUFNEHMEN OHNE KARTE` | `OFF` | Verhindert Fotografieren ins Leere |  |
-| `SELBSTAUSLÖSER SPEICHERN` | `AUS` | Sonst steht er beim nächsten Einschalten noch an |  |
-| `FARBRAUM` | `sRGB` | Für Bildschirm und Weitergabe. Adobe RGB nur für Druckerei |  |
-| `Integrierter Blitz` | `AUS` | In Japan durchgehend unerwünscht — Tempel, Museen, Züge, Menschen. Bei Bedarf gezielt einschalten |  |
+| `BILDGRÖSSE` | `L 3:2` | Volle Sensorfläche. 16:9 in der Kamera wirft Pixel weg, die nie wiederkommen — das Kinoformat entsteht beim Zuschneiden danach |
+| `BILDQUALITÄT` | `FINE+RAW` | Nur für die Reise. JPEG ist das Ergebnis, RAW das Netz |
+| `D-BEREICHSPRIORITÄT` | `AUS` | **Pflicht.** Steht sie nicht auf `AUS`, setzt die Kamera Tonkurve und Dynamikbereich selbst — alle Rezepte wären wirkungslos |
+| `FOKUSHEBEL-EINSTELLUNG` | `AN` | Direkt kippen, kein Vorab-Druck. Schneller |
+| `EVF/OVF-TOUCHS. BEREICH EINST.` | rechte Hälfte | AF-Feld per Daumen verschieben, ohne dass die Nase mitredet |
+| `TOUCH-FUNKTION` | `AUS` | Wischgesten, siehe oben |
+| `STEUERRING-EINST.` | `AUS` | Gegen versehentliches Verstellen |
+| `PRE-AF` | `AUS` | Frisst Akku, und die X100V hat davon wenig |
+| `PRIO. AUSLÖSEN/FOKUS` | `AUSLÖSEN` | Auf der Straße ist ein leicht unscharfes Bild besser als keins |
+| `AF MODUS` | `EINZELPUNKT` | Kontrolle statt Kameraraten. Fokusmodus `S` |
+| `GES./AUGEN-ERKENN.-EINST.` | `AUS` | **Wichtig:** Ist sie an, misst die Kamera auf das Gesicht und `AE-MESSUNG` wird wirkungslos. Bei Bedarf über das Q-Menü zuschalten |
+| `AE-MESSUNG` | `MEHRFELD` | Standard. `SPOT` bei Gegenlicht über das Q-Menü |
+| `AUSLÖSERTYP` | `MECHANISCHER AUSLÖSER` | Der Zentralverschluss ist ohnehin fast lautlos. Der elektronische bringt Streifen unter Leuchtstofflicht, verzerrt Bewegung und lässt den Blitz nicht zünden |
+| `AUFNEHMEN OHNE KARTE` | `OFF` | Verhindert Fotografieren ins Leere |
+| `SELBSTAUSLÖSER SPEICHERN` | `AUS` | Sonst steht er beim nächsten Einschalten noch an |
+| `FARBRAUM` | `sRGB` | Für Bildschirm und Weitergabe. Adobe RGB nur für Druckerei |
+| `Integrierter Blitz` | `AUS` | In Japan durchgehend unerwünscht — Tempel, Museen, Züge, Menschen. Bei Bedarf gezielt einschalten |
 
 **Belichtungskorrekturrad:** bleibt physisch, auf den gerasteten Stellungen. Es ist der zweite Griff nach der Bank und soll ohne Hinsehen funktionieren. Die `C`-Stellung (±5 LW über das Rad) wird nicht gebraucht.
 
@@ -155,9 +177,10 @@ Auf `FUNKTIONEN (Fn) 1/2` sind T-Fn1 bis T-Fn4 belegt, die Symbole sind auf dem 
 
 ## Offene Fragen zur Kamera
 
-- Speichert eine Bank die Auswahl `AUTOM. ISO-EINST.` mit? Test in Session 1: AUTO1 in C1 speichern, auf AUTO3 wechseln, Bank neu aufrufen. Ergebnis hier eintragen.
-- Wie langsam wird die Kamera durch `KLARHEIT`? Falls es beim Street-Tempo stört: Klarheit runter, Schärfe rauf.
-- Eigene Verwacklungsgrenze bei 23 mm freihändig — in Session 3 ermitteln.
+- ~~Speichert eine Bank die Auswahl `AUTOM. ISO-EINST.` mit?~~ **Beantwortet am 21.08.2026: nein.** Das Set bleibt beim zuletzt gewählten stehen. Fn2 ist damit Pflicht.
+- Wie langsam wird die Kamera durch `KLARHEIT`? Falls es beim Street-Tempo stört: Klarheit runter, Schärfe rauf. Prüfung in Session 2.
+- Eigene Verwacklungsgrenze bei 23 mm freihändig — in Session 3 ermitteln, dann die Mindest-Verschlusszeiten in AUTO2/AUTO3 nachziehen.
+- Halten die Namen `DAY` und `OUT` unter Zeitdruck auseinander, oder wird `CITY` gebraucht? Antwort in Session 2.
 
 ## Änderungsverlauf
 
@@ -167,3 +190,5 @@ Auf `FUNKTIONEN (Fn) 1/2` sind T-Fn1 bis T-Fn4 belegt, die Symbole sind auf dem 
 | 2026-08-19 | Ist-Zustand aus 14 Menü-Screenshots erfasst | Firmware aktuell, keine Bank belegt, Fn1 auf ISO, Fn2 auf Gesichtserkennung |
 | 2026-08-19 | Entschieden: Fn1 bekommt den Bankwechsel, ISO wandert auf Fn2 | Der Bankwechsel wird der häufigste Griff und gehört auf die besser erreichbare Taste. Gesichtserkennung auf Fn2 wird nie benutzt |
 | 2026-08-19 | Entschieden: Aufnahme in `L 3:2` statt `L 16:9` | Beschnitt in der Kamera ist im JPEG endgültig. 16:9 entsteht beim Zuschneiden, nicht beim Auslösen |
+| 2026-08-21 | Alle Grundeinstellungen gesetzt, C1–C5 belegt und benannt (DAY, NIGHT, OUT, IN, B/W) | Session 1 |
+| 2026-08-21 | Bedienmodell von einem auf zwei Griffe geändert | Die Kamera speichert das Auto-ISO-Set nicht pro Bank. Fn2 wird damit Pflicht statt Komfort |

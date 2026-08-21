@@ -7,7 +7,7 @@ angelegt: 2026-08-18
 
 # Kontrast und Architektur — Acros mit Rotfilter
 
-**Bank C5** · Auto-ISO **AUTO1** · Modus **A**
+**Bank C5 „B/W“** · Modus **A** · dazu **AUTO1** über Fn2 wählen (nachts **AUTO3**) — das ISO-Set liegt nicht in der Bank
 
 Die Bank für das, was ohnehin gefällt: Kompositionen mit Kontrasten. Dachlinien gegen den Himmel, Betonarchitektur, Regen auf Asphalt, Schatten in engen Gassen — und die Tage, an denen das Wetter der Farbe nichts zu bieten hat. Acros ist die feinste Schwarzweiß-Simulation, die Fujifilm hat.
 

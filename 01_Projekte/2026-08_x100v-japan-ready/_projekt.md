@@ -5,7 +5,7 @@ status: aktiv
 angelegt: 2026-08-18
 deadline: 2026-10-18
 bereich: fotografie
-aktualisiert: 2026-08-19
+aktualisiert: 2026-08-21
 ---
 
 # X100V Japan-ready
@@ -26,26 +26,26 @@ Deadline ist bewusst der 18.10., eine Woche vor Abflug. Danach ist die Konfigura
 
 ## Nächster Schritt
 
-- [ ] Session 1: Kamera nach der Sollliste einrichten und die fünf Bänke anlegen — Termin: 2026-08-23
+- [ ] Session 2: C1 „DAY“ im Alltag fahren und Rezept 1 gegen die Wirklichkeit prüfen — Termin: 2026-09-06
 
 ## Weitere Schritte
 
-**Session 1 — Einrichten (23.08.)**
+**Session 1 — Einrichten — erledigt am 21.08.**
 
-Ist-Zustand ist am 19.08. aus Menü-Screenshots erfasst, Firmware ist aktuell. Diese Session ist reine Umsetzung — nur die Punkte am Ende sind noch Erkundung.
+Zwei Tage früher als geplant erledigt. Ergebnis: Kamera eingerichtet, C1–C5 belegt und benannt (`DAY`, `NIGHT`, `OUT`, `IN`, `B/W`).
 
-- [ ] `BILDGRÖSSE` von `L 16:9` auf `L 3:2` stellen
-- [ ] `BILDQUALITÄT` von `F` auf `FINE+RAW`
-- [ ] `AUSLÖSERTYP` von `M+E` auf `MECHANISCHER AUSLÖSER`
-- [ ] `SELBSTAUSLÖSER SPEICHERN` auf `AUS`, integrierten Blitz auf `AUS`
-- [ ] Restliche Grundeinstellungen aus [kamera-x100v.md](../../03_Ressourcen/fotografie/kamera-x100v.md) setzen
-- [ ] Fn1 von `ISO` auf `BEN.EINST. AUSW.` umlegen, Fn2 von Gesichtserkennung auf `AUTOM. ISO-EINST.` — Kurzweg: DISP/BACK gedrückt halten
-- [ ] Drei Auto-ISO-Sets auf die geplanten Werte setzen (aktiv ist derzeit AUTO2 mit Werkswerten)
-- [ ] Rezept 1 (Stadt bei Tag) in C1 speichern und dabei `BEN.EINST. BEARBEITEN/SPEICHER` einmal komplett durchgehen. Bank benennen
-- [ ] Die übrigen vier Rezepte in C2–C5 anlegen und benennen
-- [ ] **Offene Frage klären:** Speichert eine Bank die Auswahl `AUTOM. ISO-EINST.` mit? Test: AUTO1 in C1 speichern, auf AUTO3 wechseln, Bank neu aufrufen, prüfen
-- [ ] Nachsehen, was die Screenshots nicht zeigen: `FUNKTIONEN (Fn) 2/2` (hinteres Rad, Sucherauswahlhebel, Q-Taste), `AUFNAHME-EINSTELLUNG 3/3`, `FOKUSHEBEL-EINSTELLUNG`, `STEUERRING-EINST.`, `EVF/OVF-TOUCHS. BEREICH EINST.`, `AUFNEHMEN OHNE KARTE`
-- [ ] Spalte „Gesetzt" in der Belegung ausfüllen — danach ist die Datei wieder die Wahrheit
+- [x] `BILDGRÖSSE` von `L 16:9` auf `L 3:2` stellen
+- [x] `BILDQUALITÄT` von `F` auf `FINE+RAW`
+- [x] `AUSLÖSERTYP` von `M+E` auf `MECHANISCHER AUSLÖSER`
+- [x] `SELBSTAUSLÖSER SPEICHERN` auf `AUS`, integrierten Blitz auf `AUS`
+- [x] Restliche Grundeinstellungen aus [kamera-x100v.md](../../03_Ressourcen/fotografie/kamera-x100v.md) setzen
+- [x] Fn1 von `ISO` auf `BEN.EINST. AUSW.` umlegen, Fn2 von Gesichtserkennung auf `AUTOM. ISO-EINST.` — Kurzweg: DISP/BACK gedrückt halten
+- [x] Drei Auto-ISO-Sets auf die geplanten Werte setzen
+- [x] Rezept 1 (Stadt bei Tag) in C1 speichern und dabei `BEN.EINST. BEARBEITEN/SPEICHER` einmal komplett durchgehen. Bank benennen
+- [x] Die übrigen vier Rezepte in C2–C5 anlegen und benennen
+- [x] **Offene Frage geklärt: nein.** Die Bank speichert das Auto-ISO-Set nicht mit — es bleibt beim zuletzt gewählten stehen. Bedienmodell auf zwei Griffe umgestellt, siehe Notizen
+- [ ] Noch offen — nicht ausdrücklich bestätigt: nachsehen, was die Screenshots nicht zeigten: `FUNKTIONEN (Fn) 2/2` (hinteres Rad, Sucherauswahlhebel, Q-Taste), `AUFNAHME-EINSTELLUNG 3/3`, `FOKUSHEBEL-EINSTELLUNG`, `STEUERRING-EINST.`, `EVF/OVF-TOUCHS. BEREICH EINST.`, `AUFNEHMEN OHNE KARTE`
+- [x] Belegung auf den Ist-Stand gebracht — die Datei beschreibt die Kamera wieder korrekt
 
 **Session 2 — Street bei Tag (06.09.)**
 
@@ -83,7 +83,8 @@ Ist-Zustand ist am 19.08. aus Menü-Screenshots erfasst, Firmware ist aktuell. D
 
 ## Offene Fragen / Blocker
 
-- **Speichert eine C-Bank die Auto-ISO-Auswahl mit?** Das Handbuch spricht von „kompletten Aufnahmemenü-Kombinationen", und `AUTOM. ISO-EINST.` steht im Aufnahmemenü — es spricht also dafür, belegt ist es nicht. Sicherheit ~70 %. Wird in Session 1 durch Test geklärt. Fn2 ist unabhängig davon sinnvoll belegt.
+- ~~Speichert eine C-Bank die Auto-ISO-Auswahl mit?~~ **Am 21.08. geklärt: nein.** Meine Einschätzung von ~70 % lag daneben. Fn2 ist damit Pflicht, nicht Komfort.
+- **Halten `DAY` und `OUT` unter Zeitdruck auseinander?** Beide sind draußen und bei Tag denkbar. Merkregel ist „DAY = Stadt, OUT = Natur". Falls das in Session 2 stolpert: `CITY` statt `DAY`.
 - **Reichen fünf Bänke, oder braucht es eine sechste für Porträt/Menschen?** Erst nach Session 2 entscheidbar. Tendenz: nein — `PRO Neg. Std` lässt sich im Zweifel über das Q-Menü aufrufen, ohne eine Bank zu verbrauchen.
 - **Wird die Klarheit-Einstellung zum Problem?** `KLARHEIT` kostet Rechenzeit pro Auslösung. Ob das beim Street-Tempo stört, zeigt Session 2. Falls ja: Klarheit runter, Schärfe rauf.
 
@@ -95,6 +96,8 @@ Fotografiert seit fast 40 Jahren, analog begonnen, Schwarzweiß selbst entwickel
 **Diese Systematik bleibt die Grundlage.** Die Belegung soll sie schneller machen, nicht ersetzen. Die Wahl A oder S ist auf der X100V ohnehin eine physische Geste — Blendenring und Zeitenrad, kein Menü —, deshalb kümmern sich die Bänke nur um das Aussehen und das ISO-Verhalten.
 
 **Dateiformat:** Für die Reise `FINE+RAW`. Das RAW ist ausschließlich Sicherheitsnetz für den Fall, dass ein Bild sonst verloren wäre — gearbeitet wird mit dem JPEG aus der Kamera. Genau deshalb müssen die Rezepte sitzen: Sie sind das Produkt, nicht die Vorstufe. Notfalls kann die Kamera ein RAW selbst entwickeln (Wiedergabemenü), ohne Rechner.
+
+**Befund aus Session 1 — das Bedienmodell hat sich geändert.** Die X100V speichert die Auswahl des Auto-ISO-Sets **nicht** in der Bank; sie bleibt beim zuletzt eingestellten Set stehen. Aus einem Griff werden damit zwei: **Fn1 = Aussehen, Fn2 = Lichtniveau.** Das ist inhaltlich sogar sauberer — Motiv und Lichtmenge sind zwei unabhängige Fragen —, aber es bringt eine Falle mit: Das ISO-Set überlebt das Ausschalten. Wer abends auf AUTO3 steht, fotografiert am nächsten Morgen mit ISO 640 und ¹⁄₆₀ weiter, ohne dass es auffällt. Deshalb steht das Zurückstellen jetzt auf dem Spickzettel.
 
 **Warum genau fünf Bänke:** Sieben kann sich niemand merken, drei decken Japan nicht ab. C6 und C7 bleiben frei — als Platz für etwas, das sich vor Ort als nötig herausstellt.
 
@@ -109,3 +112,5 @@ Fotografiert seit fast 40 Jahren, analog begonnen, Schwarzweiß selbst entwickel
 | 2026-08-18 | Bankplan, Fn-Belegung und fünf Rezepte am Handbuch entworfen |
 | 2026-08-19 | Ist-Zustand aus 14 Menü-Screenshots erfasst, Session 1 von Erkundung auf Umsetzung umgestellt |
 | 2026-08-19 | Entschieden: Fn1 = Bankwechsel, Fn2 = Auto-ISO. Aufnahmeformat `L 3:2` statt `L 16:9` |
+| 2026-08-21 | Session 1 erledigt: Grundeinstellungen gesetzt, C1–C5 belegt und benannt |
+| 2026-08-21 | Auto-ISO-Set ist nicht pro Bank speicherbar — Bedienmodell von einem auf zwei Griffe umgestellt, Spickzettel und Rezepte nachgezogen |

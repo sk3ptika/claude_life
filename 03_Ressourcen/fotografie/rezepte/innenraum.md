@@ -7,7 +7,7 @@ angelegt: 2026-08-18
 
 # Innenräume, Tempel, Museum — Eterna
 
-**Bank C4** · Auto-ISO **AUTO2** · Modus **S**, wenn es eng wird
+**Bank C4 „IN“** · Modus **S**, wenn es eng wird · dazu **AUTO2** über Fn2 wählen (nachts **AUTO3**) — das ISO-Set liegt nicht in der Bank
 
 Tempelhallen, Museen, Ryokan-Innenräume, Bahnhofsunterführungen. Gemeinsamer Nenner: wenig Licht, oft Blitz- und Stativverbot, und fast immer ein viel zu helles Fenster oder eine offene Tür im Bild. Eterna hat sanfte Farben und reiche Schatten und verkraftet diesen Kontrast am ruhigsten.
 

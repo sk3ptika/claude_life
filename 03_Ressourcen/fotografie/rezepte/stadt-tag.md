@@ -7,7 +7,7 @@ angelegt: 2026-08-18
 
 # Stadt bei Tag — Classic Chrome mit Biss
 
-**Bank C1** · Auto-ISO **AUTO1** · Modus **A** (Zeitautomatik)
+**Bank C1 „DAY“** · Modus **A** (Zeitautomatik) · dazu **AUTO1** über Fn2 wählen — das ISO-Set liegt nicht in der Bank
 
 Das ist die Heimatbank: Classic Chrome, wie gewohnt — nur mit der Schärfe und der Dynamik, die dort bisher gefehlt haben. Classic Chrome ist von Haus aus bewusst flach und zurückgenommen. Genau das ist der Grund für das Gefühl, es fehle etwas. Die Korrektur passiert nicht durch einen anderen Filmtyp, sondern durch Mikrokontrast und Schattenzeichnung.
 

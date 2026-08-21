@@ -7,7 +7,7 @@ angelegt: 2026-08-18
 
 # Landschaft und Herbstlaub — Velvia
 
-**Bank C3** · Auto-ISO **AUTO1** · Modus **A**, Blende f/5,6–f/8
+**Bank C3 „OUT“** · Modus **A**, Blende f/5,6–f/8 · dazu **AUTO1** über Fn2 wählen — das ISO-Set liegt nicht in der Bank
 
 Die Reise fällt mitten in die Kōyō-Saison. Shirakawa-gō am 06.11., Takayama, die Gärten in Kanazawa — das ist der Grund, warum eine eigene Landschaftsbank gerechtfertigt ist. Classic Chrome nimmt Herbstlaub die Farbe, die genau der Anlass für das Bild war.
 

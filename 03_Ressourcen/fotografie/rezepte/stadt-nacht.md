@@ -7,7 +7,7 @@ angelegt: 2026-08-18
 
 # Stadt bei Nacht — Classic Neg für Neon
 
-**Bank C2** · Auto-ISO **AUTO3** · Modus **A**, bei Bewegung **S**
+**Bank C2 „NIGHT“** · Modus **A**, bei Bewegung **S** · dazu **AUTO3** über Fn2 wählen — das ISO-Set liegt nicht in der Bank
 
 Dōtonbori, Shinjuku, die Gassen in Hakata. Nachtstadt in Japan heißt: viele kleine, sehr helle, sehr bunte Lichtquellen vor tiefem Schwarz. Classic Neg. (im Menü `KLASSISCH Schwarz`) ist dafür gebaut — verstärkte Farbe, harte Tonalität, Bildtiefe. Classic Chrome wirkt hier stumpf.
 
