@@ -14,6 +14,10 @@ Pro Kill Team ein Dokument, das alles enthält, was am Tisch gebraucht wird: Wer
 
 Die Kompendien sind Nachschlagewerke, keine Projekte — deshalb `03_Ressourcen`.
 
+## Teamübergreifend
+
+- [Waffenregeln-Glossar](waffenregeln-glossar.md) — alle Waffenregeln in Kurzfassung, gilt für jedes Team
+
 ## Teams
 
 | Team | Fraktion | Datei | Regelstand |

@@ -15,7 +15,7 @@ Kompakte Referenz aus den Grundregeln, damit ich (Claude) als Sparringspartner/S
 **Nicht eingearbeitet** (liegen noch als PDF in `00_Inbox`, gehören ins nächste Weekly Review):
 - `universal_rules_updates` — allgemeine Klarstellungen/Erratas, Stand 22.07.2026, v. a. Interaktionen von Gefechtsoptionen mit Codexregeln
 - `faction_pack_dark_angels` — fraktionsspezifische Regeln
-- `kt_lite_rules` — Kill-Team-Grundregeln, eigenständiges Regelwerk, nicht Warhammer 40.000 (`kt_teamrules_wolf_scouts` ist am 2026-08-27 ausgewertet und liegt jetzt unter `03_Ressourcen/warhammer/spielen/kill-team/_anhaenge/`)
+- Kill-Team-PDFs — eigenständiges Regelwerk, nicht Warhammer 40.000. Beide sind am 2026-08-27 ausgewertet und liegen jetzt unter `03_Ressourcen/warhammer/spielen/kill-team/_anhaenge/`, siehe [Kill-Team-Kompendien](../kill-team/kill-team-kompendien.md).
 - `warhammer_dominatus_event_companion` — Event-/Turnierformat-Leitfaden, keine Grundregeln (5 Seiten, ursprünglich mit den Grundregeln verwechselt)
 
 ## 1. Spielaufbau in Kürze

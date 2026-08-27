@@ -11,6 +11,7 @@ bereich: warhammer
 **Regelstand:** April 2026 (Errata April '26 eingearbeitet)
 **Quelle:** `_anhaenge/kt-teamregeln-wolf-scouts-2026-04.pdf` — offizielles Teamregel-PDF, deutsch, 14 Seiten
 **Erschienen mit:** Kill Team: Dead Silence
+**Waffenregeln:** Alle Kurzformen wie Heftig, Peinigend, Tödlich x+ stehen im [Waffenregeln-Glossar](waffenregeln-glossar.md).
 
 Bei Widerspruch zwischen diesem Dokument und dem PDF gewinnt das PDF. Bekannte Widersprüche **innerhalb** des PDF stehen unten unter [Offene Punkte](#offene-punkte).
 
@@ -117,6 +118,8 @@ Alle Wolfscout-Marines teilen sich dieselben Grundwerte:
 **APG 3 · B 7" · RW 3+ · LP 13 · Base 32 mm**
 
 Das ist Phobos-Niveau bei Bewegung und Rüstung, aber mit mehr Lebenspunkten. Weniger zäh als schwer gepanzerte Astartes-Teams, dafür beweglicher.
+
+Spalten der Waffentabellen: **A** Attacken · **TW** Trefferwert · **SW/KW** Schaden normal/kritisch. Waffenregeln sind im [Glossar](waffenregeln-glossar.md) erklärt.
 
 ### 5.1 Rudelführer — ANFÜHRER
 
@@ -440,8 +443,7 @@ Maximale Nahkampfdichte, alle mit Kampfmesser für Frostwaffen. Verzichtet auf j
 1. **Widerspruch im PDF, Frostwaffen.** Die Ausrüstungskarte auf Seite 7 nennt nur „Kampfmesser Tödlich 5+". Der Errata-Eintrag auf Seite 8 nennt zusätzlich „Energiewaffe des Rudelführers Tödlich 4+". Sechs von acht Errata-Einträgen sind auf den Karten sauber eingearbeitet, genau die beiden **längeren** Texte nicht — das sieht nach einem Satzproblem in den Kartenkästen aus. Community-Quellen bestätigen die Errata-Fassung. **Empfehlung: Errata-Fassung gilt, Unsicherheit ~10 %.** Bei Turnieren vorher ansprechen.
 2. **Derselbe Widerspruch bei Spirituelle Chirurgie.** Karte auf Seite 1 zeigt die alte Fassung, Errata auf Seite 8 die neue. Gleiche Empfehlung.
 3. **Übersetzungsfehler „Marines auf der Jagd".** Deutsche Fassung sagt „zwei Aktionen Kämpfen", meint aber Schießen. Unstrittig aus dem Kontext, aber am Tisch erklärungsbedürftig.
-4. **Waffenregel-Glossar fehlt.** Begriffe wie Heftig, Ausgewogen, Peinigend, Hagel, Zielsucher leicht, Schwall, Rüstungsbrechend stehen hier unerklärt, weil sie im Grundregelbuch definiert sind und nicht im Teampaket. Das PDF `ger_jul25_kt_lite_rules` liegt noch in `00_Inbox` — daraus ein eigenes Glossar in `03_Ressourcen/warhammer/spielen/kill-team/` ableiten.
-5. **Keine eigene Spielerfahrung eingeflossen.** Die Taktikbewertungen sind aus den Regeln abgeleitet. Nach den ersten Spielen Abschnitt 8 überarbeiten.
+4. **Keine eigene Spielerfahrung eingeflossen.** Die Taktikbewertungen sind aus den Regeln abgeleitet. Nach den ersten Spielen Abschnitt 8 überarbeiten.
 
 ---
 
@@ -453,4 +455,4 @@ Maximale Nahkampfdichte, alle mit Kampfmesser für Frostwaffen. Verzichtet auf j
 - Tabletop Battles: [Kill Team April 2026 Dataslate — Hot Take](https://www.tabletopbattles.com/kill-team-april-2026-dataslate-the-tabletop-battles-hot-take) — Community-Einschätzung der Nerfs
 - [KTDash — Wolf Scouts](https://ktdash.app/killteams/IMP-WS) — Werteübersicht online
 
-Verwandt: [Kill-Team-Kompendien — Übersicht](kill-team-kompendien.md)
+Verwandt: [Kill-Team-Kompendien — Übersicht](kill-team-kompendien.md) · [Waffenregeln-Glossar](waffenregeln-glossar.md)
