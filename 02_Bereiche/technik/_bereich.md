@@ -3,6 +3,7 @@ titel: Technik
 typ: bereich
 status: aktiv
 angelegt: 2026-08-16
+aktualisiert: 2026-08-28
 ---
 
 # Technik
@@ -31,4 +32,4 @@ Noch nicht erfasst. Beim ersten Weekly Review ausfüllen.
 
 ## Referenzen
 
-- 
+- [Vault-Oberfläche auf einem Raspberry Pi Zero](vault-ui-auf-raspberry-pi.md) — Messung, Sync-Entscheidung und Einrichtungsplan

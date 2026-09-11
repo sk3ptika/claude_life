@@ -5,7 +5,7 @@ status: aktiv
 angelegt: 2026-08-16
 deadline: 2026-10-25
 bereich: reisen
-aktualisiert: 2026-08-18
+aktualisiert: 2026-09-11
 ---
 
 # Japan-Reise Vorbereitung
@@ -20,11 +20,11 @@ Am 25.10.2026 ist alles gebucht und griffbereit: Zugtickets bzw. Bahnpass für a
 
 ## Warum
 
-20 Tage, 10 Stationen, ~103 Programmpunkte. Die Flüge stehen, aber die Verbindungen dazwischen und die Tickets für die Punkte mit begrenzter Kapazität nicht. Was bis zum Abflug nicht gebucht ist, ist vor Ort entweder ausverkauft oder teuer.
+20 Tage, 10 Stationen, ~112 Programmpunkte. Die Flüge stehen, aber die Verbindungen dazwischen und die Tickets für die Punkte mit begrenzter Kapazität nicht. Was bis zum Abflug nicht gebucht ist, ist vor Ort entweder ausverkauft oder teuer.
 
 ## Nächster Schritt
 
-- [ ] Abdeckung Tsuruga–Kanazawa an der offiziellen JR-West-Gebietskarte verifizieren, dann den Pass kaufen — Termin: 2026-08-23
+- [ ] Abdeckung Tsuruga–Kanazawa an der offiziellen JR-West-Gebietskarte verifizieren, dann den Pass kaufen — Termin: 2026-09-13 (Wochenende, ursprünglich 2026-08-23)
 
 ## Weitere Schritte
 
@@ -42,9 +42,15 @@ Am 25.10.2026 ist alles gebucht und griffbereit: Zugtickets bzw. Bahnpass für a
 - [ ] Kanazawa → Shirakawa-go → Takayama (06.11.): Highway-Bus ab Kanazawa West Exit (13:50) buchen — in der Laubsaison früh ausgebucht
 - [ ] Takayama → Tokio (08.11.) über Nagoya festlegen und buchen; die Ankunftszeit bestimmt, ob der Programmstart um 14:30 in Tokio hält
 
+**Seoul — Abreise am 29.10.**
+
+- [x] City-Airport-Check-in in der Seoul Station geprüft (11.09.2026). Vor Ort in Seoul noch einmal bestätigen lassen
+- [ ] AREX-Express 15:30 Seoul Station → Incheon T2 — laut Plan morgens vor Ort, alternativ vorab online
+
 **Reservierungen mit begrenzter Kapazität**
 
-- [ ] Changdeokgung, Geheimer Garten Huwon — Zeitfenster für 27.10.
+- [ ] Leeum Museum of Art — Zeitfenster für 28.10., 10:00 (vorher Frühstück in Hannam)
+- [x] ~~Changdeokgung, Geheimer Garten Huwon~~ — gestrichen am 11.09.2026, nur der Palast
 - [ ] teamLab Planets — Zeitfenster für 11.11., 18:30
 - [ ] Shirakawa-go / Takayama-Bus 06.11. (13:50 ab Kanazawa West Exit)
 - [ ] Yakiniku Daishogun Kanazawa 04.11. (19:00) Tisch reservieren
@@ -53,14 +59,16 @@ Am 25.10.2026 ist alles gebucht und griffbereit: Zugtickets bzw. Bahnpass für a
 **Programmlücken füllen**
 
 - [x] Kanazawa (04.–06.11.) — im Journal vollständig mit 16 Punkten belegt (Stand 17.08.2026)
+- [x] Seoul (26.–29.10.) — final durchgeplant, 21 Punkte (Stand 11.09.2026), in der [Route](../../03_Ressourcen/japan/reise-2026-route.md)
 - [ ] Takayama 07.11. — Tagesprogramm bis zum Ryokan-Check-in, Altstadt und Morgenmarkt liegen nahe
-- [ ] Fukuoka 29.10. — Abend in Hakata, falls die Ankunftszeit es hergibt
+- [ ] Fukuoka 29.10. — Landung gegen 20:05, in Hakata gegen 21:00. Abend: Yatai in Nakasu. Wann die Gundam-Statue drankommt, wird vor Ort entschieden
 
 **Journal aufräumen**
 
 - [ ] Zeitkonflikte auflösen: 02.11., 03.11., 05.11. (Nap vs. Ashigaru-Museum), 10.11., 12.11.
 - [ ] Tageslisten nach Uhrzeit sortieren: 02.11., 03.11., 09.11., 10.11., 11.11.
 - [ ] Flüge und Züge in Lambus nachtragen
+- [ ] Seoul-Plan (26.–29.10.) in Lambus übernehmen — dort steht noch der alte Stand
 - [ ] Ruhetage und Öffnungszeiten der geplanten Museen gegen die Tage prüfen
 
 **Einkauf Gunpla und Modellbauwerkzeug** — [Vorbereitung](../../03_Ressourcen/japan/gunpla-einkauf-osaka.md)
@@ -106,9 +114,17 @@ Entschieden am 16.08.2026:
 - Für die Strecke bis Kanazawa wird der JR-WEST All Area Pass genommen, 7 Tage, 142 € pro Person. Offen ist nur noch die Abdeckung Tsuruga–Kanazawa.
 - Der Gunpla-Einkauf findet am 02.11. ab 15:00 statt, mit offenem Ende. Drei Läden, fix: Yellow Submarine Nanba Honten, Jungle Fantastic Machinery Museum, Volks Ōsaka Showroom. Keine Großhändler. Der 03.11. ist keine Reserve.
 
+Entschieden am 11.09.2026:
+
+- Seoul läuft nach der finalen Tagesplanung, siehe [Route](../../03_Ressourcen/japan/reise-2026-route.md).
+- Changdeokgung ohne Geheimen Garten Huwon. Die Reservierung entfällt.
+- Leeum ab 10:00. Die halbe Stunde ab 09:30 ist für ein Frühstück in Hannam.
+- Die Gundam-Statue in Fukuoka ist ein wichtiger Programmpunkt und bleibt. Ob sie am Abend des 29.10. oder am Morgen des 30.10. drankommt, wird vor Ort entschieden.
+- Der City-Airport-Check-in in der Seoul Station ist geprüft und wird vor Ort noch einmal bestätigt.
+
 ## Notizen
 
-Flüge gebucht: Hannover–Kopenhagen–Seoul (25./26.10.), Seoul–Fukuoka (29.10.), Tokio–Kopenhagen–Hannover (13.11.).
+Flüge gebucht: Hannover–Kopenhagen–Seoul (25./26.10.), Seoul–Fukuoka (29.10., Korean Air, 18:40 ab Incheon T2, Landung ca. 20:05), Tokio–Kopenhagen–Hannover (13.11.).
 
 Zugeordnet zum Bereich Reisen. Der Bereich hält den dauerhaften Standard (Pässe, Versicherung, Nachbereitung), dieses Projekt nur die Vorbereitung dieser einen Reise.
 
@@ -127,3 +143,5 @@ Zugeordnet zum Bereich Reisen. Der Bereich hält den dauerhaften Standard (Päss
 | 2026-08-16 | Einkauf entschieden: drei Läden, 02.11. ab 15:00, kein Reservetag |
 | 2026-08-17 | Lambus-Journal ausgelesen: Kanazawa 04.–06.11. mit 16 Punkten belegt, Bus 13:50 terminiert, Route und Analyse synchronisiert |
 | 2026-08-18 | Kamera-Vorbereitung als eigenes Projekt ausgelagert, Datensicherung und Stromversorgung als Punkte ergänzt |
+| 2026-09-11 | Finale Seoul-Planung (26.–29.10.) in Route und Analyse übernommen; Leeum-Reservierung, City-Airport-Check-in und Gundam-Frage ergänzt |
+| 2026-09-11 | Huwon gestrichen, Leeum ab 10:00 mit Frühstück davor, Check-in Seoul Station geprüft, Gundam-Statue spontan vor Ort; Pass-Kauf auf 13.09. gelegt |

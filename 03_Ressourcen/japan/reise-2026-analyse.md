@@ -3,18 +3,19 @@ titel: Japan 26 — Analyse des Reiseplans
 typ: notiz
 status: aktiv
 angelegt: 2026-08-16
+aktualisiert: 2026-09-11
 ---
 
 # Japan 26 — Analyse des Reiseplans
 
-Grundlage: [reise-2026-route.md](reise-2026-route.md), Stand des Lambus-Journals 17.08.2026.
+Grundlage: [reise-2026-route.md](reise-2026-route.md), Stand des Lambus-Journals 17.08.2026, für Seoul die finale Tagesplanung vom 11.09.2026.
 Die Reise startet in rund 10 Wochen.
 
 ## Programmdichte
 
 | Station | Nächte | Programmpunkte | Punkte/Tag |
 |---|---|---|---|
-| Seoul | 3 | 12 | 4,0 |
+| Seoul | 3 | 21 | 7,0 |
 | Fukuoka | 1 | 1 | 1,0 |
 | Hiroshima | 2 | 15 | 7,5 |
 | Onomichi | 1 | 3 | 3,0 |
@@ -24,6 +25,8 @@ Die Reise startet in rund 10 Wochen.
 | Tokio | 5 | 40 | 8,0 |
 
 Mit dem Update für Kanazawa ist die ehemals größte Programmlücke geschlossen: Kanazawa ist mit 16 Punkten nun ähnlich detailliert durchgetaktet wie Hiroshima, Ōsaka und Tokio. Die einzige substanzielle Lücke verbleibt damit in Takayama (07.11.).
+
+Seoul ist mit der finalen Planung vom 11.09.2026 von 12 auf 21 Punkte gewachsen und liegt damit auf dem Niveau von Hiroshima. Anders als dort sind am 27. und 28.10. jeweils 1,5 Stunden Hotelpause fest eingeplant, und die Wege laufen fast durchgehend per Taxi. Die Dichte ist deshalb weniger anstrengend, als die Zahl vermuten lässt.
 
 ## Lücken
 
@@ -36,8 +39,15 @@ Die Station ist nun vollständig mit einem Mix aus Kultur, Geisha- und Samurai-V
 **Takayama (06.–08.11.) — der Tagesteil des 07.11. ist offen.**
 Der Wechsel von HOTEL WOOD ins Ryokan Asunaro am 07.11. ist Absicht: Der Ryokan-Abend mit Kaiseki und Onsen ist selbst das Programm. Damit ist der Abend gesetzt und es fehlt nur der Tag davor — Altstadt Sanmachi-suji und Morgenmarkt liegen nahe und füllen ihn ohne weitere Anreise. Letzte verbleibende echte Programmlücke.
 
-**Fukuoka (29.–30.10.) — eine Nacht, ein Programmpunkt.**
-Durchgangsstopp bei der Einreise aus Seoul. Der Flug ist kurz, den Tag kostet vor allem die Einreise. Je nach Ankunftszeit bleibt neben der Gundam-Statue noch ein Abend in Hakata — Yatai-Stände oder Tonkotsu-Ramen wären der naheliegende Zusatz, sind aber nicht geplant.
+**Fukuoka (29.–30.10.) — eine Nacht, ein wichtiger Programmpunkt, Zeitpunkt vor Ort.**
+Durchgangsstopp bei der Einreise aus Seoul. Seit dem 11.09. ist die Ankunftszeit bekannt: Abflug Incheon 18:40, Landung gegen 20:05. Mit Einreise am Schalter (Stempel für den Bahnpass, keine Gates) und Gepäck ist man realistisch gegen 21:00 in Hakata.
+
+Die Gundam-Statue bei LaLaport Fukuoka ist ein wichtiger Programmpunkt und bleibt. Am 29.10. wird es knapp: Das Einkaufszentrum schließt ungefähr dann, wenn man frühestens dort wäre (Sicherheit 75 %). **Entschieden am 11.09.2026:** Der Zeitpunkt wird vor Ort festgelegt, je nach tatsächlicher Landung. Die beiden Varianten als Referenz:
+
+- **29.10. direkt vom Flughafen** per Taxi hin. Geht nur bei früher Landung und schneller Einreise. Ob die Statue nach Ladenschluss beleuchtet und zugänglich ist, ist nicht geklärt.
+- **30.10. morgens**, vor dem Shinkansen nach Hiroshima: LaLaport liegt nahe dem Bahnhof Takeshita, zwei Stationen von Hakata. Ein Besuch gegen 09:00 ist machbar, wenn das Gepäck im Hotel oder im Schließfach am Bahnhof bleibt. Der Programmstart in Hiroshima um 11:30 verlangt dann eine Abfahrt ab Hakata gegen 10:15. Das ist die sicherere Variante.
+
+Der Abend in Hakata ist dafür jetzt planbar: Die Yatai-Stände in Nakasu haben bis nach Mitternacht offen und passen zur Ankunftszeit.
 
 **Die Bahnabschnitte sind nicht gebucht.**
 Die drei Flüge stehen (Hannover–Kopenhagen–Seoul, Seoul–Fukuoka, Tokio–Kopenhagen–Hannover). Die sieben Zugabschnitte in Japan sind identifiziert, aber offen — und damit auch die Frage Pass oder Einzeltickets. Im Lambus-Journal ist keiner der Transporte hinterlegt; für die Reise vor Ort wäre das Nachtragen nützlich.
@@ -62,8 +72,18 @@ Die drei Flüge stehen (Hannover–Kopenhagen–Seoul, Seoul–Fukuoka, Tokio–
 
 **Der 02.11. beginnt sehr früh.** Burg Himeji ab 09:00 bedeutet Abfahrt in Fukuyama am frühen Morgen, mit Gepäck, und danach noch ein voller Ōsaka-Abend bis 22:00. Der härteste Tag der Reise.
 
+**Seoul (26.–29.10.) — Prüfpunkte aus der finalen Planung:**
+
+- **Leeum am 28.10. — gelöst.** Der Plan setzte 09:30 an, das Leeum öffnet Di–So erst um 10:00. Die halbe Stunde ist jetzt für ein Frühstück in Hannam-dong vorgesehen, das Zeitfenster wird auf 10:00 gebucht.
+- **Changdeokgung am 27.10. — ohne Huwon.** Der Geheime Garten ist am 11.09.2026 gestrichen worden, die Zeitfenster-Reservierung entfällt. Der Slot 09:15–11:00 gilt nur für den Palast.
+- **City-Airport-Check-in in der Seoul Station am 29.10. — geprüft.** Der ganze Donnerstag hängt daran, dass die Koffer morgens um 08:30 weg sind. Vor der Reise geprüft, vor Ort wird es noch einmal bestätigt. Bedingung ist ein AREX-Express-Ticket, der Check-in schließt drei Stunden vor Abflug, hier also gegen 15:40. Falls die Ausreisekontrolle in der Station doch ausfällt, entfällt in Incheon der Fast-Track-Zugang. Die normale Kontrolle ist mit 2 Stunden Puffer ab 16:21 aber noch gut machbar.
+- **Puffer am 29.10. ist solide.** Ankunft T2 um 16:21, Boarding 18:10, Gepäck schon aufgegeben. Selbst ein verpasster AREX um 15:30 kostet nur den nächsten Zug.
+- **Ruhetage passen.** Changdeokgung und Leeum schließen montags. Beide liegen auf Dienstag bzw. Mittwoch, der Montag ist nur Anreiseabend.
+- **Abweichung von Lambus.** Cafe Onion Anguk und Solsot Pot Rice House sind entfallen, HAUS NOWHERE, Gyeryugwan und das MMCA haben den Tag gewechselt. Im Journal steht noch der alte Stand.
+
 **Reservierungspflichtige Punkte** — vor Abreise prüfen:
-- Changdeokgung, Geheimer Garten Huwon (Zeitfenster-Tickets, begrenzt)
+- ~~Changdeokgung, Geheimer Garten Huwon~~ — gestrichen am 11.09.2026
+- Leeum Museum of Art, 28.10. (Zeitfenster online, 10:00)
 - teamLab Planets (Zeitfenster)
 - **Highway-Bus Kanazawa → Shirakawa-go am 06.11. (13:50 ab Kanazawa Station West Exit):** Feste Abfahrtszeit ist nun gesetzt. In der herbstlichen Laubsaison sind die Busse Richtung Shirakawa-go/Takayama oft Wochen im Voraus ausgebucht — Buchungsstart (ca. 1 Monat vorher bei Japan Bus Online / Highwaybus.com) zwingend wahrnehmen.
 - **Yakiniku Daishogun Kanazawa (04.11., 19:00–21:00):** Beliebtes Wagyu-/Yakiniku-Restaurant, Tischreservierung empfohlen.
@@ -130,9 +150,9 @@ Kanazawa → Takayama läuft über den Highway-Bus (13:50 ab Kanazawa West Exit 
 
 1. Bahnpass durchrechnen, dann die sieben Zugabschnitte buchen
 2. Takayama 07.11. mit Programm füllen (Kanazawa ist vollständig)
-3. Reservierungen anstoßen: Huwon, teamLab, Highway-Bus Kanazawa–Shirakawa-go (06.11., 13:50), Daishogun Yakiniku, Ryokan-Abendessen
+3. Reservierungen anstoßen: Leeum (10:00), teamLab, Highway-Bus Kanazawa–Shirakawa-go (06.11., 13:50), Daishogun Yakiniku, Ryokan-Abendessen
 4. Zeitkonflikte auflösen und die Tageslisten nach Uhrzeit sortieren (inkl. Nap/Ashigaru-Museum am 05.11.)
-5. Flüge und Züge im Lambus-Journal nachtragen
+5. Flüge, Züge und den Seoul-Plan im Lambus-Journal nachtragen
 6. Budget anlegen
 
 Abgearbeitet wird das im Projekt `01_Projekte/2026-08_japan-reise-vorbereitung/`.

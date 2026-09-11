@@ -3,11 +3,12 @@ titel: Japan 26 — Route und Programm
 typ: notiz
 status: aktiv
 angelegt: 2026-08-16
+aktualisiert: 2026-09-11
 ---
 
 # Japan 26 — Route und Programm
 
-Ausgelesen aus dem Lambus-Journal: <https://journal.lambus.com/MPBJCA> (Stand 17.08.2026).
+Ausgelesen aus dem Lambus-Journal: <https://journal.lambus.com/MPBJCA> (Stand 17.08.2026). Ausnahme ist Seoul (26.–29.10.): Dafür gilt die finale Tagesplanung vom 11.09.2026, die im Journal noch fehlt.
 Diese Datei ist die Abschrift des Plans. Bewertung und offene Punkte stehen in [reise-2026-analyse.md](reise-2026-analyse.md).
 Der geplante Gunpla- und Werkzeugeinkauf ist in [gunpla-einkauf-osaka.md](gunpla-einkauf-osaka.md) vorbereitet.
 
@@ -19,14 +20,15 @@ Der geplante Gunpla- und Werkzeugeinkauf ist in [gunpla-einkauf-osaka.md](gunpla
 | Dauer | 20 Tage, 18 Nächte vor Ort |
 | Länder | Südkorea, Japan |
 | Stationen | 10 (inkl. Hin- und Rückpunkt Hannover) |
-| Programmpunkte | ~103 |
+| Programmpunkte | ~112 |
 
 ## Transport
 
 | Abschnitt | Datum | Mittel | Status |
 |---|---|---|---|
 | Hannover → Kopenhagen → Seoul | 25./26.10. | Flug, ein Umstieg | gebucht |
-| Seoul → Fukuoka | 29.10. | Flug | gebucht |
+| Seoul Station → Incheon T2 | 29.10. | AREX Express 15:30, vorher City-Airport-Check-in in der Seoul Station | Check-in geprüft, Ticket am Reisetag vor Ort |
+| Seoul → Fukuoka | 29.10. | Flug Korean Air, 18:40 ab Incheon T2, Ankunft ca. 20:05 | gebucht |
 | Fukuoka → Hiroshima | 30.10. | Sanyo-Shinkansen, Pass | Pass geprüft, Kauf offen |
 | Miyajima-Fähre | 31.10. | JR-West-Fähre, Pass | Pass geprüft, Kauf offen |
 | Hiroshima → Fukuyama | 01.11. | Sanyo-Shinkansen, Pass | Pass geprüft, Kauf offen |
@@ -49,7 +51,7 @@ Die beiden Abschnitte ab Kanazawa liegen außerhalb des JR-West-Gebiets und werd
 | # | Ort | Zeitraum | Nächte | Unterkunft |
 |---|---|---|---|---|
 | 1 | Hannover | 25.10. | — | — |
-| 2 | Seoul | 26.10. – 29.10. | 3 | Thomas Hotel Myeongdong |
+| 2 | Seoul | 26.10. – 29.10. | 3 | Hotel Thomas Myeongdong |
 | 3 | Fukuoka | 29.10. – 30.10. | 1 | Tokyu Stay Hakata |
 | 4 | Hiroshima | 30.10. – 01.11. | 2 | Hotel Granvia Hiroshima |
 | 5 | Onomichi | 01.11. – 02.11. | 1 | Daiwa Roynet Hotel Fukuyama Ekimae (Fukuyama) |
@@ -65,30 +67,56 @@ Die beiden Abschnitte ab Kanazawa liegen außerhalb des JR-West-Gebiets und werd
 Abflug Hannover → Kopenhagen → Seoul.
 
 ### Mo, 26.10. — Ankunft Seoul
-Check-in Thomas Hotel Myeongdong.
 
-### Di, 27.10. — Seoul
-1. Cafe Onion Anguk (4.2) — Bäckerei/Café in restauriertem Hanok, beliebte Brote früh ausverkauft
-2. Changdeokgung (4.6) — UNESCO-Welterbe, Joseon-Palast von 1405, Geheimer Garten Huwon
-3. Seosulla-gil, Mauerweg am Jongmyo-Schrein (4.5)
-4. Solsot Pot Rice House (4.4)
-5. Ikseondong Hanok Village (4.2)
-6. Ssamziegil (4.4) — spiralförmiges Open-Air-Center in Insadong
-7. Insadong Culture Street (4.5)
-8. N Seoul Tower
-9. Gyelyugwan (4.7)
+Die vier Seoul-Tage folgen der finalen Tagesplanung vom 11.09.2026 und ersetzen hier den Lambus-Stand. Basis ist das Hotel Thomas Myeongdong. Schwerpunkte sind Kultur, Design, Märkte und Entspannung, die Wege laufen überwiegend per Taxi. Gegenüber Lambus entfallen Cafe Onion Anguk und Solsot Pot Rice House. HAUS NOWHERE wandert auf den 29.10., Gyeryugwan auf den 28.10. und das MMCA auf den 27.10. Prüfpunkte zu diesen Tagen stehen in der [Analyse](reise-2026-analyse.md).
 
-### Mi, 28.10. — Seoul
-1. HAUS NOWHERE SEOUL (4.8)
-2. National Museum of Modern and Contemporary Art (4.6)
-3. Shopping
+1. ab ca. 21:00 Check-in Hotel Thomas Myeongdong
+2. 21:30–22:30 Abendspaziergang zum Cheonggye Plaza (5 Min. zu Fuß; Quellbecken und Wasserfall), Street Food in Myeongdong
+
+### Di, 27.10. — Seoul: Palast, Kunst, Cheonggyecheon, Namsan-Seilbahn
+
+| Zeit | Station & Aktivität | Transport |
+|---|---|---|
+| 09:15–11:00 | Changdeokgung (4.6): UNESCO-Palast, geöffnet ab 09:00; ohne Geheimen Garten Huwon | Taxi oder U-Bahn Linie 1/3 (ca. 10 Min.) |
+| 11:00–12:30 | Seosulla-gil (4.5) und Ikseon-dong (4.2): Hanok-Gassen, Boutiquen, frühes Mittagessen | zu Fuß |
+| 12:30–13:45 | Insadong Culture Street (4.5) und Ssamzigil (4.4): Kunsthandwerk, Teestuben | zu Fuß |
+| 14:00–15:30 | MMCA Seoul (4.6): moderne Kunst, Tickets spontan vor Ort | zu Fuß ab Insadong (ca. 8 Min.) |
+| 15:45–17:15 | Ruhepause im Hotel Thomas (1,5 Std.) | Taxi ab MMCA (ca. 8–10 Min.) |
+| 17:15–17:45 | Cheonggyecheon: Uferpromenade direkt zum Markt | zu Fuß am vertieften Uferweg (ca. 25 Min.) |
+| 17:45–19:15 | Gwangjang Market: Street Food, Bindaetteok, Kimbap | zu Fuß (Aufgang am Markt) |
+| 19:30–21:30 | Namsan Cable Car und N Seoul Tower: Seilbahn, 360°-Nachtblick | Taxi ab Markt zur Talstation (ca. 8 Min.) |
+| 21:30 | Rückfahrt zum Hotel Thomas | Seilbahn talwärts, dann Taxi (ca. 5 Min.) |
+
+### Mi, 28.10. — Seoul: Hannam/Garosu-gil, Gyeryugwan, DDP, Naksan Fortress Trail
+
+| Zeit | Station & Aktivität | Transport |
+|---|---|---|
+| 09:30–10:00 | Frühstück in Hannam-dong, vor der Öffnung des Leeum | Taxi ab Hotel (ca. 15 Min.) |
+| 10:00–11:30 | Leeum Museum of Art — **Zeitfenster 10:00 vorab online reservieren** | zu Fuß |
+| 11:30–13:30 | Garosu-gil: Boutiquen und Mittagessen. Alternative: in Hannam-dong beim Leeum bleiben, Boutiquen und Cafés ohne Flussüberquerung | Garosu-gil: Taxi ca. 8–10 Min.; Hannam-dong: zu Fuß |
+| 13:30–15:30 | Myeongdong Shopping: Kosmetik, Mode, Flagship-Stores | Taxi nach Myeongdong (ca. 15–20 Min.) |
+| 15:30–17:00 | Ruhepause im Hotel Thomas: Einkäufe ablegen, 1,5 Std. Pause | zu Fuß (ca. 5–7 Min.) |
+| 17:15–18:30 | Gyeryugwan (4.7), Sindang: Holzgrill-Hähnchen; früh kommen, dann keine Wartezeit | Taxi ab Hotel nach Sindang (ca. 12 Min.) |
+| 18:45–19:45 | DDP (Dongdaemun Design Plaza): beleuchtetes Bauwerk | zu Fuß (ca. 10 Min.) oder Taxi |
+| 19:45–20:15 | Naksan Fortress Trail: per Taxi zum Gipfel, 15 Min. an der beleuchteten Mauer bergab | Taxi ab DDP zum Naksan-Gipfel (ca. 8 Min.), dann zu Fuß |
+| 20:15–21:15 | Café Gaeppul: Drink und Panoramablick an der Mauer | liegt direkt am Mauerweg |
+| 21:15 | Rückfahrt zum Hotel Thomas | Taxi ab Naksan/Ihwa (ca. 12 Min.) |
 
 ### Do, 29.10. — Seoul → Fukuoka
-Flug Seoul → Fukuoka.
 
-1. Life-Size RX-93ff ν Gundam Statue (4.5)
+| Zeit | Station & Aktivität | Transport |
+|---|---|---|
+| 08:30–09:15 | Check-out Hotel Thomas, dann Early Check-in in der Seoul Station (Ebene B2): AREX-Ticket für 15:30 buchen, Koffer bei Korean Air aufgeben, Ausreisekontrolle erledigen | Taxi (ca. 5 Min.) oder U-Bahn Linie 1 |
+| 09:30–10:00 | Fahrt nach Seongsu, ohne Gepäck | U-Bahn Linie 2 oder Taxi (ca. 20 Min.) |
+| 10:00–14:30 | HAUS NOWHERE SEOUL (4.8) und Seongsu: Flagship-Stores ab 11:00, Cafés, Lunch | zu Fuß vor Ort |
+| 14:30–15:00 | Rückfahrt zur Seoul Station, kein Hotel-Stopp mehr nötig | U-Bahn (Linie 2 → 1/4) oder Taxi (ca. 25 Min.) |
+| 15:30–16:21 | AREX Express Train, nonstop nach Incheon Terminal 2 | Expresszug (51 Min., Platz reserviert) |
+| 16:25–18:10 | Incheon T2: Fast-Track-Zugang (Designated Entrance) zur Sicherheitskontrolle, Boarding ab ca. 18:10 | zu Fuß |
+| 18:40 | Abflug nach Fukuoka mit Korean Air | Flug (ca. 1 Std. 25 Min.) |
 
-Check-in Tokyu Stay Hakata.
+Ankunft Fukuoka gegen 20:05, danach Einreise mit Stempel (siehe oben). Check-in Tokyu Stay Hakata.
+
+1. Life-Size RX-93ff ν Gundam Statue (4.5) — **wichtiger Programmpunkt.** Ob noch am Abend des 29.10. oder am Morgen des 30.10. vor dem Shinkansen, wird vor Ort entschieden. Die Optionen stehen in der [Analyse](reise-2026-analyse.md)
 
 Die Statue steht bei LaLaport Fukuoka, dort gibt es auch einen Gundam-Laden — reiner Programmpunkt, gekauft wird in Ōsaka ([gunpla-einkauf-osaka.md](gunpla-einkauf-osaka.md)).
 
