@@ -41,8 +41,11 @@ echo "Commit: $MSG"
 git -c gc.auto=100 gc --auto --quiet || true
 
 if git remote get-url origin >/dev/null 2>&1; then
-  git push -u origin HEAD
-  echo "Gepusht nach origin."
+  if git push -u origin HEAD; then
+    echo "Gepusht nach origin."
+  else
+    echo "Push fehlgeschlagen (offline?). Commit ist lokal gesichert — später erneut ausführen oder: git push" >&2
+  fi
 else
   echo "Kein Remote konfiguriert. Siehe _system/git.md, Schritt 2." >&2
 fi

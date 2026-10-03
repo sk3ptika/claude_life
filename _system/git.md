@@ -28,6 +28,32 @@ Google Drive Desktop schreibt in `.git`, während Git dort arbeitet. Daraus ents
 
 Folge: Das Git-Verzeichnis ist **nur auf diesem Mac**. Drive sichert es nicht mehr mit.
 
+## Offline-Betrieb
+
+Ziel: Notizen, Git und die Weboberfläche funktionieren **ohne Internet**. Stand 2026-10-03:
+
+| Teil | Offline? | Warum |
+|---|---|---|
+| Git (Status, Log, Diff, Commit) | ja | `~/.claude_life.git` liegt lokal |
+| Push | nein, wird nachgeholt | `commit.sh` committet trotzdem und meldet „Push fehlgeschlagen (offline?)“ — später erneut ausführen |
+| Weboberfläche auf diesem Mac | ja | Server läuft lokal, keine externen Skripte oder Schriften; `http://localhost:4173` |
+| Weboberfläche von anderen Geräten | nur im Heimnetz | gewollt, siehe `_system/ui/` |
+| Notizen selbst | **nur wenn in Drive fixiert** | siehe unten |
+
+### Drive: Ordner offline verfügbar halten
+
+Google Drive läuft im **Streaming-Modus** (`~/Meine Ablage` und `~/Library/CloudStorage/GoogleDrive-…/Meine Ablage` sind derselbe Ordner). macOS darf Dateien in diesem Modus bei Platzmangel auslagern — sie sind dann nur noch online da. Ohne Netz öffnet sich so eine Datei nicht, und die Oberfläche startet nicht, wenn es `server.py` trifft.
+
+Abhilfe, einmalig und von Hand: im Finder Rechtsklick auf `Claude_Life` → **„Offline verfügbar machen“**. Das fixiert den Ordner samt Unterordnern lokal.
+
+Prüfen, ob gerade etwas ausgelagert ist (Ausgabe muss leer sein):
+
+```bash
+find ~/"Meine Ablage/Claude_Life" -flags dataless -print
+```
+
+Alternative mit mehr Eingriff: Drive für alles auf **Spiegeln** umstellen (Drive-Einstellungen → Google Drive → Dateien spiegeln). Dann liegt die gesamte Ablage lokal, braucht aber entsprechend Platz.
+
 ## Warum ein Remote
 
 GitHub ist damit die einzige zweite Kopie der Historie. Fällt dieser Mac aus, sind ungepushte Commits weg — die Notizen selbst liegen weiter in Drive.
@@ -68,7 +94,7 @@ Seit 2026-10-03, alles versioniert, damit es nach einem Neu-Klonen wieder da ist
 |---|---|
 | `.gitattributes` | Zeilenenden einheitlich LF, Markdown-Diffs mit Überschrift als Kontext, PDFs und Bilder als binär markiert |
 | `_system/hooks/pre-commit` | Blockiert Konfliktkopien, Umlaute/Leerzeichen in Pfaden und Dateien über 5 MB — nur für das, was gerade gestaged ist |
-| `_system/commit.sh` | Aktiviert die Hooks selbst (`core.hooksPath`), packt lose Objekte (`gc --auto`), pusht auch Branches mit Upstream |
+| `_system/commit.sh` | Aktiviert die Hooks selbst (`core.hooksPath`), packt lose Objekte (`gc --auto`), pusht auch Branches mit Upstream, bricht offline nicht ab |
 
 Der Hook lässt sich bewusst umgehen: `git commit --no-verify`. Nur wenn klar ist, warum.
 
@@ -137,6 +163,12 @@ mv ~/.claude_life.git ~/.claude_life.git-kaputt
 ```
 
 `~/.claude_life.git-kaputt` erst entfernen, wenn klar ist, dass nichts Ungepushtes darin fehlt.
+
+### Bekannte Eigenheit: `git worktree list`
+
+Weil das Git-Verzeichnis außerhalb des Arbeitsordners liegt, zeigt `git worktree list` als Hauptordner `/Users/philipp/.claude_life.git` statt `~/Meine Ablage/Claude_Life`. Das betrifft nur die Anzeige: `git rev-parse --show-toplevel` liefert den richtigen Ordner, Status, Commit und Push funktionieren.
+
+Offen (Stand 2026-10-03): ob die Claude-App diese Liste nutzt, um neue Worktrees anzulegen. Schlägt eine neue Claude-Sitzung in diesem Ordner fehl, ist das der erste Verdacht — dann den Rückweg unten nehmen.
 
 ### Rückweg: `.git` wieder in Drive
 
