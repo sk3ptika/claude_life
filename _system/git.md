@@ -2,7 +2,7 @@
 titel: Git-Setup
 typ: notiz
 angelegt: 2026-08-16
-aktualisiert: 2026-08-16
+aktualisiert: 2026-10-03
 ---
 
 # Git-Setup
@@ -49,6 +49,30 @@ git log --oneline origin/main..main
 
 Beide Ausgaben müssen leer sein. Ist die erste nicht leer, greift `.gitignore` nicht richtig. Ist die zweite nicht leer, fehlt ein Push.
 
+## Schutzschicht im Repo
+
+Seit 2026-10-03, alles versioniert, damit es nach einem Neu-Klonen wieder da ist:
+
+| Datei | Wirkung |
+|---|---|
+| `.gitattributes` | Zeilenenden einheitlich LF, Markdown-Diffs mit Überschrift als Kontext, PDFs und Bilder als binär markiert |
+| `_system/hooks/pre-commit` | Blockiert Konfliktkopien, Umlaute/Leerzeichen in Pfaden und Dateien über 5 MB — nur für das, was gerade gestaged ist |
+| `_system/commit.sh` | Aktiviert die Hooks selbst (`core.hooksPath`), packt lose Objekte (`gc --auto`), pusht auch Branches mit Upstream |
+
+Der Hook lässt sich bewusst umgehen: `git commit --no-verify`. Nur wenn klar ist, warum.
+
+Nach einem frischen Klon greifen die Hooks erst nach dem ersten `commit.sh`-Lauf oder nach:
+
+```bash
+git config core.hooksPath _system/hooks
+```
+
+Leichter Klon auf einem zweiten Rechner (lädt alte Dateiversionen erst bei Bedarf):
+
+```bash
+git clone --filter=blob:none https://github.com/sk3ptika/claude_life.git
+```
+
 ## Was tun, wenn Drive das Repo zerlegt
 
 Symptome: `error: object file .git/objects/... is empty`, `fatal: loose object is corrupt`, oder Dateien wie `HEAD (1)` in `.git`.
@@ -67,7 +91,9 @@ Der alte Ordner wird **nicht** gelöscht, bevor der Abgleich fertig ist.
 
 ## Was NICHT ins Repo gehört
 
-Siehe `.gitignore`. Kurz: RAW-Dateien, PSD, Video, macOS-Metadaten, Drive-Konfliktkopien.
+Siehe `.gitignore`. Kurz: RAW-Dateien, PSD, Video, macOS-Metadaten, Drive-Konfliktkopien. PDFs nur in `_anhaenge/`, und dort nur bis 5 MB (Hook).
+
+Hinweis: `~/.gitconfig` enthält Git-LFS-Filter, `git-lfs` selbst ist aber nicht installiert. Deshalb in `.gitattributes` **kein** `filter=lfs` setzen — sonst scheitert jeder Commit.
 
 Wenn das Repo über ein paar hundert Megabyte wächst, liegt Bildmaterial darin, das dort nicht hingehört.
 

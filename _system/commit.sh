@@ -8,10 +8,13 @@ set -euo pipefail
 REPO="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
 cd "$REPO"
 
-if [ ! -d .git ]; then
+if ! git rev-parse --git-dir >/dev/null 2>&1; then
   echo "Kein Git-Repository in $REPO" >&2
   exit 1
 fi
+
+# Versionierte Hooks aktivieren (idempotent)
+git config core.hooksPath _system/hooks
 
 # Google-Drive-Konfliktkopien aufspüren, bevor sie committet werden
 CONFLICTS="$(find . -path ./.git -prune -o \( -name '*(1)*' -o -name '*conflicted copy*' -o -name '*Konflikt*' \) -print 2>/dev/null || true)"
@@ -34,8 +37,11 @@ fi
 git commit -m "$MSG"
 echo "Commit: $MSG"
 
+# Lose Objekte zu Packs bündeln: weniger Einzeldateien in .git, die Drive syncen muss
+git -c gc.auto=100 gc --auto --quiet || true
+
 if git remote get-url origin >/dev/null 2>&1; then
-  git push
+  git push -u origin HEAD
   echo "Gepusht nach origin."
 else
   echo "Kein Remote konfiguriert. Siehe _system/git.md, Schritt 2." >&2

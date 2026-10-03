@@ -1,0 +1,19 @@
+# Zeilenenden einheitlich LF, Git erkennt Text selbst
+* text=auto eol=lf
+
+# Markdown: Diffs mit Überschriften als Kontext
+*.md diff=markdown
+
+# Scripts müssen LF behalten, sonst laufen sie nicht
+*.sh text eol=lf
+*.command text eol=lf
+*.py text eol=lf diff=python
+
+# Binärdateien nie als Text behandeln
+*.pdf binary
+*.jpg binary
+*.jpeg binary
+*.png binary
+*.gif binary
+*.webp binary
+*.heic binary

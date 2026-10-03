@@ -1,0 +1,35 @@
+#!/usr/bin/env bash
+# Pre-commit-Hook für Claude_Life. Aktiv über: git config core.hooksPath _system/hooks
+# Prüft nur, was gerade gestaged ist. Notfalls umgehen: git commit --no-verify
+set -euo pipefail
+
+GRENZE_KB=5120   # 5 MB pro Datei
+fehler=0
+
+while IFS= read -r -d '' pfad; do
+  name="$(basename "$pfad")"
+
+  # Drive-Konfliktkopien
+  case "$name" in
+    *"(1)"*|*"(2)"*|*"conflicted copy"*|*Konflikt*)
+      echo "✗ Konfliktkopie: $pfad" >&2; fehler=1 ;;
+  esac
+
+  # Dateinamen: keine Umlaute, kein ß, keine Leerzeichen
+  if printf '%s' "$pfad" | LC_ALL=C grep -q '[^ -~]\| '; then
+    echo "✗ Umlaut, Sonderzeichen oder Leerzeichen im Pfad: $pfad" >&2; fehler=1
+  fi
+
+  # Größe
+  if [ -f "$pfad" ]; then
+    kb=$(( $(wc -c < "$pfad") / 1024 ))
+    if [ "$kb" -gt "$GRENZE_KB" ]; then
+      echo "✗ Zu groß (${kb} KB > ${GRENZE_KB} KB): $pfad — gehört in Drive, hier nur Verweis" >&2; fehler=1
+    fi
+  fi
+done < <(git -c core.quotepath=off diff --cached --name-only --diff-filter=AM -z)
+
+if [ "$fehler" -ne 0 ]; then
+  echo "Commit abgebrochen. Bewusst trotzdem: git commit --no-verify" >&2
+  exit 1
+fi
