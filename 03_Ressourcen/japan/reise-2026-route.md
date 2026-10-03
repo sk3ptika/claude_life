@@ -3,12 +3,12 @@ titel: Japan 26 — Route und Programm
 typ: notiz
 status: aktiv
 angelegt: 2026-08-16
-aktualisiert: 2026-09-11
+aktualisiert: 2026-10-03
 ---
 
 # Japan 26 — Route und Programm
 
-Ausgelesen aus dem Lambus-Journal: <https://journal.lambus.com/MPBJCA> (Stand 17.08.2026). Ausnahme ist Seoul (26.–29.10.): Dafür gilt die finale Tagesplanung vom 11.09.2026, die im Journal noch fehlt.
+Ausgelesen aus dem Lambus-Journal: <https://journal.lambus.com/MPBJCA> (Stand 03.10.2026). Das Journal gilt als maßgeblich, auch für Seoul — die frühere Sonderplanung vom 11.09.2026 ist darin aufgegangen und weicht in Einzelpunkten ab (siehe [Analyse](reise-2026-analyse.md)).
 Diese Datei ist die Abschrift des Plans. Bewertung und offene Punkte stehen in [reise-2026-analyse.md](reise-2026-analyse.md).
 Der geplante Gunpla- und Werkzeugeinkauf ist in [gunpla-einkauf-osaka.md](gunpla-einkauf-osaka.md) vorbereitet.
 
@@ -20,14 +20,14 @@ Der geplante Gunpla- und Werkzeugeinkauf ist in [gunpla-einkauf-osaka.md](gunpla
 | Dauer | 20 Tage, 18 Nächte vor Ort |
 | Länder | Südkorea, Japan |
 | Stationen | 10 (inkl. Hin- und Rückpunkt Hannover) |
-| Programmpunkte | ~112 |
+| Programmpunkte | ~128 (Lambus-Zählung, inkl. Check-ins, Pausen und Ortseinträge) |
 
 ## Transport
 
 | Abschnitt | Datum | Mittel | Status |
 |---|---|---|---|
 | Hannover → Kopenhagen → Seoul | 25./26.10. | Flug, ein Umstieg | gebucht |
-| Seoul Station → Incheon T2 | 29.10. | AREX Express 15:30, vorher City-Airport-Check-in in der Seoul Station | Check-in geprüft, Ticket am Reisetag vor Ort |
+| Seoul Station → Incheon T2 | 29.10. | AREX Express 15:30, vorher City-Airport-Check-in in der Seoul Station | Check-in geprüft, Ticket am Reisetag vor Ort. **Lambus nennt das AREX Service Center erst um 15:45 — Konflikt mit dem Zug 15:30, ungeklärt** |
 | Seoul → Fukuoka | 29.10. | Flug Korean Air, 18:40 ab Incheon T2, Ankunft ca. 20:05 | gebucht |
 | Fukuoka → Hiroshima | 30.10. | Sanyo-Shinkansen, Pass | Pass geprüft, Kauf offen |
 | Miyajima-Fähre | 31.10. | JR-West-Fähre, Pass | Pass geprüft, Kauf offen |
@@ -63,71 +63,67 @@ Die beiden Abschnitte ab Kanazawa liegen außerhalb des JR-West-Gebiets und werd
 
 ## Tag für Tag
 
+Zeiten und Orte laut Lambus-Journal (Stand 03.10.2026), nach Uhrzeit sortiert — im Journal selbst stehen die Listen teils durcheinander. Punkte ohne Zeit stehen am Ende des Tages. Wo die Planung in sich kollidiert, steht ein Hinweis; die Auflösung gehört ins Journal, nicht hierher.
+
 ### So, 25.10. — Hannover
 Abflug Hannover → Kopenhagen → Seoul.
 
 ### Mo, 26.10. — Ankunft Seoul
+1. 21:00 Check-in Hotel Thomas Myeongdong
+2. 21:30–22:30 Cheonggye Plaza (4.4)
 
-Die vier Seoul-Tage folgen der finalen Tagesplanung vom 11.09.2026 und ersetzen hier den Lambus-Stand. Basis ist das Hotel Thomas Myeongdong. Schwerpunkte sind Kultur, Design, Märkte und Entspannung, die Wege laufen überwiegend per Taxi. Gegenüber Lambus entfallen Cafe Onion Anguk und Solsot Pot Rice House. HAUS NOWHERE wandert auf den 29.10., Gyeryugwan auf den 28.10. und das MMCA auf den 27.10. Prüfpunkte zu diesen Tagen stehen in der [Analyse](reise-2026-analyse.md).
+### Di, 27.10. — Seoul: Palast, Kunst, Markt, Turm
+1. 09:00 Fritz Coffee Wonseo (4.3)
+2. 09:30–11:00 Changdeokgung (4.6) — UNESCO-Palast, **ohne** Geheimen Garten Huwon (Entscheidung 11.09.2026; die Beschreibung im Journal erwähnt ihn noch, geplant ist er nicht)
+3. 11:00–12:00 Seosulla-gil (4.5)
+4. 12:00 Ikseon-dong Hanok Village (4.2)
+5. 12:00–12:30 Solsot Pot Rice House (4.4)
+6. 13:00–13:30 Ssamziegil (4.4)
+7. 13:00–13:30 Insadong Culture Street (4.5)
+8. 14:00–15:00 MMCA Seoul (4.6)
+9. 15:45–17:00 Nap
+10. 17:30–18:30 Gwangjang Market (4.2)
+11. 19:30–21:00 N Seoul Tower (Journal: „Nord Seoul Tower")
 
-1. ab ca. 21:00 Check-in Hotel Thomas Myeongdong
-2. 21:30–22:30 Abendspaziergang zum Cheonggye Plaza (5 Min. zu Fuß; Quellbecken und Wasserfall), Street Food in Myeongdong
+Hinweis: Ssamziegil und Insadong teilen sich 13:00–13:30, Ikseon-dong und Solsot beginnen beide um 12:00 — alles dicht beieinander, kein echter Konflikt.
 
-### Di, 27.10. — Seoul: Palast, Kunst, Cheonggyecheon, Namsan-Seilbahn
+### Mi, 28.10. — Seoul: Leeum, Garosu-gil, Gyeryugwan, Naksan
+1. 10:00–11:30 Leeum Museum of Art (4.6) — **Zeitfenster 10:00 vorab online reservieren.** Die Frühstücksidee in Hannam-dong vor der Öffnung (Entscheidung 11.09.) steht nicht im Journal
+2. 12:00 Hanam Pig House Garosu-gil (4.4) — Mittagessen
+3. 12:00–14:30 Garosu-gil Street (4.3)
+4. 15:00–16:00 Nap
+5. 16:30–18:00 Shopping Myeongdong
+6. 17:30–18:30 Gyeryugwan (4.7), Sindang — Holzgrill-Hähnchen
+7. 18:30–19:00 DDP Dongdaemun Design Plaza (4.3)
+8. 19:30–20:30 Naksan Fortress Wall Trail (4.7)
+9. 19:30 Naksan Summit (4.7)
 
-| Zeit | Station & Aktivität | Transport |
-|---|---|---|
-| 09:15–11:00 | Changdeokgung (4.6): UNESCO-Palast, geöffnet ab 09:00; ohne Geheimen Garten Huwon | Taxi oder U-Bahn Linie 1/3 (ca. 10 Min.) |
-| 11:00–12:30 | Seosulla-gil (4.5) und Ikseon-dong (4.2): Hanok-Gassen, Boutiquen, frühes Mittagessen | zu Fuß |
-| 12:30–13:45 | Insadong Culture Street (4.5) und Ssamzigil (4.4): Kunsthandwerk, Teestuben | zu Fuß |
-| 14:00–15:30 | MMCA Seoul (4.6): moderne Kunst, Tickets spontan vor Ort | zu Fuß ab Insadong (ca. 8 Min.) |
-| 15:45–17:15 | Ruhepause im Hotel Thomas (1,5 Std.) | Taxi ab MMCA (ca. 8–10 Min.) |
-| 17:15–17:45 | Cheonggyecheon: Uferpromenade direkt zum Markt | zu Fuß am vertieften Uferweg (ca. 25 Min.) |
-| 17:45–19:15 | Gwangjang Market: Street Food, Bindaetteok, Kimbap | zu Fuß (Aufgang am Markt) |
-| 19:30–21:30 | Namsan Cable Car und N Seoul Tower: Seilbahn, 360°-Nachtblick | Taxi ab Markt zur Talstation (ca. 8 Min.) |
-| 21:30 | Rückfahrt zum Hotel Thomas | Seilbahn talwärts, dann Taxi (ca. 5 Min.) |
-
-### Mi, 28.10. — Seoul: Hannam/Garosu-gil, Gyeryugwan, DDP, Naksan Fortress Trail
-
-| Zeit | Station & Aktivität | Transport |
-|---|---|---|
-| 09:30–10:00 | Frühstück in Hannam-dong, vor der Öffnung des Leeum | Taxi ab Hotel (ca. 15 Min.) |
-| 10:00–11:30 | Leeum Museum of Art — **Zeitfenster 10:00 vorab online reservieren** | zu Fuß |
-| 11:30–13:30 | Garosu-gil: Boutiquen und Mittagessen. Alternative: in Hannam-dong beim Leeum bleiben, Boutiquen und Cafés ohne Flussüberquerung | Garosu-gil: Taxi ca. 8–10 Min.; Hannam-dong: zu Fuß |
-| 13:30–15:30 | Myeongdong Shopping: Kosmetik, Mode, Flagship-Stores | Taxi nach Myeongdong (ca. 15–20 Min.) |
-| 15:30–17:00 | Ruhepause im Hotel Thomas: Einkäufe ablegen, 1,5 Std. Pause | zu Fuß (ca. 5–7 Min.) |
-| 17:15–18:30 | Gyeryugwan (4.7), Sindang: Holzgrill-Hähnchen; früh kommen, dann keine Wartezeit | Taxi ab Hotel nach Sindang (ca. 12 Min.) |
-| 18:45–19:45 | DDP (Dongdaemun Design Plaza): beleuchtetes Bauwerk | zu Fuß (ca. 10 Min.) oder Taxi |
-| 19:45–20:15 | Naksan Fortress Trail: per Taxi zum Gipfel, 15 Min. an der beleuchteten Mauer bergab | Taxi ab DDP zum Naksan-Gipfel (ca. 8 Min.), dann zu Fuß |
-| 20:15–21:15 | Café Gaeppul: Drink und Panoramablick an der Mauer | liegt direkt am Mauerweg |
-| 21:15 | Rückfahrt zum Hotel Thomas | Taxi ab Naksan/Ihwa (ca. 12 Min.) |
+Hinweis: Shopping bis 18:00 überlappt Gyeryugwan ab 17:30 um eine halbe Stunde, dazu liegen Myeongdong und Sindang eine Taxifahrt auseinander.
 
 ### Do, 29.10. — Seoul → Fukuoka
+1. 09:00–09:30 Check-in — gemeint ist der City-Airport-Check-in in der Seoul Station (Ebene B2): Koffer bei Korean Air aufgeben, Ausreisekontrolle erledigen, AREX-Ticket
+2. 10:00–11:00 Kokkili Bagel (4.3)
+3. 11:00–12:00 HAUS NOWHERE SEOUL (4.8)
+4. 12:00–15:00 Shopping
+5. 15:45 AREX Travel Service Center, Seoul Station (4.3)
 
-| Zeit | Station & Aktivität | Transport |
-|---|---|---|
-| 08:30–09:15 | Check-out Hotel Thomas, dann Early Check-in in der Seoul Station (Ebene B2): AREX-Ticket für 15:30 buchen, Koffer bei Korean Air aufgeben, Ausreisekontrolle erledigen | Taxi (ca. 5 Min.) oder U-Bahn Linie 1 |
-| 09:30–10:00 | Fahrt nach Seongsu, ohne Gepäck | U-Bahn Linie 2 oder Taxi (ca. 20 Min.) |
-| 10:00–14:30 | HAUS NOWHERE SEOUL (4.8) und Seongsu: Flagship-Stores ab 11:00, Cafés, Lunch | zu Fuß vor Ort |
-| 14:30–15:00 | Rückfahrt zur Seoul Station, kein Hotel-Stopp mehr nötig | U-Bahn (Linie 2 → 1/4) oder Taxi (ca. 25 Min.) |
-| 15:30–16:21 | AREX Express Train, nonstop nach Incheon Terminal 2 | Expresszug (51 Min., Platz reserviert) |
-| 16:25–18:10 | Incheon T2: Fast-Track-Zugang (Designated Entrance) zur Sicherheitskontrolle, Boarding ab ca. 18:10 | zu Fuß |
-| 18:40 | Abflug nach Fukuoka mit Korean Air | Flug (ca. 1 Std. 25 Min.) |
+Transportplan unverändert: AREX Express 15:30 → Incheon T2 15:30–16:21, Fast-Track, Boarding ab ca. 18:10, Abflug 18:40 mit Korean Air, Landung Fukuoka ca. 20:05. **Der Journaleintrag 15:45 liegt nach der Abfahrt des Zuges um 15:30** und nach dem Check-in-Schluss (drei Stunden vor Abflug, also gegen 15:40) — Klärung offen, siehe [Analyse](reise-2026-analyse.md).
 
 Ankunft Fukuoka gegen 20:05, danach Einreise mit Stempel (siehe oben). Check-in Tokyu Stay Hakata.
 
-1. Life-Size RX-93ff ν Gundam Statue (4.5) — **wichtiger Programmpunkt.** Ob noch am Abend des 29.10. oder am Morgen des 30.10. vor dem Shinkansen, wird vor Ort entschieden. Die Optionen stehen in der [Analyse](reise-2026-analyse.md)
+1. Life-Size RX-93ff ν Gundam Statue (4.5) — **wichtiger Programmpunkt, ohne Zeit im Journal.** Ob noch am Abend des 29.10. oder am Morgen des 30.10. vor dem Shinkansen, wird vor Ort entschieden. Die Optionen stehen in der [Analyse](reise-2026-analyse.md)
 
 Die Statue steht bei LaLaport Fukuoka, dort gibt es auch einen Gundam-Laden — reiner Programmpunkt, gekauft wird in Ōsaka ([gunpla-einkauf-osaka.md](gunpla-einkauf-osaka.md)).
 
 ### Fr, 30.10. — Fukuoka → Hiroshima
 1. 11:30 Hiroshima Station (4.0)
-2. 13:00–13:30 Mitaki-dera (4.5)
-3. 13:30–14:00 Mitaki chaya (4.5)
-4. 14:30–15:00 SPINGLE Hiroshima (4.8)
-5. 15:30–16:00 Ippodo Tea (4.8)
-6. 16:00 Friedenspark (4.6)
-7. 16:00–17:00 Friedensmuseum (4.7)
+2. 12:00–13:00 Sushitatsu's Standing Sushi Bar (4.5)
+3. 13:00–13:30 Mitaki-dera (4.5)
+4. 13:30–14:00 Mitaki chaya (4.5)
+5. 14:30–15:00 SPINGLE Hiroshima (4.8)
+6. 15:30–16:00 Ippodo Tea (4.8)
+7. 16:00 Friedenspark (4.6)
+8. 16:00–17:00 Friedensmuseum (4.7)
 
 Check-in Hotel Granvia Hiroshima.
 
@@ -139,25 +135,25 @@ Check-in Hotel Granvia Hiroshima.
 5. 12:30–13:30 Henjo Cave (4.7)
 6. 14:30–15:00 Tenshinkaku (4.5)
 7. 17:00–18:00 Shukkeien Garden (4.4), Hiroshima
+8. Miyajima (Ortseintrag, ohne Zeit)
 
 ### So, 01.11. — Hiroshima → Onomichi
 1. 15-1 Higashitsuchidocho: Senkoji & Senkoji Park (4.0)
 2. Hondori Shopping Street
 3. Saikoku-Tempel (4.3)
 
-Check-in Daiwa Roynet Hotel Fukuyama Ekimae.
+Check-in Daiwa Roynet Hotel Fukuyama Ekimae. Alle drei Punkte ohne Uhrzeit.
 
 ### Mo, 02.11. — Fukuyama → Himeji → Ōsaka
 1. 09:00–13:00 Burg Himeji (4.6)
-2. **ab 15:00 Nipponbashi Denden Town (4.1) — offenes Ende.** Gunpla und Werkzeug in drei Läden: Yellow Submarine Nanba Honten, Jungle Fantastic Machinery Museum, Volks Ōsaka Showroom. Details in [gunpla-einkauf-osaka.md](gunpla-einkauf-osaka.md)
-3. 17:00–19:00 Shin Sekai (4.1)
-4. 18:00–18:30 Sennariya Coffee (4.0)
-5. 19:00–19:30 天ぷら かめや / Tempura Kameya (4.6)
-6. 21:00–22:00 Dōtonbori
+2. **ab 15:00 Nipponbashi Denden Town (4.1)** — Journal: 15:00–16:30. Beschlossen ist ein Einkauf mit offenem Ende in drei Läden: Yellow Submarine Nanba Honten, Jungle Fantastic Machinery Museum, Volks Ōsaka Showroom. Details in [gunpla-einkauf-osaka.md](gunpla-einkauf-osaka.md)
+3. 17:30–18:00 Takashimaya (4.1)
+4. 20:30–21:00 Glico Sign Dōtonbori (4.4)
+5. 21:00–22:00 Dōtonbori
 
 Check-in Fraser Residence Nankai.
 
-Die Punkte 3 bis 6 sind Vorschläge ohne feste Zeiten und weichen dem Einkauf. Den Den Town endet am Südrand praktisch vor Shin Sekai, der Anschluss stimmt also auch bei späterem Aufbruch.
+Hinweis: Das Journal beendet Den Den Town um 16:30 und setzt Takashimaya auf 17:30. Mit dem offenen Ende des Einkaufs verträgt sich das nicht — siehe [Analyse](reise-2026-analyse.md).
 
 ### Di, 03.11. — Ōsaka
 1. 10:00–10:30 Namba Yasaka-Schrein (4.4)
@@ -165,10 +161,10 @@ Die Punkte 3 bis 6 sind Vorschläge ohne feste Zeiten und weichen dem Einkauf. D
 3. 13:30–14:00 wad (4.5)
 4. 14:00–15:00 UGG Ōsaka (4.4)
 5. 14:00–15:00 Orange Street (3.8)
-6. 17:30–18:00 Takashimaya (4.1)
-7. 18:00–19:00 Abeno Harukas 300, Aussichtsplattform (4.5)
-8. 19:00–19:30 Hōzenji-Tempel (4.3)
-9. 20:30–21:00 Glico Sign Dōtonbori (4.4)
+6. 17:00–19:00 Shin Sekai (4.1)
+7. 18:00–18:30 Sennariya Coffee (4.0)
+8. 18:00–19:00 Abeno Harukas 300, Aussichtsplattform (4.5)
+9. 19:00–19:30 Hōzenji-Tempel (4.3)
 
 ### Mi, 04.11. — Ōsaka → Kanazawa
 1. 10:00 Shin-Ōsaka Station
@@ -183,18 +179,21 @@ Check-in Tokyu Stay Kanazawa.
 
 ### Do, 05.11. — Kanazawa
 1. 08:00–09:00 Iki-iki Tei (4.3) — Kaisen-don am Ōmichō-Markt
-2. 09:30–10:00 Oyama-Schrein (4.2) — bekannt für das Tor mit Buntglasfenstern
+2. 09:30–10:00 Oyama-Schrein (4.2)
 3. 10:00–11:00 Burg Kanazawa (4.4)
-4. 11:00–12:00 Kenroku-en (4.4) — berühmter Landschaftsgarten (Yukizuri-Saison)
-5. 14:00–15:00 Nap (Pause / Hotel)
-6. 14:30–15:00 Kanazawa City Ashigaru Museum (4.0) — Fußsoldaten-Häuser im Samurai-Viertel Nagamachi
-7. 15:00–16:00 Nomura-ke Samurai Heritage Residence (4.3) — restauriertes Samurai-Haus mit Garten
+4. 10:00–11:00 Gyokusen-an (4.5)
+5. 11:00–12:00 Kenroku-en (4.4)
+6. 12:00–12:30 Ishiura-Schrein (4.2)
+7. 13:00–14:00 Heiwaken (4.1)
+8. 14:00–15:00 Nap (Pause / Hotel)
+9. 14:30–15:00 Kanazawa City Ashigaru Museum (4.0)
+10. 15:00–16:00 Nomura-ke Samurai Heritage Residence (4.3)
 
 ### Fr, 06.11. — Kanazawa → Takayama
-1. 10:00–12:00 Higashiyama Higashi Chaya District (4.1) — größtes Geisha-Viertel Kanazawas
+1. 10:00–12:00 Higashiyama Higashi Chaya District (4.1)
 2. 11:30–12:00 bonne journee une (4.9) — Bäckerei / Café
 3. 13:50 Kanazawa Station West Exit (3.6) — Busabfahrt nach Shirakawa-go / Takayama
-4. Shirakawa-go (4.5) — historisches Gasshō-Zukuri-Dorf
+4. Shirakawa-go (4.5) — historisches Gasshō-Zukuri-Dorf, ohne Zeit
 
 Check-in HOTEL WOOD Takayama.
 
@@ -206,52 +205,58 @@ Nichts geplant. Wechsel ins Ryokan Asunaro.
 2. 15:30–16:00 Nijūbashi-Brücke (4.5)
 3. 16:00–17:00 KITTE Garden (4.4)
 4. 16:00–17:00 Iori — KITTE Marunouchi (4.5)
-5. Nihombashi Mitsukoshi Hauptgeschäft (4.1)
-6. 20:30–21:00 鮨 いつみ / Sushi Itsumi (4.5), Minato
+5. 16:00–17:00 Intermediatheque (4.6)
+6. Nihombashi Mitsukoshi Hauptgeschäft (4.1), ohne Zeit
+7. 20:30–21:00 鮨 いつみ / Sushi Itsumi (4.5), Minato
 
 Check-in Via Inn Prime Akasaka.
 
-### Mo, 09.11. — Tokio: Ginza, Nakano
+### Mo, 09.11. — Tokio: Ginza, Nakano, Kōenji
 1. 09:30–10:30 COFFEE・KAN Ginza Chūō-dōri (4.3)
 2. 11:00–12:00 Okuno Building (4.5)
-3. Mugi to Olive Ginza (4.1)
-4. 13:00–14:00 GINZA SIX (4.0)
-5. 14:00–15:00 Nakamura Tōkichi (4.3)
-6. 15:00–17:30 Nakano Broadway (4.2)
+3. 13:00–14:00 GINZA SIX (4.0)
+4. 14:00–15:00 Nakamura Tōkichi (4.3)
+5. 15:00–17:30 Nakano Broadway (4.2)
+6. 16:00–17:00 Coffee Zingaro (4.1)
+7. 16:00–16:30 Murakami Store / Tonari no Zingaro (3.5)
+8. 19:30–21:00 Izakaya Kōenji Tokimeki (4.7)
 
-### Di, 10.11. — Tokio: Asakusa, Kappabashi
-1. 11:00–11:30 Kakimori (4.5)
-2. 12:00–12:30 Denboin Street (4.2)
-3. 12:30–13:00 Kamo to Negi (4.8)
-4. 13:30–14:00 IYOSHI COLA Asakusa Rokku (4.9)
-5. 14:30–15:00 Inujirushi Kaban, Kappabashi (4.2)
-6. 14:30–15:00 KAMA-ASA, Messerabteilung (4.8)
-7. 14:30–15:00 Feb's coffee & scone (4.3)
-8. 17:00–18:30 Wagyu Yakiniku PANGA Asakusa (4.9)
+### Di, 10.11. — Tokio: Ueno, Asakusa, Kappabashi
+1. 09:00 Ueno Station (4.0)
+2. 09:30–10:30 Ueno-Park (4.3)
+3. 10:30–11:30 Yamashiroya (4.2)
+4. 11:30–12:30 Kamo & Negi (4.2)
+5. 12:45–13:00 Dengama (4.3)
+6. 13:00–13:30 Inujirushi Kaban, Kappabashi (4.2)
+7. 13:00–13:30 KAMA-ASA, Messerabteilung (4.8)
+8. 13:30–14:00 IYOSHI COLA Asakusa Rokku (4.9)
+9. 14:00–14:30 Denboin Street (4.2)
+10. 14:30–15:00 Feb's coffee & scone (4.3)
+11. 15:30–16:00 Kakimori (4.5)
 
-### Mi, 11.11. — Tokio: Roppongi, Odaiba
-1. 10:00–12:30 Bike Sightseeing, Minato
-2. 12:30–13:30 SUSHI TOKYO TEN Roppongi (3.9)
-3. 13:30–14:00 THE COVER NIPPON (4.4)
-4. 14:00–15:00 Tokyo City View (4.5)
-5. Mori Art Museum (4.3)
-6. 17:00–18:30 Yurikamome Line
-7. 18:30–21:00 teamLab Planets (4.6), Koto
+### Mi, 11.11. — Tokio: Shiba, Roppongi, Odaiba
+1. 10:00–11:00 Zōjō-ji (4.4)
+2. 11:00 FAMIMA FLAGSHIP STORE (4.5)
+3. 12:00–13:00 Chugoku Hanten Roppongi (4.4)
+4. 13:00–14:00 Tokyo City View (4.5)
+5. 14:30–16:00 THE COVER NIPPON (4.4)
+6. 18:00–18:30 Yurikamome Line
+7. 19:30–21:00 teamLab Planets (4.6), Koto — **Zeitfenster 19:30 reservieren**
 
-### Do, 12.11. — Tokio: Shibuya, Aoyama, Ueno
-1. 09:00–09:30 Starbucks Reserve Roastery Tokyo (4.5), Meguro
+### Do, 12.11. — Tokio: Daikanyama, Shibuya, Aoyama, Takanawa
+1. 09:15–10:00 Blue Bottle Coffee Daikanyama (4.4)
 2. 10:00–11:00 Kyu Asakura House (4.4)
 3. 11:00–11:30 DIOR Bamboo Pavilion (4.4)
 4. 11:30 Hachiko-Statue (4.3)
 5. 11:30–12:00 Shibuya Crossing (4.5)
 6. 12:00–12:30 Shibuya Parco (4.2)
-7. 12:30–13:00 PAP.COFFEE (4.7)
-8. 13:00–14:00 Cat Street
-9. 14:00 KICKS LAB. Pino Harajuku (5.0)
-10. 14:00–15:00 Imabari Towel Minami Aoyama (4.4)
-11. 15:00–16:00 Nezu-Museum (4.5)
-12. 19:00 Ueno Station (4.0)
-13. 20:00 Yamashiroya (4.2)
+7. 12:00–13:00 Tenkazushi (4.3)
+8. 12:30–13:00 PAP.COFFEE (4.7)
+9. 13:00–14:00 Cat Street
+10. 14:00 KICKS LAB. Pino Harajuku (5.0)
+11. 14:00–15:00 Imabari Towel Minami Aoyama (4.4)
+12. 15:00–16:00 Nezu-Museum (4.5)
+13. 17:00–19:00 NEWoMan Takanawa (3.9)
 
 ### Fr, 13.11. — Rückreise
 Flug Tokio → Kopenhagen → Hannover.

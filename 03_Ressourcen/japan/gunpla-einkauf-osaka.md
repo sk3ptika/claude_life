@@ -21,7 +21,7 @@ Umrechnung durchgehend mit ca. **165 JPY/EUR**. Vor der Reise gegen den Tageskur
 
 ## Zeitfenster — entschieden am 16.08.2026
 
-**Der Einkauf findet am 02.11. statt, ab 15:00, und läuft bis die Läden schließen.** Der 03.11. ist keine Option. Nach Den Den Town stehen am 02.11. keine festen Termine mehr — Shin Sekai, Sennariya, Kameya und Dōtonbori sind Vorschläge, keine Buchungen und weichen dem Einkauf.
+**Der Einkauf findet am 02.11. statt, ab 15:00, und läuft bis die Läden schließen.** Der 03.11. ist keine Option. Nach Den Den Town stehen am 02.11. keine festen Termine mehr — Takashimaya (17:30), Glico Sign (20:30) und Dōtonbori (21:00) sind Journaleinträge, keine Buchungen, und weichen dem Einkauf. Shin Sekai liegt seit dem Journalstand vom 03.10.2026 am 03.11.
 
 Damit sind aus 90 Minuten realistisch vier bis fünf Stunden geworden. Für drei Läden ist das reichlich.
 
@@ -29,7 +29,7 @@ Damit sind aus 90 Minuten realistisch vier bis fünf Stunden geworden. Für drei
 |---|---|---|
 | 29.10. | Life-Size RX-93ff ν Gundam Statue, Fukuoka | Programmpunkt, kein Einkauf — Statue steht bei LaLaport, Läden gibt es dort aber |
 | **02.11., ab 15:00** | **Nipponbashi Den Den Town, Ōsaka** | **Der Einkauf. Einzige Gelegenheit in Ōsaka** |
-| 08.–13.11. | Tokio (Nakano Broadway 09.11., Yamashiroya 12.11.) | Einzige verbleibende Rückfalloption, falls in Ōsaka nichts zu bekommen war |
+| 08.–13.11. | Tokio (Nakano Broadway 09.11., Yamashiroya 10.11.) | Einzige verbleibende Rückfalloption, falls in Ōsaka nichts zu bekommen war |
 
 Die Unterkunft (Fraser Residence Nankai) liegt in Namba am Nordrand von Den Den Town. Gekaufte Ware lässt sich zwischendurch ins Zimmer bringen, statt sie den Abend über zu tragen.
 
@@ -55,7 +55,7 @@ Es sind genau diese drei. Keine Großhändler, keine Ergänzungen.
 | **Jungle Fantastic Machinery Museum** | Roboter und Mechas, Second-Hand-Raritäten | Der Kit, wenn Neuware ausverkauft ist. Auch der Laden mit dem höchsten Schaufensterwert |
 | **Volks Ōsaka Showroom** | Neuware, Werkzeug, Spezialfarben, Präsentation | Der Kit als Neuware. Hier fällt die Entscheidung |
 
-**Laufweg:** Alle drei liegen entlang der Sakaisuji durch Nipponbashi, Namba am Nordende. Ein durchgehender Fußweg von Nord nach Süd verbindet sie ohne Umweg — und endet am Südrand von Den Den Town, also praktisch vor Shin Sekai. Der Abend im Journal schließt damit ohne Extraweg an. Die genaue Reihenfolge trotzdem einmal auf der Karte prüfen, bevor du losläufst.
+**Laufweg:** Alle drei liegen entlang der Sakaisuji durch Nipponbashi, Namba am Nordende. Ein durchgehender Fußweg von Nord nach Süd verbindet sie ohne Umweg — und endet am Südrand von Den Den Town. Takashimaya und Dōtonbori im Journal liegen dagegen im Norden bei Namba — der Weg zurück ist kurz, aber der Abend folgt nicht mehr direkt auf den Laufweg. Die genaue Reihenfolge trotzdem einmal auf der Karte prüfen, bevor du losläufst.
 
 Second Hand ist bei Gunpla unproblematisch, solange die Listung „ungebaut" (未組立) lautet — die Tüten sind ab Werk versiegelt.
 
@@ -68,7 +68,7 @@ Das ist kein Argument gegen die Entscheidung, nur die Konsequenz daraus: **Der M
 **Deshalb umso wichtiger:** Verfügbarkeit vorab online prüfen (Volks-Onlineshop, Jungle-Onlinebestand). Wenn der MGEX schon im August nirgends gelistet ist, ist die Entscheidung faktisch vor der Reise gefallen und du sparst dir die Suche vor Ort.
 
 **Plan B, falls der MGEX nicht dasteht:** RG Hi-ν nehmen — kleinere Auflage, aber breiter verfügbar, und das Budget bleibt für Werkzeug frei.
-**Plan C:** gar keinen Kit in Ōsaka kaufen, Werkzeug mitnehmen, und in Tokio bei Yamashiroya (12.11.) oder Nakano Broadway (09.11.) nachsehen. Kostet nichts außer dem Verzicht auf den Kauf am selben Tag.
+**Plan C:** gar keinen Kit in Ōsaka kaufen, Werkzeug mitnehmen, und in Tokio bei Yamashiroya (10.11.) oder Nakano Broadway (09.11.) nachsehen. Kostet nichts außer dem Verzicht auf den Kauf am selben Tag.
 
 ## Werkzeug — der eigentliche Dauerwert
 
@@ -109,7 +109,7 @@ Ausreise am 13.11. ist ein Flug ab Tokio — eine eventuelle Erstattung läuft a
 2. Ab ca. 15:00 Den Den Town, Fußweg von Namba nach Süden.
 3. Bausatz zuerst — das ist die knappe Ware. Wo er steht, wird er gekauft; nicht auf den nächsten Laden hoffen.
 4. Werkzeug gebündelt in **einem** Laden, wegen der Tax-Free-Schwelle.
-5. Ware ins Zimmer bringen (Fraser Residence Nankai liegt am Weg), dann Abend in Shin Sekai und Dōtonbori wie im Journal.
+5. Ware ins Zimmer bringen (Fraser Residence Nankai liegt am Weg), dann Abend in Dōtonbori wie im Journal (Takashimaya 17:30 nur, wenn der Einkauf bis dahin durch ist).
 
 ## Entscheidung, offen
 

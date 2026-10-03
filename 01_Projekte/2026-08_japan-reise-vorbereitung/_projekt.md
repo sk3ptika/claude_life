@@ -5,7 +5,7 @@ status: aktiv
 angelegt: 2026-08-16
 deadline: 2026-10-25
 bereich: reisen
-aktualisiert: 2026-09-11
+aktualisiert: 2026-10-03
 ---
 
 # Japan-Reise Vorbereitung
@@ -16,11 +16,11 @@ Reiseplan und Analyse liegen in `03_Ressourcen/japan/`:
 
 ## Ergebnis
 
-Am 25.10.2026 ist alles gebucht und griffbereit: Zugtickets bzw. Bahnpass für alle sieben Japan-Abschnitte, die reservierungspflichtigen Programmpunkte bestätigt (inkl. Highway-Bus ab Kanazawa), Takayama 07.11. mit Programm belegt (Kanazawa ist fertig), Zeitkonflikte im Journal aufgelöst, Unterlagen offline verfügbar.
+Am 25.10.2026 ist alles gebucht und griffbereit: Zugtickets bzw. Bahnpass für alle sieben Japan-Abschnitte, die reservierungspflichtigen Programmpunkte bestätigt (inkl. Highway-Bus ab Kanazawa), Takayama 07.11. mit Programm belegt (Kanazawa ist fertig), Zeitkonflikte im Journal aufgelöst, AREX-Termin am 29.10. geklärt, Unterlagen offline verfügbar.
 
 ## Warum
 
-20 Tage, 10 Stationen, ~112 Programmpunkte. Die Flüge stehen, aber die Verbindungen dazwischen und die Tickets für die Punkte mit begrenzter Kapazität nicht. Was bis zum Abflug nicht gebucht ist, ist vor Ort entweder ausverkauft oder teuer.
+20 Tage, 10 Stationen, ~128 Programmpunkte (Journalstand 03.10.2026). Die Flüge stehen, aber die Verbindungen dazwischen und die Tickets für die Punkte mit begrenzter Kapazität nicht. Was bis zum Abflug nicht gebucht ist, ist vor Ort entweder ausverkauft oder teuer.
 
 ## Nächster Schritt
 
@@ -45,30 +45,32 @@ Am 25.10.2026 ist alles gebucht und griffbereit: Zugtickets bzw. Bahnpass für a
 **Seoul — Abreise am 29.10.**
 
 - [x] City-Airport-Check-in in der Seoul Station geprüft (11.09.2026). Vor Ort in Seoul noch einmal bestätigen lassen
-- [ ] AREX-Express 15:30 Seoul Station → Incheon T2 — laut Plan morgens vor Ort, alternativ vorab online
+- [ ] AREX-Express 15:30 Seoul Station → Incheon T2 — laut Plan morgens vor Ort, alternativ vorab online. **Lambus führt das AREX Service Center um 15:45, nach dem Zug — Uhrzeit klären und im Journal korrigieren**
 
 **Reservierungen mit begrenzter Kapazität**
 
 - [ ] Leeum Museum of Art — Zeitfenster für 28.10., 10:00 (vorher Frühstück in Hannam)
 - [x] ~~Changdeokgung, Geheimer Garten Huwon~~ — gestrichen am 11.09.2026, nur der Palast
-- [ ] teamLab Planets — Zeitfenster für 11.11., 18:30
+- [ ] teamLab Planets — Zeitfenster für 11.11., **19:30** (Journal; vorher 18:30)
 - [ ] Shirakawa-go / Takayama-Bus 06.11. (13:50 ab Kanazawa West Exit)
 - [ ] Yakiniku Daishogun Kanazawa 04.11. (19:00) Tisch reservieren
 - [ ] Ryokan Asunaro 07.11. — Abendessen bestätigen
 
 **Programmlücken füllen**
 
-- [x] Kanazawa (04.–06.11.) — im Journal vollständig mit 16 Punkten belegt (Stand 17.08.2026)
-- [x] Seoul (26.–29.10.) — final durchgeplant, 21 Punkte (Stand 11.09.2026), in der [Route](../../03_Ressourcen/japan/reise-2026-route.md)
+- [x] Kanazawa (04.–06.11.) — im Journal vollständig mit 19 Punkten belegt (Stand 03.10.2026)
+- [x] Seoul (26.–29.10.) — im Journal durchgeplant, 27 Punkte (Stand 03.10.2026), in der [Route](../../03_Ressourcen/japan/reise-2026-route.md)
 - [ ] Takayama 07.11. — Tagesprogramm bis zum Ryokan-Check-in, Altstadt und Morgenmarkt liegen nahe
 - [ ] Fukuoka 29.10. — Landung gegen 20:05, in Hakata gegen 21:00. Abend: Yatai in Nakasu. Wann die Gundam-Statue drankommt, wird vor Ort entschieden
 
 **Journal aufräumen**
 
-- [ ] Zeitkonflikte auflösen: 02.11., 03.11., 05.11. (Nap vs. Ashigaru-Museum), 10.11., 12.11.
-- [ ] Tageslisten nach Uhrzeit sortieren: 02.11., 03.11., 09.11., 10.11., 11.11.
+- [ ] Zeitkonflikte auflösen (Stand 03.10., Details in der [Analyse](../../03_Ressourcen/japan/reise-2026-analyse.md)): 28.10. (Shopping vs. Gyeryugwan), 29.10. (AREX), 02.11. (Den Den Town 16:30 vs. offenes Ende), 03.11. (Shin Sekai/Sennariya/Harukas), 05.11. (Nap vs. Ashigaru-Museum, Burg vs. Gyokusen-an), 08.11. (3 × KITTE 16:00), 12.11. (Parco/Tenkazushi/PAP, Kicks/Imabari)
+- [ ] Tageslisten im Journal nach Uhrzeit sortieren — in der Route bereits sortiert, im Journal an 12 Tagen noch nicht
 - [ ] Flüge und Züge in Lambus nachtragen
-- [ ] Seoul-Plan (26.–29.10.) in Lambus übernehmen — dort steht noch der alte Stand
+- [x] ~~Seoul-Plan in Lambus übernehmen~~ — erledigt, Journalstand vom 03.10.2026 ist maßgeblich
+- [ ] Abendessen Tokio 10.–12.11. festlegen (nach dem Wegfall von PANGA am 10.11. fehlt jedes Abendessen)
+- [ ] Solsot Pot Rice House (27.10.): am 11.09. gestrichen, im Journal wieder drin — bewusst oder Versehen?
 - [ ] Ruhetage und Öffnungszeiten der geplanten Museen gegen die Tage prüfen
 
 **Einkauf Gunpla und Modellbauwerkzeug** — [Vorbereitung](../../03_Ressourcen/japan/gunpla-einkauf-osaka.md)
@@ -76,7 +78,8 @@ Am 25.10.2026 ist alles gebucht und griffbereit: Zugtickets bzw. Bahnpass für a
 - [x] Läden festgelegt: Yellow Submarine Nanba Honten, Jungle Fantastic Machinery Museum, Volks Ōsaka Showroom
 - [x] Termin festgelegt: 02.11. ab 15:00, offenes Ende. Der 03.11. ist keine Option
 - [ ] **Montags-Öffnungszeiten aller drei Läden prüfen** — der 02.11.2026 ist ein Montag, und es gibt keinen Reservetag mehr. Ein Ruhetag würde den Einkauf ersatzlos kosten
-- [ ] Verfügbarkeit MGEX vorab online prüfen (Volks, Jungle). Ohne die Großhändler liegt die Chance bei ~50 % — Plan B ist der RG Hi-ν, Plan C Tokio (Yamashiroya 12.11.)
+- [ ] Den-Den-Town-Fenster im Journal (15:00–16:30) mit dem offenen Ende abgleichen und Takashimaya 17:30 entsprechend schieben oder streichen
+- [ ] Verfügbarkeit MGEX vorab online prüfen (Volks, Jungle). Ohne die Großhändler liegt die Chance bei ~50 % — Plan B ist der RG Hi-ν, Plan C Tokio (Yamashiroya 10.11.)
 - [ ] Entscheiden: ein MGEX (~14.000 JPY) oder zwei kleinere Kits — vor der Reise, nicht im Laden
 - [ ] Tax-Free-Umstellung zum 01.11.2026 prüfen (Erstattung bei Ausreise statt steuerfrei an der Kasse) — der Kauf liegt einen Tag danach; Erstattung liefe bei der Ausreise in Tokio am 13.11.
 - [ ] Werkzeug in **einem** Laden bündeln — die Steuerbefreiung greift erst ab 5.000 JPY je Geschäft und Tag
@@ -145,3 +148,4 @@ Zugeordnet zum Bereich Reisen. Der Bereich hält den dauerhaften Standard (Päss
 | 2026-08-18 | Kamera-Vorbereitung als eigenes Projekt ausgelagert, Datensicherung und Stromversorgung als Punkte ergänzt |
 | 2026-09-11 | Finale Seoul-Planung (26.–29.10.) in Route und Analyse übernommen; Leeum-Reservierung, City-Airport-Check-in und Gundam-Frage ergänzt |
 | 2026-09-11 | Huwon gestrichen, Leeum ab 10:00 mit Frühstück davor, Check-in Seoul Station geprüft, Gundam-Statue spontan vor Ort; Pass-Kauf auf 13.09. gelegt |
+| 2026-10-03 | Lambus-Journal (Stand 03.10.) in Route, Analyse und Gunpla-Plan übernommen: ~128 Punkte, teamLab 19:30, Yamashiroya auf 10.11., Solsot wieder drin, AREX 15:45 widerspricht dem Zug 15:30 |
