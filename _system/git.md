@@ -7,26 +7,24 @@ aktualisiert: 2026-10-03
 
 # Git-Setup
 
-Die Arbeitskopie liegt in `~/Meine Ablage/Claude_Life` — einem Google-Drive-synchronisierten Ordner. Das Git-Verzeichnis selbst liegt seit 2026-10-03 **außerhalb von Drive** in `~/.claude_life.git`. Im Drive-Ordner ist `.git` nur noch eine einzeilige Textdatei:
-
-```
-gitdir: /Users/philipp/.claude_life.git
-```
+Repo liegt in `~/Meine Ablage/Claude_Life` — einem Google-Drive-synchronisierten Ordner, `.git` eingeschlossen.
 
 | Feld | Wert |
 |---|---|
-| Git-Verzeichnis | `~/.claude_life.git` (lokal, nicht synchronisiert) |
 | Remote | `origin` |
 | URL | `https://github.com/sk3ptika/claude_life.git` (HTTPS) |
 | Branch | `main`, trackt `origin/main` |
 | Sichtbarkeit | privat |
 | Authentifizierung | Personal Access Token, im macOS-Schlüsselbund (`osxkeychain`) |
 
-## Warum `.git` außerhalb von Drive
+## Warum `.git` in Drive bleibt
 
-Google Drive Desktop schreibt in `.git`, während Git dort arbeitet. Daraus entstanden beschädigte Objektdateien und Konfliktkopien. Seit dem Umzug sieht Drive nur noch die Notizen und die Verweisdatei — die Git-Daten fasst es nicht mehr an.
+Google Drive Desktop schreibt in `.git`, während Git dort arbeitet. Daraus können beschädigte Objektdateien und Konfliktkopien entstehen. `.git` außerhalb von Drive zu legen wäre die saubere Lösung — wurde am 2026-10-03 versucht und am selben Tag zurückgenommen: Claude Desktop merkt sich pro Ordner, wo sein Repository liegt, und verweigert danach die Arbeit („could not anchor this repository … leads to a different repository“). **Nicht erneut versuchen**, solange in diesem Ordner mit Claude Desktop gearbeitet wird.
 
-Folge: Das Git-Verzeichnis ist **nur auf diesem Mac**. Drive sichert es nicht mehr mit.
+Was das Risiko stattdessen klein hält:
+
+- `commit.sh` packt lose Objekte (`gc --auto`) — wenige große Dateien statt hunderter kleiner, die Drive einzeln synct
+- regelmäßig pushen, damit ein kaputtes `.git` nur ein Neu-Klonen ist (siehe unten)
 
 ## Offline-Betrieb
 
@@ -34,7 +32,7 @@ Ziel: Notizen, Git und die Weboberfläche funktionieren **ohne Internet**. Stand
 
 | Teil | Offline? | Warum |
 |---|---|---|
-| Git (Status, Log, Diff, Commit) | ja | `~/.claude_life.git` liegt lokal |
+| Git (Status, Log, Diff, Commit) | ja | `.git` liegt im offline fixierten Ordner |
 | Push | nein, wird nachgeholt | `commit.sh` committet trotzdem und meldet „Push fehlgeschlagen (offline?)“ — später erneut ausführen |
 | Weboberfläche auf diesem Mac | ja | Server läuft lokal, keine externen Skripte oder Schriften; `http://localhost:4173` |
 | Weboberfläche von anderen Geräten | nur im Heimnetz | gewollt, siehe `_system/ui/` |
@@ -52,11 +50,17 @@ Prüfen, ob gerade etwas ausgelagert ist (Ausgabe muss leer sein):
 find ~/"Meine Ablage/Claude_Life" -flags dataless -print
 ```
 
+Prüfen, ob die Fixierung greift — nur über den echten Drive-Pfad, `~/Meine Ablage` liefert hier einen Fehler. Erwartet: `Effective Content Policy: 3`:
+
+```bash
+fileproviderctl evaluate ~/Library/CloudStorage/GoogleDrive-wengenroth@gmail.com/"Meine Ablage"/Claude_Life | grep "Effective Content Policy"
+```
+
 Alternative mit mehr Eingriff: Drive für alles auf **Spiegeln** umstellen (Drive-Einstellungen → Google Drive → Dateien spiegeln). Dann liegt die gesamte Ablage lokal, braucht aber entsprechend Platz.
 
 ## Warum ein Remote
 
-GitHub ist damit die einzige zweite Kopie der Historie. Fällt dieser Mac aus, sind ungepushte Commits weg — die Notizen selbst liegen weiter in Drive.
+Ein privates Remote macht ein kaputtes lokales `.git` zu einem Klon statt zu einem Datenverlust.
 
 Regel: **nach jedem Weekly Review pushen.** Ohne Push ist das Remote wertlos.
 
@@ -110,72 +114,26 @@ Leichter Klon auf einem zweiten Rechner (lädt alte Dateiversionen erst bei Beda
 git clone --filter=blob:none https://github.com/sk3ptika/claude_life.git
 ```
 
-## Störungen und Reparatur
+## Was tun, wenn Drive das Repo zerlegt
 
-### `fatal: not a git repository`
+Symptome: `error: object file .git/objects/... is empty`, `fatal: loose object is corrupt`, oder Dateien wie `HEAD (1)` in `.git`.
 
-Die Verweisdatei `.git` im Drive-Ordner fehlt, ist beschädigt, oder `~/.claude_life.git` existiert nicht (anderer Mac, neues Benutzerkonto). Prüfen:
-
-```bash
-cat ~/"Meine Ablage/Claude_Life/.git"
-```
+Vorgehen:
 
 ```bash
-ls ~/.claude_life.git
+cd ~
+mv "Meine Ablage/Claude_Life" "Meine Ablage/Claude_Life_kaputt"
+git clone https://github.com/sk3ptika/claude_life.git "Meine Ablage/Claude_Life"
 ```
 
-Existiert `~/.claude_life.git`, die Verweisdatei neu schreiben:
+Danach aus `Claude_Life_kaputt` alles übertragen, was seit dem letzten Push entstanden ist. Genau deshalb: nach jedem Review pushen.
 
-```bash
-printf 'gitdir: %s\n' "$HOME/.claude_life.git" > ~/"Meine Ablage/Claude_Life/.git"
-```
+Der alte Ordner wird **nicht** gelöscht, bevor der Abgleich fertig ist.
 
-### Neuer oder zweiter Mac
-
-Drive bringt die Notizen und die Verweisdatei mit, aber nicht `~/.claude_life.git`. Git-Verzeichnis aus GitHub holen, ohne die Notizen anzufassen:
-
-```bash
-git clone --bare https://github.com/sk3ptika/claude_life.git ~/.claude_life.git
-```
-
-```bash
-cd ~/"Meine Ablage/Claude_Life" && git config core.bare false && git config remote.origin.fetch '+refs/heads/*:refs/remotes/origin/*' && git fetch && git reset origin/main
-```
-
-`git reset` ohne `--hard` ändert keine Dateien, es gleicht nur den Index ab. Danach zeigt `git status`, was in Drive neuer ist als auf GitHub.
-
-Den Pfad in der Verweisdatei anpassen, falls der Benutzername dort anders ist.
-
-### Worktrees nach einem Umzug
-
-Claude-Sitzungen legen Worktrees unter `.claude/worktrees/` an. Verschiebt sich das Git-Verzeichnis, Verweise reparieren:
+Claude-Sitzungen legen Worktrees unter `.claude/worktrees/` an. Melden sie nach so einer Aktion einen kaputten Verweis:
 
 ```bash
 cd ~/"Meine Ablage/Claude_Life" && git worktree repair
-```
-
-### Git-Verzeichnis beschädigt
-
-Symptome: `error: object file ... is empty`, `fatal: loose object is corrupt`. Durch den Umzug unwahrscheinlich geworden. Vorgehen: altes Verzeichnis umbenennen, nicht löschen, dann neu holen wie unter „Neuer oder zweiter Mac“:
-
-```bash
-mv ~/.claude_life.git ~/.claude_life.git-kaputt
-```
-
-`~/.claude_life.git-kaputt` erst entfernen, wenn klar ist, dass nichts Ungepushtes darin fehlt.
-
-### Bekannte Eigenheit: `git worktree list`
-
-Weil das Git-Verzeichnis außerhalb des Arbeitsordners liegt, zeigt `git worktree list` als Hauptordner `/Users/philipp/.claude_life.git` statt `~/Meine Ablage/Claude_Life`. Das betrifft nur die Anzeige: `git rev-parse --show-toplevel` liefert den richtigen Ordner, Status, Commit und Push funktionieren.
-
-Offen (Stand 2026-10-03): ob die Claude-App diese Liste nutzt, um neue Worktrees anzulegen. Schlägt eine neue Claude-Sitzung in diesem Ordner fehl, ist das der erste Verdacht — dann den Rückweg unten nehmen.
-
-### Rückweg: `.git` wieder in Drive
-
-Falls der Umzug rückgängig gemacht werden soll:
-
-```bash
-cd ~/"Meine Ablage/Claude_Life" && mv .git .git-verweis && mv ~/.claude_life.git .git && git worktree repair
 ```
 
 ## Was NICHT ins Repo gehört
@@ -207,7 +165,8 @@ Hier nur als Nachweis — nicht erneut ausführen.
 
 1. Schutzschicht angelegt (`0156b34`): `.gitattributes`, Pre-commit-Hook, `commit.sh` gehärtet.
 2. `git gc` — 356 lose Objekte zu 2 Packdateien.
-3. `.git` nach `~/.claude_life.git` verschoben, Verweisdatei geschrieben, `git worktree repair`.
+3. `.git` nach `~/.claude_life.git` verschoben — am selben Tag zurückgenommen, weil Claude Desktop den Ordner danach nicht mehr öffnete. Siehe „Warum `.git` in Drive bleibt“.
+4. Drive-Ordner `Claude_Life` auf „Offline verfügbar“ gestellt (Content Policy 3, geprüft mit `fileproviderctl evaluate`).
 
 GitHub CLI (`gh`) und Homebrew sind auf diesem Rechner nicht installiert, SSH-Keys für GitHub existieren nicht. Deshalb HTTPS mit Token statt SSH. Falls SSH später eingerichtet wird, ändert sich nur die Remote-URL:
 
