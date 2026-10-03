@@ -7,19 +7,30 @@ aktualisiert: 2026-10-03
 
 # Git-Setup
 
-Repo liegt in `~/Meine Ablage/Claude_Life` — einem Google-Drive-synchronisierten Ordner.
+Die Arbeitskopie liegt in `~/Meine Ablage/Claude_Life` — einem Google-Drive-synchronisierten Ordner. Das Git-Verzeichnis selbst liegt seit 2026-10-03 **außerhalb von Drive** in `~/.claude_life.git`. Im Drive-Ordner ist `.git` nur noch eine einzeilige Textdatei:
+
+```
+gitdir: /Users/philipp/.claude_life.git
+```
 
 | Feld | Wert |
 |---|---|
+| Git-Verzeichnis | `~/.claude_life.git` (lokal, nicht synchronisiert) |
 | Remote | `origin` |
 | URL | `https://github.com/sk3ptika/claude_life.git` (HTTPS) |
 | Branch | `main`, trackt `origin/main` |
 | Sichtbarkeit | privat |
 | Authentifizierung | Personal Access Token, im macOS-Schlüsselbund (`osxkeychain`) |
 
+## Warum `.git` außerhalb von Drive
+
+Google Drive Desktop schreibt in `.git`, während Git dort arbeitet. Daraus entstanden beschädigte Objektdateien und Konfliktkopien. Seit dem Umzug sieht Drive nur noch die Notizen und die Verweisdatei — die Git-Daten fasst es nicht mehr an.
+
+Folge: Das Git-Verzeichnis ist **nur auf diesem Mac**. Drive sichert es nicht mehr mit.
+
 ## Warum ein Remote
 
-Google Drive Desktop schreibt in `.git`, während Git dort arbeitet. Daraus können beschädigte Objektdateien und Konfliktkopien entstehen. Ein privates Remote macht ein kaputtes lokales `.git` zu einem Klon statt zu einem Datenverlust.
+GitHub ist damit die einzige zweite Kopie der Historie. Fällt dieser Mac aus, sind ungepushte Commits weg — die Notizen selbst liegen weiter in Drive.
 
 Regel: **nach jedem Weekly Review pushen.** Ohne Push ist das Remote wertlos.
 
@@ -73,21 +84,67 @@ Leichter Klon auf einem zweiten Rechner (lädt alte Dateiversionen erst bei Beda
 git clone --filter=blob:none https://github.com/sk3ptika/claude_life.git
 ```
 
-## Was tun, wenn Drive das Repo zerlegt
+## Störungen und Reparatur
 
-Symptome: `error: object file .git/objects/... is empty`, `fatal: loose object is corrupt`, oder Dateien wie `HEAD (1)` in `.git`.
+### `fatal: not a git repository`
 
-Vorgehen:
+Die Verweisdatei `.git` im Drive-Ordner fehlt, ist beschädigt, oder `~/.claude_life.git` existiert nicht (anderer Mac, neues Benutzerkonto). Prüfen:
 
 ```bash
-cd ~
-mv "Meine Ablage/Claude_Life" "Meine Ablage/Claude_Life_kaputt"
-git clone https://github.com/sk3ptika/claude_life.git "Meine Ablage/Claude_Life"
+cat ~/"Meine Ablage/Claude_Life/.git"
 ```
 
-Danach aus `Claude_Life_kaputt` alles übertragen, was seit dem letzten Push entstanden ist. Genau deshalb: nach jedem Review pushen.
+```bash
+ls ~/.claude_life.git
+```
 
-Der alte Ordner wird **nicht** gelöscht, bevor der Abgleich fertig ist.
+Existiert `~/.claude_life.git`, die Verweisdatei neu schreiben:
+
+```bash
+printf 'gitdir: %s\n' "$HOME/.claude_life.git" > ~/"Meine Ablage/Claude_Life/.git"
+```
+
+### Neuer oder zweiter Mac
+
+Drive bringt die Notizen und die Verweisdatei mit, aber nicht `~/.claude_life.git`. Git-Verzeichnis aus GitHub holen, ohne die Notizen anzufassen:
+
+```bash
+git clone --bare https://github.com/sk3ptika/claude_life.git ~/.claude_life.git
+```
+
+```bash
+cd ~/"Meine Ablage/Claude_Life" && git config core.bare false && git config remote.origin.fetch '+refs/heads/*:refs/remotes/origin/*' && git fetch && git reset origin/main
+```
+
+`git reset` ohne `--hard` ändert keine Dateien, es gleicht nur den Index ab. Danach zeigt `git status`, was in Drive neuer ist als auf GitHub.
+
+Den Pfad in der Verweisdatei anpassen, falls der Benutzername dort anders ist.
+
+### Worktrees nach einem Umzug
+
+Claude-Sitzungen legen Worktrees unter `.claude/worktrees/` an. Verschiebt sich das Git-Verzeichnis, Verweise reparieren:
+
+```bash
+cd ~/"Meine Ablage/Claude_Life" && git worktree repair
+```
+
+### Git-Verzeichnis beschädigt
+
+Symptome: `error: object file ... is empty`, `fatal: loose object is corrupt`. Durch den Umzug unwahrscheinlich geworden. Vorgehen: altes Verzeichnis umbenennen, nicht löschen, dann neu holen wie unter „Neuer oder zweiter Mac“:
+
+```bash
+mv ~/.claude_life.git ~/.claude_life.git-kaputt
+```
+
+`~/.claude_life.git-kaputt` erst entfernen, wenn klar ist, dass nichts Ungepushtes darin fehlt.
+
+### Rückweg: `.git` wieder in Drive
+
+Falls der Umzug rückgängig gemacht werden soll:
+
+```bash
+cd ~/"Meine Ablage/Claude_Life" && mv .git .git-verweis && mv ~/.claude_life.git .git && git worktree repair
+```
 
 ## Was NICHT ins Repo gehört
 
@@ -105,12 +162,20 @@ Was Claude **nicht** macht: sich bei GitHub authentifizieren. Tokens und Passwö
 
 ## Einrichtungsprotokoll
 
-Einmalig erledigt am 2026-08-16, hier nur als Nachweis — nicht erneut ausführen:
+Hier nur als Nachweis — nicht erneut ausführen.
+
+2026-08-16:
 
 1. Erster Commit `6b5552f` — PARA-Grundstruktur, 30 Dateien.
 2. Privates Repo `claude_life` auf github.com angelegt, ohne README, `.gitignore` oder Lizenz.
 3. `git remote add origin https://github.com/sk3ptika/claude_life.git`
 4. `git push -u origin main` — Authentifizierung per Personal Access Token.
+
+2026-10-03:
+
+1. Schutzschicht angelegt (`0156b34`): `.gitattributes`, Pre-commit-Hook, `commit.sh` gehärtet.
+2. `git gc` — 356 lose Objekte zu 2 Packdateien.
+3. `.git` nach `~/.claude_life.git` verschoben, Verweisdatei geschrieben, `git worktree repair`.
 
 GitHub CLI (`gh`) und Homebrew sind auf diesem Rechner nicht installiert, SSH-Keys für GitHub existieren nicht. Deshalb HTTPS mit Token statt SSH. Falls SSH später eingerichtet wird, ändert sich nur die Remote-URL:
 
