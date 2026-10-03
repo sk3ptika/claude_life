@@ -5,7 +5,7 @@ status: aktiv
 angelegt: 2026-08-18
 deadline: 2026-10-18
 bereich: fotografie
-aktualisiert: 2026-08-21
+aktualisiert: 2026-10-03
 ---
 
 # X100V Japan-ready
@@ -26,7 +26,7 @@ Deadline ist bewusst der 18.10., eine Woche vor Abflug. Danach ist die Konfigura
 
 ## Nächster Schritt
 
-- [ ] Session 2: C1 „DAY“ im Alltag fahren und Rezept 1 gegen die Wirklichkeit prüfen — Termin: 2026-09-06
+- [ ] Session 4: C3 und C5 bei Gegenlicht und Herbstfärbung fahren — Termin: 2026-10-04
 
 ## Weitere Schritte
 
@@ -47,7 +47,7 @@ Zwei Tage früher als geplant erledigt. Ergebnis: Kamera eingerichtet, C1–C5 b
 - [ ] Noch offen — nicht ausdrücklich bestätigt: nachsehen, was die Screenshots nicht zeigten: `FUNKTIONEN (Fn) 2/2` (hinteres Rad, Sucherauswahlhebel, Q-Taste), `AUFNAHME-EINSTELLUNG 3/3`, `FOKUSHEBEL-EINSTELLUNG`, `STEUERRING-EINST.`, `EVF/OVF-TOUCHS. BEREICH EINST.`, `AUFNEHMEN OHNE KARTE`
 - [x] Belegung auf den Ist-Stand gebracht — die Datei beschreibt die Kamera wieder korrekt
 
-**Session 2 — Street bei Tag (06.09.)**
+**Session 2 — Street bei Tag (06.09.) — erledigt (Stand 03.10.2026, Setup bewährt)**
 
 - [ ] C1 im Alltag fahren, mindestens 100 Auslösungen, A-Modus mit Blendenspiel
 - [ ] Prüfen: Reicht `SCHÄRFE +2` / `KLARHEIT +2`, oder ist es zu viel? Sitzt die Belichtungskorrektur im Reflex?
@@ -55,7 +55,7 @@ Zwei Tage früher als geplant erledigt. Ergebnis: Kamera eingerichtet, C1–C5 b
 - [ ] Bankwechsel über Fn1 üben, ohne die Kamera abzusetzen
 - [ ] Rezept 1 nachjustieren und die Änderung im Rezept **und** im Änderungsverlauf festhalten
 
-**Session 3 — Nacht und Innenräume (20.09.)**
+**Session 3 — Nacht und Innenräume (20.09.) — erledigt (Stand 03.10.2026)**
 
 - [ ] C2 (Nacht) und C4 (Innen) im Dunkeln fahren — Stadt bei Nacht, dann ein dunkler Innenraum
 - [ ] Grenzen der Auto-ISO-Sets finden: Ab wann wird es unbrauchbar? Ab wann muss ich in den S-Modus?
@@ -114,3 +114,4 @@ Fotografiert seit fast 40 Jahren, analog begonnen, Schwarzweiß selbst entwickel
 | 2026-08-19 | Entschieden: Fn1 = Bankwechsel, Fn2 = Auto-ISO. Aufnahmeformat `L 3:2` statt `L 16:9` |
 | 2026-08-21 | Session 1 erledigt: Grundeinstellungen gesetzt, C1–C5 belegt und benannt |
 | 2026-08-21 | Auto-ISO-Set ist nicht pro Bank speicherbar — Bedienmodell von einem auf zwei Griffe umgestellt, Spickzettel und Rezepte nachgezogen |
+| 2026-10-03 | Session 2 und 3 laut Nutzer erledigt, Setup bewährt; Einzelergebnisse (Tonkurve, Verwacklungsgrenze) nicht protokolliert |

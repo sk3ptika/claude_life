@@ -16,7 +16,7 @@ Reiseplan und Analyse liegen in `03_Ressourcen/japan/`:
 
 ## Ergebnis
 
-Am 25.10.2026 ist alles gebucht und griffbereit: Zugtickets bzw. Bahnpass für alle sieben Japan-Abschnitte, die reservierungspflichtigen Programmpunkte bestätigt (inkl. Highway-Bus ab Kanazawa), Takayama 07.11. mit Programm belegt (Kanazawa ist fertig), Zeitkonflikte im Journal aufgelöst, AREX-Termin am 29.10. geklärt, Unterlagen offline verfügbar.
+Am 25.10.2026 ist alles gebucht und griffbereit: Zugtickets bzw. Bahnpass für alle sieben Japan-Abschnitte, die reservierungspflichtigen Programmpunkte bestätigt (inkl. Highway-Bus ab Kanazawa), Takayama 07.11. mit Programm belegt (Kanazawa ist fertig), AREX-Termin am 29.10. geklärt, Unterlagen offline verfügbar.
 
 ## Warum
 
@@ -24,7 +24,7 @@ Am 25.10.2026 ist alles gebucht und griffbereit: Zugtickets bzw. Bahnpass für a
 
 ## Nächster Schritt
 
-- [ ] Abdeckung Tsuruga–Kanazawa an der offiziellen JR-West-Gebietskarte verifizieren, dann den Pass kaufen — Termin: 2026-09-13 (Wochenende, ursprünglich 2026-08-23)
+- [ ] Highway-Bus Kanazawa → Shirakawa-go → Takayama (06.11., 13:50) buchen — Buchung erst 30 Tage vorher möglich, also ab 2026-10-07
 
 ## Weitere Schritte
 
@@ -32,15 +32,15 @@ Am 25.10.2026 ist alles gebucht und griffbereit: Zugtickets bzw. Bahnpass für a
 
 - [x] Angebot geprüft: Klook 70766, deckt Sanyo-Shinkansen bis Hakata, Thunderbird und die Miyajima-Fähre ab
 - [x] Preis: 142 € pro Person, Sitzplatzreservierungen kostenlos
-- [ ] Pass kaufen, Einlösedatum 30.10. (gültig dann bis 05.11.)
-- [ ] Sitzplätze für **alle** Shinkansen-Abschnitte reservieren — kostenlos, also kein Grund für nicht reservierte Wagen; läuft über grüne Automaten oder Schalter
+- [x] Pass gekauft (Stand 03.10.2026), Einlösedatum 30.10. (gültig dann bis 05.11.). Abdeckung Tsuruga–Kanazawa gilt damit als gegeben; falls nicht an der JR-West-Karte geprüft, vor dem 04.11. nachholen
+- [ ] Sitzplätze für **alle** Shinkansen-Abschnitte reservieren (zeitnah zur Fahrt, kein festes Datum) — kostenlos, also kein Grund für nicht reservierte Wagen; läuft über grüne Automaten oder Schalter
 - [ ] Prüfen, ob die Koffer auf dem Sanyo-Shinkansen als Übergepäck gelten (Gesamtmaß über 160 cm). Der Stellplatz ist vorab kostenlos reservierbar, ohne Reservierung fällt eine Gebühr an — betrifft vor allem den 02.11. mit Gepäck
 - [ ] Bei der Einreise am 29.10. in Fukuoka den Stempel „Temporary Visitor" holen, **nicht die automatischen Gates benutzen** — ohne Stempel ist der Pass ungültig
 
 **Bahn / Bus — ab Kanazawa, nicht im Pass**
 
-- [ ] Kanazawa → Shirakawa-go → Takayama (06.11.): Highway-Bus ab Kanazawa West Exit (13:50) buchen — in der Laubsaison früh ausgebucht
-- [ ] Takayama → Tokio (08.11.) über Nagoya festlegen und buchen; die Ankunftszeit bestimmt, ob der Programmstart um 14:30 in Tokio hält
+- [ ] Kanazawa → Shirakawa-go → Takayama (06.11.): Highway-Bus ab Kanazawa West Exit (13:50) — buchbar ab 07.10., in der Laubsaison früh ausgebucht
+- [ ] Takayama → Tokio (08.11.) über Nagoya festlegen und buchen — buchbar ab 09.10.; die Ankunftszeit ist nur Orientierung für den Nachmittag in Tokio
 
 **Seoul — Abreise am 29.10.**
 
@@ -65,11 +65,9 @@ Am 25.10.2026 ist alles gebucht und griffbereit: Zugtickets bzw. Bahnpass für a
 
 **Journal aufräumen**
 
-- [ ] Zeitkonflikte auflösen (Stand 03.10., Details in der [Analyse](../../03_Ressourcen/japan/reise-2026-analyse.md)): 28.10. (Shopping vs. Gyeryugwan), 29.10. (AREX), 02.11. (Den Den Town 16:30 vs. offenes Ende), 03.11. (Shin Sekai/Sennariya/Harukas), 05.11. (Nap vs. Ashigaru-Museum, Burg vs. Gyokusen-an), 08.11. (3 × KITTE 16:00), 12.11. (Parco/Tenkazushi/PAP, Kicks/Imabari)
-- [ ] Tageslisten im Journal nach Uhrzeit sortieren — in der Route bereits sortiert, im Journal an 12 Tagen noch nicht
+- [x] ~~Zeitkonflikte auflösen, Tageslisten sortieren~~ — entfällt: Uhrzeiten sind grobe Orientierung und Reihenfolge, es ist ein Urlaub (Vorgabe 03.10.2026). Fest bleiben nur Flug 29.10. und der Einkauf am 02.11.
 - [ ] Flüge und Züge in Lambus nachtragen
 - [x] ~~Seoul-Plan in Lambus übernehmen~~ — erledigt, Journalstand vom 03.10.2026 ist maßgeblich
-- [ ] Abendessen Tokio 10.–12.11. festlegen (nach dem Wegfall von PANGA am 10.11. fehlt jedes Abendessen)
 - [ ] Solsot Pot Rice House (27.10.): am 11.09. gestrichen, im Journal wieder drin — bewusst oder Versehen?
 - [ ] Ruhetage und Öffnungszeiten der geplanten Museen gegen die Tage prüfen
 
@@ -78,7 +76,7 @@ Am 25.10.2026 ist alles gebucht und griffbereit: Zugtickets bzw. Bahnpass für a
 - [x] Läden festgelegt: Yellow Submarine Nanba Honten, Jungle Fantastic Machinery Museum, Volks Ōsaka Showroom
 - [x] Termin festgelegt: 02.11. ab 15:00, offenes Ende. Der 03.11. ist keine Option
 - [ ] **Montags-Öffnungszeiten aller drei Läden prüfen** — der 02.11.2026 ist ein Montag, und es gibt keinen Reservetag mehr. Ein Ruhetag würde den Einkauf ersatzlos kosten
-- [ ] Den-Den-Town-Fenster im Journal (15:00–16:30) mit dem offenen Ende abgleichen und Takashimaya 17:30 entsprechend schieben oder streichen
+- [ ] Den-Den-Town im Journal (15:00–16:30) auf offenes Ende setzen, Takashimaya danach nur bei Zeit
 - [ ] Verfügbarkeit MGEX vorab online prüfen (Volks, Jungle). Ohne die Großhändler liegt die Chance bei ~50 % — Plan B ist der RG Hi-ν, Plan C Tokio (Yamashiroya 10.11.)
 - [ ] Entscheiden: ein MGEX (~14.000 JPY) oder zwei kleinere Kits — vor der Reise, nicht im Laden
 - [ ] Tax-Free-Umstellung zum 01.11.2026 prüfen (Erstattung bei Ausreise statt steuerfrei an der Kasse) — der Kauf liegt einen Tag danach; Erstattung liefe bei der Ausreise in Tokio am 13.11.
@@ -149,3 +147,4 @@ Zugeordnet zum Bereich Reisen. Der Bereich hält den dauerhaften Standard (Päss
 | 2026-09-11 | Finale Seoul-Planung (26.–29.10.) in Route und Analyse übernommen; Leeum-Reservierung, City-Airport-Check-in und Gundam-Frage ergänzt |
 | 2026-09-11 | Huwon gestrichen, Leeum ab 10:00 mit Frühstück davor, Check-in Seoul Station geprüft, Gundam-Statue spontan vor Ort; Pass-Kauf auf 13.09. gelegt |
 | 2026-10-03 | Lambus-Journal (Stand 03.10.) in Route, Analyse und Gunpla-Plan übernommen: ~128 Punkte, teamLab 19:30, Yamashiroya auf 10.11., Solsot wieder drin, AREX 15:45 widerspricht dem Zug 15:30 |
+| 2026-10-03 | Vorgaben: Uhrzeiten nur Orientierung, JR-Pass gekauft, Bus-/Zugbuchungen erst 30 Tage vorher — Zeitkonflikt-Aufgaben gestrichen, nächster Schritt Bus ab 07.10. |

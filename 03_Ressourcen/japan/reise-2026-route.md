@@ -63,7 +63,7 @@ Die beiden Abschnitte ab Kanazawa liegen außerhalb des JR-West-Gebiets und werd
 
 ## Tag für Tag
 
-Zeiten und Orte laut Lambus-Journal (Stand 03.10.2026), nach Uhrzeit sortiert — im Journal selbst stehen die Listen teils durcheinander. Punkte ohne Zeit stehen am Ende des Tages. Wo die Planung in sich kollidiert, steht ein Hinweis; die Auflösung gehört ins Journal, nicht hierher.
+Orte und Zeiten laut Lambus-Journal (Stand 03.10.2026), nach Uhrzeit sortiert. **Uhrzeiten sind grobe Orientierung und Reihenfolge, keine Termine** — es ist ein Urlaub. Fest sind nur Flüge, Züge/Busse, Check-in-Fenster und Reservierungen. Hinweise stehen nur dort, wo ein fester Termin betroffen ist.
 
 ### So, 25.10. — Hannover
 Abflug Hannover → Kopenhagen → Seoul.
@@ -85,8 +85,6 @@ Abflug Hannover → Kopenhagen → Seoul.
 10. 17:30–18:30 Gwangjang Market (4.2)
 11. 19:30–21:00 N Seoul Tower (Journal: „Nord Seoul Tower")
 
-Hinweis: Ssamziegil und Insadong teilen sich 13:00–13:30, Ikseon-dong und Solsot beginnen beide um 12:00 — alles dicht beieinander, kein echter Konflikt.
-
 ### Mi, 28.10. — Seoul: Leeum, Garosu-gil, Gyeryugwan, Naksan
 1. 10:00–11:30 Leeum Museum of Art (4.6) — **Zeitfenster 10:00 vorab online reservieren.** Die Frühstücksidee in Hannam-dong vor der Öffnung (Entscheidung 11.09.) steht nicht im Journal
 2. 12:00 Hanam Pig House Garosu-gil (4.4) — Mittagessen
@@ -97,8 +95,6 @@ Hinweis: Ssamziegil und Insadong teilen sich 13:00–13:30, Ikseon-dong und Sols
 7. 18:30–19:00 DDP Dongdaemun Design Plaza (4.3)
 8. 19:30–20:30 Naksan Fortress Wall Trail (4.7)
 9. 19:30 Naksan Summit (4.7)
-
-Hinweis: Shopping bis 18:00 überlappt Gyeryugwan ab 17:30 um eine halbe Stunde, dazu liegen Myeongdong und Sindang eine Taxifahrt auseinander.
 
 ### Do, 29.10. — Seoul → Fukuoka
 1. 09:00–09:30 Check-in — gemeint ist der City-Airport-Check-in in der Seoul Station (Ebene B2): Koffer bei Korean Air aufgeben, Ausreisekontrolle erledigen, AREX-Ticket

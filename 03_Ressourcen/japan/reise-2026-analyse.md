@@ -56,7 +56,7 @@ Die drei Flüge stehen (Hannover–Kopenhagen–Seoul, Seoul–Fukuoka, Tokio–
 
 ## Widersprüche und Prüfpunkte
 
-**Überlappende Zeitfenster (Journalstand 03.10.2026):**
+**Überlappende Zeitfenster (Journalstand 03.10.2026) — nur zur Information.** Uhrzeiten im Journal sind grobe Orientierung und Reihenfolge (Vorgabe 03.10.2026), Überschneidungen sind deshalb kein Mangel. Relevant sind nur die Einträge, die an einem festen Termin hängen: 29.10. (AREX/Flug), 02.11. (Einkauf mit offenem Ende) und die Reservierungen. Die übrigen Überlappungen sind hier der Vollständigkeit halber aufgeführt, nicht als Aufgabe:
 
 - 27.10.: Ikseon-dong und Solsot ab 12:00, Ssamziegil und Insadong beide 13:00–13:30 — alles am selben Ort, unkritisch
 - 28.10.: **Shopping Myeongdong 16:30–18:00 überlappt Gyeryugwan ab 17:30**; Naksan Fortress Wall Trail und Naksan Summit beide 19:30 (derselbe Ort, unkritisch)
@@ -72,7 +72,7 @@ Die drei Flüge stehen (Hannover–Kopenhagen–Seoul, Seoul–Fukuoka, Tokio–
 - 10.11.: Inujirushi Kaban und KAMA-ASA beide 13:00–13:30 (benachbart in Kappabashi)
 - 12.11.: **Shibuya Parco 12:00–12:30, Tenkazushi 12:00–13:00 und PAP.COFFEE 12:30–13:00**; KICKS LAB. und Imabari Towel beide ab 14:00
 
-**Listenreihenfolge im Journal stimmt nicht mit den Uhrzeiten** am 27.10., 28.10., 29.10., 30.10., 02.11., 03.11., 05.11., 08.11., 09.11., 10.11., 11.11. und 12.11. In der [Route](reise-2026-route.md) sind die Tage sortiert; im Journal selbst steht noch die alte Reihenfolge. Beim Durchgehen vor Ort führt das zuverlässig in die Irre.
+**Listenreihenfolge im Journal stimmt an vielen Tagen nicht mit den Uhrzeiten überein.** In der [Route](reise-2026-route.md) sind die Tage sortiert; ob das Journal nachgezogen wird, ist Geschmackssache — die Reihenfolge ist, was zählt.
 
 **Seit dem Stand vom 11.09./17.08. geändert — im Journal, nicht im Vault entschieden:**
 
@@ -83,7 +83,7 @@ Die drei Flüge stehen (Hannover–Kopenhagen–Seoul, Seoul–Fukuoka, Tokio–
 - Tokio: neu Intermediatheque (08.11.), Zingaro, Murakami Store, Kōenji-Izakaya (09.11.), Dengama (10.11.), Blue Bottle, Tenkazushi, NEWoMan Takanawa (12.11.). Entfallen: Mugi to Olive (09.11.), Wagyu PANGA Asakusa (10.11.), Bike Sightseeing, Sushi Tokyo Ten, Mori Art Museum (11.11.), Starbucks Roastery und der Abend in Ueno (12.11.). Yamashiroya wandert vom 12.11. auf den 10.11. — das betrifft Plan C im [Gunpla-Einkauf](gunpla-einkauf-osaka.md).
 - teamLab Planets: Zeitfenster jetzt 19:30 statt 18:30.
 
-**Abendessen in Tokio fehlt** am 10., 11. und 12.11. (nur Imbisse und ein Mittagssushi gelistet). Wagyu PANGA am 10.11. ist entfallen, ohne Ersatz.
+**Abendessen in Tokio** am 10., 11. und 12.11. steht nicht im Journal. Kein Mangel, wenn spontan gegessen werden soll.
 
 **Unterkunft in Fukuyama, Programm in Onomichi — Absicht.** Das Daiwa Roynet liegt am Bahnhof Fukuyama, die drei Programmpunkte liegen in Onomichi. Der Umweg ist bewusst gewählt, weil Fukuyama ein Shinkansen-Halt ist und den frühen Anschluss nach Himeji am 02.11. erst möglich macht. Kein offener Punkt.
 
@@ -166,10 +166,10 @@ Kanazawa → Takayama läuft über den Highway-Bus (13:50 ab Kanazawa West Exit 
 
 ## Nächste Schritte, priorisiert
 
-1. Bahnpass durchrechnen, dann die sieben Zugabschnitte buchen
+1. ~~Bahnpass~~ — gekauft (Stand 03.10.2026). Offen: Einzelbuchungen Bus/Zug, buchbar erst 30 Tage vorher (Bus 06.11. ab 07.10., Takayama–Tokio 08.11. ab 09.10.)
 2. Takayama 07.11. mit Programm füllen (Kanazawa ist vollständig)
 3. Reservierungen anstoßen: Leeum (10:00), teamLab, Highway-Bus Kanazawa–Shirakawa-go (06.11., 13:50), Daishogun Yakiniku, Ryokan-Abendessen
-4. Zeitkonflikte auflösen und die Tageslisten nach Uhrzeit sortieren (inkl. Nap/Ashigaru-Museum am 05.11.)
+4. ~~Zeitkonflikte auflösen und Tageslisten sortieren~~ — entfällt, Uhrzeiten sind nur Orientierung
 5. Flüge und Züge im Lambus-Journal nachtragen (der Seoul-Plan ist inzwischen drin)
 6. Budget anlegen
 

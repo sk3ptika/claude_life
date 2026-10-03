@@ -1,10 +1,11 @@
 ---
 titel: Norwegen-Rundreise mit dem EV
 typ: projekt
-status: aktiv
+status: pausiert
 angelegt: 2026-08-25
 deadline: 2027-06-12
 bereich: reisen
+aktualisiert: 2026-10-03
 ---
 
 # Norwegen-Rundreise mit dem EV
@@ -108,3 +109,4 @@ Nichts ist gebucht. Das ist derzeit ein Vorteil und ab Frühjahr 2027 ein Proble
 | 2026-08-25 | Angelegt, Planungsstand übernommen und in Route, Analyse, Bausteine und EV-Referenz aufgeteilt |
 | 2026-08-25 | Analyse: Widerspruch Tag 5, unterschätzte Fahrzeiten Tag 9/11/12, Saisonrisiko der Passstraßen, Trollstigen ohne Ersatz |
 | 2026-08-25 | Budgetrahmen 3.450–5.540 € für zwei Personen geschätzt, Termin zweite Junihälfte empfohlen |
+| 2026-10-03 | Pausiert: ob die Reise wirklich stattfindet, ist noch nicht entschieden |
