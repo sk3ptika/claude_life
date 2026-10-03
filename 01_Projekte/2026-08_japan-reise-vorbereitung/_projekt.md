@@ -68,7 +68,7 @@ Am 25.10.2026 ist alles gebucht und griffbereit: Zugtickets bzw. Bahnpass für a
 - [x] ~~Zeitkonflikte auflösen, Tageslisten sortieren~~ — entfällt: Uhrzeiten sind grobe Orientierung und Reihenfolge, es ist ein Urlaub (Vorgabe 03.10.2026). Fest bleiben nur Flug 29.10. und der Einkauf am 02.11.
 - [ ] Flüge und Züge in Lambus nachtragen
 - [x] ~~Seoul-Plan in Lambus übernehmen~~ — erledigt, Journalstand vom 03.10.2026 ist maßgeblich
-- [ ] Solsot Pot Rice House (27.10.): am 11.09. gestrichen, im Journal wieder drin — bewusst oder Versehen?
+- [x] ~~Solsot Pot Rice House (27.10.)~~ — bleibt vorerst drin (Entscheidung 03.10.2026, überholt die Streichung vom 11.09.)
 - [ ] Ruhetage und Öffnungszeiten der geplanten Museen gegen die Tage prüfen
 
 **Einkauf Gunpla und Modellbauwerkzeug** — [Vorbereitung](../../03_Ressourcen/japan/gunpla-einkauf-osaka.md)

@@ -76,7 +76,7 @@ Die drei Flüge stehen (Hannover–Kopenhagen–Seoul, Seoul–Fukuoka, Tokio–
 
 **Seit dem Stand vom 11.09./17.08. geändert — im Journal, nicht im Vault entschieden:**
 
-- Seoul: **Solsot Pot Rice House ist wieder drin** (27.10., 12:00), obwohl er am 11.09. gestrichen worden war. Neu: Fritz Coffee Wonseo, Kokkili Bagel, Hanam Pig House. Entfallen im Journal gegenüber der Vault-Planung: Cheonggyecheon-Spaziergang, Frühstück in Hannam, Café Gaeppul.
+- Seoul: **Solsot Pot Rice House ist wieder drin** (27.10., 12:00) — am 11.09. gestrichen, am 03.10.2026 bewusst belassen. Neu: Fritz Coffee Wonseo, Kokkili Bagel, Hanam Pig House. Entfallen im Journal gegenüber der Vault-Planung: Cheonggyecheon-Spaziergang, Frühstück in Hannam, Café Gaeppul.
 - Hiroshima 30.10.: Sushitatsu's Standing Sushi Bar neu (12:00–13:00).
 - Ōsaka: Takashimaya und Glico Sign wandern vom 03.11. auf den 02.11.; Shin Sekai und Sennariya gehen vom 02.11. auf den 03.11. Tempura Kameya entfällt.
 - Kanazawa 05.11.: Gyokusen-an, Ishiura-Schrein, Heiwaken neu.
@@ -97,7 +97,7 @@ Die drei Flüge stehen (Hannover–Kopenhagen–Seoul, Seoul–Fukuoka, Tokio–
 - **City-Airport-Check-in in der Seoul Station am 29.10. — geprüft.** Der ganze Donnerstag hängt daran, dass die Koffer morgens um 08:30 weg sind. Vor der Reise geprüft, vor Ort wird es noch einmal bestätigt. Bedingung ist ein AREX-Express-Ticket, der Check-in schließt drei Stunden vor Abflug, hier also gegen 15:40. Falls die Ausreisekontrolle in der Station doch ausfällt, entfällt in Incheon der Fast-Track-Zugang. Die normale Kontrolle ist mit 2 Stunden Puffer ab 16:21 aber noch gut machbar.
 - **Puffer am 29.10. ist solide.** Ankunft T2 um 16:21, Boarding 18:10, Gepäck schon aufgegeben. Selbst ein verpasster AREX um 15:30 kostet nur den nächsten Zug.
 - **Ruhetage passen.** Changdeokgung und Leeum schließen montags. Beide liegen auf Dienstag bzw. Mittwoch, der Montag ist nur Anreiseabend.
-- **Abweichung geschlossen (03.10.2026).** Das Journal enthält die Tageswechsel von HAUS NOWHERE, Gyeryugwan und MMCA; Cafe Onion Anguk fehlt dort ebenfalls. Offen ist nur Solsot Pot Rice House, siehe oben.
+- **Abweichung geschlossen (03.10.2026).** Das Journal enthält die Tageswechsel von HAUS NOWHERE, Gyeryugwan und MMCA; Cafe Onion Anguk fehlt dort ebenfalls. Solsot bleibt vorerst drin (Entscheidung 03.10.2026).
 
 **Reservierungspflichtige Punkte** — vor Abreise prüfen:
 - ~~Changdeokgung, Geheimer Garten Huwon~~ — gestrichen am 11.09.2026
