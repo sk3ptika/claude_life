@@ -51,7 +51,7 @@ Am 25.10.2026 ist alles gebucht und griffbereit: Zugtickets bzw. Bahnpass für a
 
 - [ ] Leeum Museum of Art — Zeitfenster für 28.10., 10:00 (vorher Frühstück in Hannam)
 - [x] ~~Changdeokgung, Geheimer Garten Huwon~~ — gestrichen am 11.09.2026, nur der Palast
-- [ ] teamLab Planets — Zeitfenster für 11.11., **19:30** (Journal; vorher 18:30)
+- [x] teamLab Planets — Zeitfenster für 11.11., **19:30** (Journal; vorher 18:30)
 - [ ] Shirakawa-go / Takayama-Bus 06.11. (13:50 ab Kanazawa West Exit)
 - [ ] Yakiniku Daishogun Kanazawa 04.11. (19:00) Tisch reservieren
 - [ ] Ryokan Asunaro 07.11. — Abendessen bestätigen
@@ -75,14 +75,14 @@ Am 25.10.2026 ist alles gebucht und griffbereit: Zugtickets bzw. Bahnpass für a
 
 - [x] Läden festgelegt: Yellow Submarine Nanba Honten, Jungle Fantastic Machinery Museum, Volks Ōsaka Showroom
 - [x] Termin festgelegt: 02.11. ab 15:00, offenes Ende. Der 03.11. ist keine Option
-- [ ] **Montags-Öffnungszeiten aller drei Läden prüfen** — der 02.11.2026 ist ein Montag, und es gibt keinen Reservetag mehr. Ein Ruhetag würde den Einkauf ersatzlos kosten
+- [x] **Montags-Öffnungszeiten aller drei Läden prüfen** — der 02.11.2026 ist ein Montag, und es gibt keinen Reservetag mehr. Ein Ruhetag würde den Einkauf ersatzlos kosten
 - [ ] Den-Den-Town im Journal (15:00–16:30) auf offenes Ende setzen, Takashimaya danach nur bei Zeit
 - [ ] Verfügbarkeit MGEX vorab online prüfen (Volks, Jungle). Ohne die Großhändler liegt die Chance bei ~50 % — Plan B ist der RG Hi-ν, Plan C Tokio (Yamashiroya 10.11.)
 - [ ] Entscheiden: ein MGEX (~14.000 JPY) oder zwei kleinere Kits — vor der Reise, nicht im Laden
 - [ ] Tax-Free-Umstellung zum 01.11.2026 prüfen (Erstattung bei Ausreise statt steuerfrei an der Kasse) — der Kauf liegt einen Tag danach; Erstattung liefe bei der Ausreise in Tokio am 13.11.
 - [ ] Werkzeug in **einem** Laden bündeln — die Steuerbefreiung greift erst ab 5.000 JPY je Geschäft und Tag
-- [ ] Koffer: Platz für Bausatz und Werkzeug einplanen; **kein Kleber, keine Lösungsmittel, keine Sprühdosen** kaufen — Gefahrgut, darf nicht ins Flugzeug
-- [ ] Werkzeug ins aufgegebene Gepäck, nicht ins Handgepäck
+- [x] Koffer: Platz für Bausatz und Werkzeug einplanen; **kein Kleber, keine Lösungsmittel, keine Sprühdosen** kaufen — Gefahrgut, darf nicht ins Flugzeug
+- [x] Werkzeug ins aufgegebene Gepäck, nicht ins Handgepäck
 
 **Kamera und Bilder** — Konfiguration und Übung laufen als eigenes Projekt: [X100V Japan-ready](../2026-08_x100v-japan-ready/_projekt.md)
 

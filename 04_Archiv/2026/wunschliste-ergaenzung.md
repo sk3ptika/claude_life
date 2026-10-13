@@ -1,9 +1,9 @@
 ---
 titel: Wunschliste Ergänzung
 typ: notiz
-status: aktiv
+status: erledigt
 angelegt: 2026-08-18
-aktualisiert: 2026-08-18
+aktualisiert: 2026-10-03
 ---
 
 # Wunschliste Ergänzung
